@@ -1,4 +1,4 @@
-# fuyuko-docs
+# Documentations
 
 [![buddy pipeline](https://app.buddy.works/tmjeee/fuyuko/pipelines/pipeline/241662/badge.svg?token=3a57e69c1740c1c6a3369df39a0b1dc40adb71fc4edda1aede41ad5accd30f20 "buddy pipeline")](https://app.buddy.works/tmjeee/fuyuko/pipelines/pipeline/241662)
 [![buddy pipeline](https://app.buddy.works/tmjeee/fuyuko/pipelines/pipeline/241663/badge.svg?token=3a57e69c1740c1c6a3369df39a0b1dc40adb71fc4edda1aede41ad5accd30f20 "buddy pipeline")](https://app.buddy.works/tmjeee/fuyuko/pipelines/pipeline/241663)
