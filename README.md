@@ -7,4 +7,4 @@
 
 # Versions
 
-* [1.0.0-beta]() 
+* [1.0.0-beta](https://github.com/tmjeee/fuyuko-docs/blob/master/v1.0.0/index.md) 
