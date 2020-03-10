@@ -6,24 +6,24 @@ description: Requirements for installing Fuyuko application
 
 ## Front End Installation
 
-Becoming a super hero is a fairly straight forward process:
+Unzip downloaded fuyuko zip file \(eg. fuyuko-1.0.0.zip\)
 
 ```
-$ give me super-powers
+$> unzip fuyuko-1.0.0.zip 
 ```
 
-{% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
-{% endhint %}
+After unzip, the following folder structure will be observed
 
-Once you're strong enough, save the world:
-
-{% code title="hello.sh" %}
-```bash
-# Ain't no code for that yet, sorry
-echo 'You got to trust me on this, I saved the world'
+```text
++ fe/
+  +-   content of front end code
++ be/
+  +-   content of back end code
++ end2end/
+  +-   content of cypress end to end tests
++ wf/
+  +-   content of workflow code
 ```
-{% endcode %}
 
 ## Back End Installation
 
