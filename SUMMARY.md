@@ -18,4 +18,5 @@
 ## APIs
 
 * [GET - heartbeat](apis/untitled.md)
+* [POST-activate-invitation](apis/post-activate-invitation.md)
 

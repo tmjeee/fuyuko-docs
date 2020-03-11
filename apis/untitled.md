@@ -6,7 +6,7 @@ description: Heartbeat to determine if application is still alive and responsive
 
 {% api-method method="get" host="http://<host>:<port>/api" path="/v1/heartbeat" %}
 {% api-method-summary %}
-Get Cakes
+Heartbeat
 {% endapi-method-summary %}
 
 {% api-method-description %}
