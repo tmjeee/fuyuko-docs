@@ -6,7 +6,7 @@ description: Activate invitation received (eg. through email)
 
 {% api-method method="post" host="https://<host>:<port>/api" path="/v1/activate-invitation/:code" %}
 {% api-method-summary %}
-Get Cakes
+Activate invitation received
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -47,21 +47,37 @@ Password
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-Cake successfully retrieved.
+Invitation activated successfully.
 {% endapi-method-response-example-description %}
 
 ```
-{    "name": "Cake's name",    "recipe": "Cake's recipe name",    "cake": "Binary cake"}
+{
+    "email": "invitation1@gmail.com",
+    "registrationId": 1,
+    "message": "Successfully activated invitation1 (invitation1@gmail.com)",
+    "status": "SUCCESS",
+    "username": "invitation1"
+}
 ```
 {% endapi-method-response-example %}
 
-{% api-method-response-example httpCode=404 %}
+{% api-method-response-example httpCode=400 %}
 {% api-method-response-example-description %}
-Could not find a cake matching this query.
+Any error with the request
 {% endapi-method-response-example-description %}
 
 ```
-{    "message": "Ain't no cake like that."}
+{
+    "context": "default",
+    "errors": [
+        {
+            "msg": "Code no longer active",
+            "location": "api",
+            "param": "code",
+            "value": "code1xxx"
+        }
+    ]
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
