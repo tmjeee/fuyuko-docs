@@ -4,8 +4,8 @@
 
 ## Setup
 
-* [Requirements](setup/requirements.md)
-* [Installation](setup/installation.md)
+* [Requrements](setup/installation.md)
+* [Installation](setup/requirements.md)
 
 ## User Guide
 
