@@ -17,5 +17,5 @@
 
 ## APIs
 
-* [Untitled](apis/untitled.md)
+* [GET - heartbeat](apis/untitled.md)
 
