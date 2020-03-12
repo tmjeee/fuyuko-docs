@@ -38,4 +38,5 @@
 * [GET-search-group-with-no-such-role](apis/untitled-2.md)
 * [GET-groups-with-role](apis/get-groups-with-role.md)
 * [DELETE-role-from-group](apis/delete-role-from-group.md)
+* [POST-add-role-to-group](apis/post-add-role-to-group.md)
 
