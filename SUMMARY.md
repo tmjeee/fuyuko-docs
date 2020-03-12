@@ -30,4 +30,5 @@
 * [POST-login](apis/post-login.md)
 * [POST-logout](apis/post-logout.md)
 * [POST-self-register](apis/post-self-register.md)
+* [POST-save-user-avatar](apis/post-save-user-avatar.md)
 
