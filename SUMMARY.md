@@ -36,4 +36,5 @@
 * [GET-all-groups](apis/get-all-groups.md)
 * [GET-group-by-id](apis/get-group-by-id.md)
 * [GET-search-group-with-no-such-role](apis/untitled-2.md)
+* [GET-groups-with-role](apis/get-groups-with-role.md)
 
