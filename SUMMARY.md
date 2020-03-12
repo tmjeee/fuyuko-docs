@@ -28,4 +28,5 @@
 * [GET-all-global-avatars](apis/get-all-global-avatars.md)
 * [GET-inviations-by-code](apis/get-inviations-by-code.md)
 * [POST-login](apis/post-login.md)
+* [Post-logout](apis/post-logout.md)
 
