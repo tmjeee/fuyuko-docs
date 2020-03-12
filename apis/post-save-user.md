@@ -51,21 +51,72 @@ Password
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-Cake successfully retrieved.
+User successfully saved.
 {% endapi-method-response-example-description %}
 
 ```
-{    "name": "Cake's name",    "recipe": "Cake's recipe name",    "cake": "Binary cake"}
-```
-{% endapi-method-response-example %}
-
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-Could not find a cake matching this query.
-{% endapi-method-response-example-description %}
-
-```
-{    "message": "Ain't no cake like that."}
+{
+    "id": 1,
+    "firstName": "xxxxx",
+    "lastName": "yyyyyy",
+    "username": "cypress",
+    "theme": "purple_green_light",
+    "email": "xxx@gmail.com",
+    "groups": [
+        {
+            "id": 1,
+            "name": "VIEW Group",
+            "description": "Group with VIEW role",
+            "status": "ENABLED",
+            "roles": [
+                {
+                    "id": 1,
+                    "name": "VIEW",
+                    "description": "VIEW Role"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "EDIT Group",
+            "description": "Group with VIEW & EDIT role",
+            "status": "ENABLED",
+            "roles": [
+                {
+                    "id": 2,
+                    "name": "EDIT",
+                    "description": "EDIT Role"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "ADMIN Group",
+            "description": "Group with VIEW & EDIT & PARTNER & ADMIN role",
+            "status": "ENABLED",
+            "roles": [
+                {
+                    "id": 3,
+                    "name": "ADMIN",
+                    "description": "ADMIN Role"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "PARTNER Group",
+            "description": "Group with PARTNER role",
+            "status": "ENABLED",
+            "roles": [
+                {
+                    "id": 4,
+                    "name": "PARTNER",
+                    "description": "PARTNER Role"
+                }
+            ]
+        }
+    ]
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
