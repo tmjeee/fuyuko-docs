@@ -4,7 +4,7 @@ description: Get group by id
 
 # GET-group-by-id
 
-{% api-method method="get" host="https://api.cakes.com" path="/group/:groupId" %}
+{% api-method method="get" host="https://<host>:<port>/api/v1" path="/group/:groupId" %}
 {% api-method-summary %}
 Get group by id
 {% endapi-method-summary %}
