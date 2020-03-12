@@ -23,4 +23,5 @@
 * [POST-approve-self-registration](apis/post-approve-self-registration.md)
 * [POST-create-invitation](apis/post-create-invitation.md)
 * [GET-user-avatar](apis/get-user-avatar.md)
+* [GET-user-avatar-info](apis/get-user-avatar-info.md)
 
