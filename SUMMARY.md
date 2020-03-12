@@ -43,4 +43,5 @@
 * [GET-users-in-group](apis/get-users-in-group.md)
 * [POST-add-user-to-group](apis/post-add-user-to-group.md)
 * [DELETE-user-from-group](apis/delete-user-from-group.md)
+* [GET-self-register](apis/get-self-register.md)
 
