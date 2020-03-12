@@ -32,4 +32,5 @@
 * [POST-self-register](apis/post-self-register.md)
 * [POST-save-user-avatar](apis/post-save-user-avatar.md)
 * [POST-save-user](apis/post-save-user.md)
+* [GET-user](apis/get-user.md)
 
