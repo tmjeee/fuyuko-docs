@@ -21,4 +21,5 @@
 * [GET - heartbeat](apis/untitled.md)
 * [POST-activate-invitation](apis/post-activate-invitation.md)
 * [POST-approve-self-registration](apis/post-approve-self-registration.md)
+* [POST-create-invitation](apis/post-create-invitation.md)
 
