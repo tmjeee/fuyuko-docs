@@ -34,4 +34,5 @@
 * [POST-save-user](apis/post-save-user.md)
 * [GET-user](apis/get-user.md)
 * [GET-all-groups](apis/get-all-groups.md)
+* [GET-group-by-id](apis/get-group-by-id.md)
 
