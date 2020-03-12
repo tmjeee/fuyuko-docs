@@ -4,7 +4,7 @@ description: Activate invitation received (eg. through email)
 
 # POST-activate-invitation
 
-{% api-method method="post" host="https://<host>:<port>/api" path="/v1/activate-invitation/:code" %}
+{% api-method method="post" host="https://<host>:<port>/api/v1" path="/activate-invitation/:code" %}
 {% api-method-summary %}
 Activate invitation received
 {% endapi-method-summary %}

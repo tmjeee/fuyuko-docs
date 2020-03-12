@@ -4,7 +4,7 @@ description: Heartbeat to determine if application is still alive and responsive
 
 # GET - heartbeat
 
-{% api-method method="get" host="http://<host>:<port>/api" path="/v1/heartbeat" %}
+{% api-method method="get" host="http://<host>:<port>/api/v1" path="/heartbeat" %}
 {% api-method-summary %}
 Heartbeat
 {% endapi-method-summary %}
