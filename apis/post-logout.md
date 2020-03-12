@@ -2,7 +2,7 @@
 description: Logout from the application
 ---
 
-# Post-logout
+# POST-logout
 
 {% api-method method="post" host="https://<host>:<port>/api/v1" path="/logout" %}
 {% api-method-summary %}
