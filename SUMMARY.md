@@ -26,4 +26,5 @@
 * [GET-user-avatar-info](apis/get-user-avatar-info.md)
 * [GET-global-avatar](apis/untitled-1.md)
 * [GET-all-global-avatars](apis/get-all-global-avatars.md)
+* [GET-inviations-by-code](apis/get-inviations-by-code.md)
 
