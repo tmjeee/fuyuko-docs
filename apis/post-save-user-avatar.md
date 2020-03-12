@@ -61,6 +61,9 @@ Cake successfully retrieved.
 {% endapi-method %}
 
 {% hint style="info" %}
-Either `globalAvatarName` or `customAvatarFile`request body parameter must be provided.
+Either of the following body parameter \(`multipart/form-data`\) must be provided
+
+* `globalAvatarName`
+* `customAvatarFile`
 {% endhint %}
 
