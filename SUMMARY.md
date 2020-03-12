@@ -25,4 +25,5 @@
 * [GET-user-avatar](apis/get-user-avatar.md)
 * [GET-user-avatar-info](apis/get-user-avatar-info.md)
 * [GET-global-avatar](apis/untitled-1.md)
+* [GET-all-global-avatars](apis/get-all-global-avatars.md)
 
