@@ -58,6 +58,19 @@ Cake successfully retrieved.
 {% endapi-method %}
 
 {% hint style="info" %}
-Request body is expected to be in JSON format as follows
+Request body is expected to be in JSON Object with an `attributes` property of JSON Array
 {% endhint %}
+
+```text
+{
+  "attributes": [
+    {
+       "id": ... ,
+       "type": ... ,
+       "name": ... ,
+       "description": ... 
+    }
+  ]
+}
+```
 
