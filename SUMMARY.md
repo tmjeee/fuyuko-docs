@@ -57,4 +57,6 @@
 * [POST-update-attributes](apis/post-update-attributes.md)
 * [POST-change-attribute-status](apis/post-update-attribute-status.md)
 * [GET-all-items-by-view](apis/get-all-items-by-view.md)
+* [GET-item-image-by-id](apis/get-item-image-by-id.md)
+* [GET-item-primary-image](apis/get-item-primary-image.md)
 
