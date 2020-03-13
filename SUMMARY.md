@@ -46,4 +46,5 @@
 * [GET-self-register](apis/get-self-register.md)
 * [DELETE-self-register](apis/delete-self-register.md)
 * [GET-users-by-status](apis/untitled-3.md)
+* [DELETE-user-by-id](apis/delete-user-by-id.md)
 
