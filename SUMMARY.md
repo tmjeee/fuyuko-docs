@@ -59,4 +59,5 @@
 * [GET-all-items-by-view](apis/get-all-items-by-view.md)
 * [GET-item-image-by-id](apis/get-item-image-by-id.md)
 * [GET-item-primary-image](apis/get-item-primary-image.md)
+* [POST-update-item](apis/post-update-item.md)
 
