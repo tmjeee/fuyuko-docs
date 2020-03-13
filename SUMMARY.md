@@ -51,4 +51,5 @@
 * [GET-all-roles](apis/get-all-roles.md)
 * [GET-all-views](apis/get-all-views.md)
 * [POST-save-view](apis/post-save-view.md)
+* [DELETE-views](apis/delete-views.md)
 
