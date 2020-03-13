@@ -49,4 +49,5 @@
 * [DELETE-user-by-id](apis/delete-user-by-id.md)
 * [POST-change-user-status](apis/post-change-user-status.md)
 * [GET-all-roles](apis/get-all-roles.md)
+* [GET-all-views](apis/get-all-views.md)
 
