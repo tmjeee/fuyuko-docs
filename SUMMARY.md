@@ -52,4 +52,5 @@
 * [GET-all-views](apis/get-all-views.md)
 * [POST-save-view](apis/post-save-view.md)
 * [DELETE-views](apis/delete-views.md)
+* [GET-all-attributes-by-view](apis/get-all-attributes-by-view.md)
 
