@@ -54,4 +54,5 @@
 * [DELETE-views](apis/delete-views.md)
 * [GET-all-attributes-by-view](apis/get-all-attributes-by-view.md)
 * [GET-search-attributes-by-view](apis/get-search-attributes-by-view.md)
+* [POST-update-attributes](apis/post-update-attributes.md)
 
