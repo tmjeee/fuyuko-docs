@@ -56,4 +56,5 @@
 * [GET-search-attributes-by-view](apis/get-search-attributes-by-view.md)
 * [POST-update-attributes](apis/post-update-attributes.md)
 * [POST-change-attribute-status](apis/post-update-attribute-status.md)
+* [GET-all-items-by-view](apis/get-all-items-by-view.md)
 
