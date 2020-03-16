@@ -71,5 +71,5 @@
 * [POST-update-pricing-structure](apis/post-update-pricing-structure.md)
 * [POST-preview-bulk-edit](apis/post-preview-bulk-edit.md)
 * [POST-schedule-bulk-edit](apis/post-schedule-bulk-edit.md)
-* [Untitled](apis/untitled-4.md)
+* [GET-all-jobs](apis/untitled-4.md)
 
