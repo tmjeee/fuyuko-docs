@@ -28,7 +28,19 @@ Authentication token.
 {% endapi-method-headers %}
 
 {% api-method-body-parameters %}
-{% api-method-parameter name="pricingStructureItems" type="array" required=false %}
+{% api-method-parameter name="\*.itemId" type="number" required=true %}
+Item Id
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="\*.price" type="number" required=true %}
+Item Price
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="\*.country" type="string" required=true %}
+Item Country
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="pricingStructureItems" type="array" required=true %}
 Pricing Structure Items
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
