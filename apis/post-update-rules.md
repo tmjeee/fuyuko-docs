@@ -53,6 +53,6 @@ Cake successfully retrieved.
 
 {% hint style="info" %}
 * Expect request body `rules` to be a JSON Array
-* Expect `rule` attribute in `rules` array to be a `Rule2` JSON object
+* Expect `rule` attribute in `rules` array to be a `Rule` JSON object
 {% endhint %}
 
