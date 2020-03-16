@@ -82,4 +82,5 @@
 * [POST-preview-price-data-import](apis/post-preview-price-data-import.md)
 * [POST-preview-attribute-data-export](apis/post-preview-attribute-data-export.md)
 * [POST-preview-item-data-export](apis/post-preview-item-data-export.md)
+* [POST-preview-price-data-export](apis/post-preview-price-data-export.md)
 
