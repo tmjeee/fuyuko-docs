@@ -64,4 +64,5 @@
 * [GET-all-rules-by-view](apis/get-all-rules-by-view.md)
 * [POST-update-rule-status](apis/post-update-rule-status.md)
 * [POST-update-rules](apis/post-update-rules.md)
+* [GET-all-pricing-stuctures](apis/get-all-pricing-stuctures.md)
 
