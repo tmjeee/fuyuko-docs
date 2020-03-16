@@ -41,17 +41,14 @@ Cake successfully retrieved.
 {% endapi-method-response-example-description %}
 
 ```
-{    "name": "Cake's name",    "recipe": "Cake's recipe name",    "cake": "Binary cake"}
-```
-{% endapi-method-response-example %}
-
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-Could not find a cake matching this query.
-{% endapi-method-response-example-description %}
-
-```
-{    "message": "Ain't no cake like that."}
+{
+    "id": 1,
+    "name": "BulkEditJob-05bb9170-8ded-4fb7-9023-6fff52804a32",
+    "creationDate": "2020-03-16T03:57:23.000Z",
+    "lastUpdate": "2020-03-16T03:57:23.000Z",
+    "status": "ENABLED",
+    "progress": "SCHEDULED"
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
