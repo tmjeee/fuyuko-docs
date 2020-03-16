@@ -70,4 +70,5 @@
 * [POST-update-pricing-structure-item](apis/post-update-pricing-structure-item.md)
 * [POST-update-pricing-structure](apis/post-update-pricing-structure.md)
 * [POST-preview-bulk-edit](apis/post-preview-bulk-edit.md)
+* [POST-schedule-bulk-edit](apis/post-schedule-bulk-edit.md)
 
