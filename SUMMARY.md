@@ -72,4 +72,5 @@
 * [POST-preview-bulk-edit](apis/post-preview-bulk-edit.md)
 * [POST-schedule-bulk-edit](apis/post-schedule-bulk-edit.md)
 * [GET-all-jobs](apis/untitled-4.md)
+* [GET-job-details-by-id](apis/get-job-details-by-id.md)
 
