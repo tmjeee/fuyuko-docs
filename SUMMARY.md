@@ -61,4 +61,5 @@
 * [GET-item-primary-image](apis/get-item-primary-image.md)
 * [POST-update-item](apis/post-update-item.md)
 * [POST-update-item-status](apis/post-update-item-status.md)
+* [GET-all-rules-by-view](apis/get-all-rules-by-view.md)
 
