@@ -67,4 +67,5 @@
 * [GET-all-pricing-stuctures](apis/get-all-pricing-stuctures.md)
 * [GET-all-pricing-structures-with-items](apis/get-all-pricing-structures-with-items.md)
 * [POST-update-pricing-structure-status](apis/post-update-pricing-structure-status.md)
+* [POST-update-pricing-structure-item](apis/post-update-pricing-structure-item.md)
 
