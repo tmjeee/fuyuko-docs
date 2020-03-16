@@ -63,4 +63,5 @@
 * [POST-update-item-status](apis/post-update-item-status.md)
 * [GET-all-rules-by-view](apis/get-all-rules-by-view.md)
 * [POST-update-rule-status](apis/post-update-rule-status.md)
+* [POST-update-rules](apis/post-update-rules.md)
 
