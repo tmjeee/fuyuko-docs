@@ -79,4 +79,6 @@
 * [POST-schedule-pricing-data-import](apis/post-schedule-pricing-data-import.md)
 * [POST-preview-attribute-data-import](apis/post-preview-attribute-data-import.md)
 * [POST-preview-item-data-import](apis/post-preview-item-data-import.md)
+* [POST-preview-price-data-import](apis/post-preview-price-data-import.md)
+* [POST-preview-attribute-data-export](apis/post-preview-attribute-data-export.md)
 
