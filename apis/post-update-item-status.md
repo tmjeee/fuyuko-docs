@@ -47,7 +47,7 @@ Cake successfully retrieved.
 ```
 {
     "status": "SUCCESS",
-    "message": "item(s) enabled"
+    "message": "Items disabled"
 }
 ```
 {% endapi-method-response-example %}
