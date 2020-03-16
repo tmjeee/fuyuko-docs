@@ -76,4 +76,5 @@
 * [GET-job-by-id](apis/get-job-by-id.md)
 * [POST-schedule-attribute-data-import](apis/post-schedule-attribute-data-import.md)
 * [POST-scedule-item-data-import](apis/post-scedule-item-data-import.md)
+* [POST-schedule-pricing-data-import](apis/post-schedule-pricing-data-import.md)
 
