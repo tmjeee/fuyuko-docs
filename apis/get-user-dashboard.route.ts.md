@@ -2,7 +2,7 @@
 description: Get user dashboard
 ---
 
-# GET-user-dashboard.route.ts
+# GET-user-dashboard
 
 {% api-method method="get" host="https://<host>:<port>/api/v1" path="/user/:userId/dashboard" %}
 {% api-method-summary %}

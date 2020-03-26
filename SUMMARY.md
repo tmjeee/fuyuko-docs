@@ -89,7 +89,7 @@
 * [POST-schedule-pricing-data-export](apis/post-schedule-pricing-data-export.md)
 * [GET-export-file-by-id](apis/get-export-file-by-id.md)
 * [POST-save-user-dashboard](apis/post-save-user-dashboard.md)
-* [GET-user-dashboard.route.ts](apis/get-user-dashboard.route.ts.md)
+* [GET-user-dashboard](apis/get-user-dashboard.route.ts.md)
 * [POST-user-dashboard-widget-data](apis/post-user-dashboard-widget-data.md)
 * [GET-user-dashboard-widget-data](apis/get-user-dashboard-widget-data.md)
 * [GET-partner-pricing-structures](apis/get-partner-pricing-structures.md)
