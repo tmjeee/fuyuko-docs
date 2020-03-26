@@ -27,5 +27,13 @@ Listed are the `roles`, and you will be able to add `groups` to the respective `
 
 ### Group Management
 
+![](../.gitbook/assets/user-mgt-groups.png)
+
+![](../.gitbook/assets/user-mgt-groups-expanded.png)
+
+![](../.gitbook/assets/user-mgt-groups-selecting.png)
+
+### Users Management
+
 
 
