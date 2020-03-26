@@ -17,7 +17,7 @@
 
 ## APIs
 
-* [Index](apis/index/README.md)
+* [Index - APIs](apis/index/README.md)
   * [POST-mark-item-image-as-primary](apis/index/post-mark-item-image-as-primary.md)
   * [DELETE-item-image-by-id](apis/index/delete-item-image-by-id.md)
   * [POST-add-item-image](apis/index/post-add-item-image.md)
@@ -116,7 +116,7 @@
   * [POST-login](apis/index/post-login.md)
   * [GET-inviations-by-code](apis/index/get-inviations-by-code.md)
   * [GET-all-global-avatars](apis/index/get-all-global-avatars.md)
-  * [GET-global-avatar](apis/index/untitled-1.md)
+  * [GET-global-avatar](apis/index/get-global-avatar.md)
   * [GET-user-avatar-info](apis/index/get-user-avatar-info.md)
   * [GET-user-avatar](apis/index/get-user-avatar.md)
   * [POST-create-invitation](apis/index/post-create-invitation.md)

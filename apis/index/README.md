@@ -1,4 +1,8 @@
-# Index
+---
+description: 'Documentation of APIs, segregated into categories'
+---
+
+# Index - APIs
 
 ### Common Response
 
@@ -24,191 +28,189 @@
 
 | End Point | Description |
 | :--- | :--- |
-| POST-approve-self-registration |  |
-| POST-self-register |  |
-| GET-self-register |  |
-| DELETE-self-register |  |
-| GET-search-self-registration-by-username |  |
+| [POST-approve-self-registration](post-approve-self-registration.md) |  |
+| [POST-self-register](post-self-register.md) |  |
+| [GET-self-register](get-self-register.md) |  |
+| [DELETE-self-register](delete-self-register.md) |  |
+| [GET-search-self-registration-by-username](get-search-self-registration-by-username.md) |  |
 
 ### Avatar
 
 | End Point | Description |
 | :--- | :--- |
-| GET-user-avatar |  |
-| GET-user-avatar-info |  |
-| GET-global-avatar |  |
-| GET-all-global-avatar |  |
-| POST-save-user-avatar |  |
+| [GET-user-avatar](get-user-avatar.md) |  |
+| [GET-user-avatar-info](get-user-avatar-info.md) |  |
+| [GET-global-avatar](get-global-avatar.md) |  |
+| [GET-all-global-avatar](get-all-global-avatars.md) |  |
+| [POST-save-user-avatar](post-save-user-avatar.md) |  |
 
 ### Login / Logout
 
 | End Point | Description |
 | :--- | :--- |
-| POST-login |  |
-| POST-logout |  |
+| [POST-login](post-login.md) |  |
+| [POST-logout](post-logout.md) |  |
 
 ### User
 
 | End Point | Description |
 | :--- | :--- |
-| POST-save-user |  |
-| GET-user |  |
-| GET-search-user-not-in-group |  |
-| GET-users-in-group |  |
-| POST-add-users-to-group |  |
-| DELETE-user-from-group |  |
-| GET-users-by-status |  |
-| DELETE-user-by-id |  |
-| POST-change-user-status |  |
-| GET-search-user-by-username-and-status |  |
-| GET-user-settings |  |
-| POST-user-settings |  |
-| GET-user-notification |  |
-| POST-user-notification |  |
+| [POST-save-user](post-save-user.md) |  |
+| [GET-user](get-user.md) |  |
+| [GET-search-user-not-in-group](get-search-user-not-in-group.md) |  |
+| [GET-users-in-group](get-users-in-group.md) |  |
+| [POST-add-users-to-group](post-add-user-to-group.md) |  |
+| [DELETE-user-from-group](delete-user-from-group.md) |  |
+| [GET-users-by-status](untitled-3.md) |  |
+| [DELETE-user-by-id](delete-user-by-id.md) |  |
+| [POST-change-user-status](post-change-user-status.md) |  |
+| [GET-search-user-by-username-and-status](get-search-user-by-username-and-status.md) |  |
+| [GET-user-settings](get-user-settings.md) |  |
+| [POST-user-settings](post-user-settings.md) |  |
+| [GET-user-notification](get-user-notification.md) |  |
+| [POST-user-notification](post-user-notification.md) |  |
 
 ### Group
 
 | End Point | Description |
 | :--- | :--- |
-| GET-all-groups |  |
-| GET-group-by-id |  |
-| GET-search-group-with-no-such-role |  |
-| GET-group-with-role |  |
-| GET-search-for-group-by-name |  |
+| [GET-all-groups](get-all-groups.md) |  |
+| [GET-group-by-id](get-group-by-id.md) |  |
+| [GET-search-group-with-no-such-role](untitled-2.md) |  |
+| [GET-group-with-role](get-groups-with-role.md) |  |
+| [GET-search-for-group-by-name](untitled-5.md) |  |
 |  |  |
 
 ### Role
 
 | End Point | Description |
 | :--- | :--- |
-| DELETE-role-from-group |  |
-| POST-add-role-to-group |  |
-| GET-all-roles |  |
+| [DELETE-role-from-group](delete-role-from-group.md) |  |
+| [POST-add-role-to-group](post-add-role-to-group.md) |  |
+| [GET-all-roles](get-all-roles.md) |  |
 
 ### View
 
 | End Point | Description |
 | :--- | :--- |
-| GET-all-views |  |
-| POST-save-view |  |
-| DELTE-views |  |
-| GET-view-by-id |  |
+| [GET-all-views](get-all-views.md) |  |
+| [POST-save-view](post-save-view.md) |  |
+| [DELETE-views](delete-views.md) |  |
+| [GET-view-by-id](get-view-by-id.md) |  |
 
 ### Attributes
 
 | End Point | Description |
 | :--- | :--- |
-| GET-all-attributes-by-view |  |
-| GET-search-attributes-by-view |  |
-| POST-update-attributes |  |
-| POST-change-attribute-status |  |
-| GET-attribute-by-view |  |
-| POST-add-attribute |  |
+| [GET-all-attributes-by-view](get-all-attributes-by-view.md) |  |
+| [GET-search-attributes-by-view](get-search-attributes-by-view.md) |  |
+| [POST-update-attributes](post-update-attributes.md) |  |
+| [POST-change-attribute-status](post-update-attribute-status.md) |  |
+| [GET-attribute-by-view](get-attribute-by-view.md) |  |
+| [POST-add-attribute](post-add-attribute.md) |  |
 
 ### Item
 
 | End Point | Description |
 | :--- | :--- |
-| GET-all-items-by-view |  |
-| GET-item-image-by-id |  |
-| GET-item-primary-image |  |
-| POST-update-item |  |
-| POST-update-item-status |  |
-| GET-items-by-view |  |
-| GET-search-for-items-by-view |  |
-| POST-add-item-image |  |
-| DELTE-item-image-by-id |  |
-| POST-mark-item-image-as-primary |  |
+| [GET-all-items-by-view](get-all-items-by-view.md) |  |
+| [GET-item-image-by-id](get-item-image-by-id.md) |  |
+| [GET-item-primary-image](get-item-primary-image.md) |  |
+| [POST-update-item](post-update-item.md) |  |
+| [POST-update-item-status](post-update-item-status.md) |  |
+| [GET-items-by-view](get-items-by-view.md) |  |
+| [GET-search-for-items-by-view](get-search-for-items-by-view.md) |  |
+| [POST-add-item-image](post-add-item-image.md) |  |
+| [DELETE-item-image-by-id](delete-item-image-by-id.md) |  |
+| [POST-mark-item-image-as-primary](post-mark-item-image-as-primary.md) |  |
 
 ### Rules
 
 | End Point | Description |
 | :--- | :--- |
-| GET-all-rules-by-view |  |
-| POST-update-rule-status |  |
-| GET-all-rules-by-view |  |
-| POST-update-rile-status |  |
-| POST-update-rules |  |
-| GET-rule-by-view |  |
-| GET-all-custom-rules |  |
-| GET-all-custom-rules-by-view |  |
-| POST-add-custom-rule-to-view |  |
-| POST-change-custom-rule-status |  |
-| DELETE-remove-custom-rule-from-view |  |
+| [GET-all-rules-by-view](get-all-rules-by-view.md) |  |
+| [POST-update-rule-status](post-update-rule-status.md) |  |
+| [GET-all-rules-by-view](get-all-rules-by-view.md) |  |
+| [POST-update-rule-status](post-update-rule-status.md) |  |
+| [POST-update-rules](post-update-rules.md) |  |
+| [GET-rule-by-view](untitled-6.md) |  |
+| [GET-all-custom-rules](get-all-custom-rule.md) |  |
+| [GET-all-custom-rules-by-view](get-all-custom-rules-by-view.md) |  |
+| [POST-add-custom-rule-to-view](post-add-custom-rule-to-view.md) |  |
+| [POST-change-custom-rule-status](post-change-custom-rule-status.md) |  |
+| [DELETE-remove-custom-rule-from-view](delete-remove-custom-rule-from-view.md) |  |
 
 ### Pricing Structure
 
 | End Point | Description |
 | :--- | :--- |
-| GET-all-pricing-structures |  |
-| GET-all-pricing-structures-with-items |  |
-| POST-update-pricing-structure-status |  |
-| POST-update-pricing-structure-item |  |
-| POST-update-pricing-structure |  |
-| GET-pricing-structure-by-id |  |
-| GET-pricing-structure-by-id |  |
+| [GET-all-pricing-structures](get-all-pricing-structures-by-view.md) |  |
+| [GET-all-pricing-structures-with-items](get-all-pricing-structures-with-items.md) |  |
+| [POST-update-pricing-structure-status](post-update-pricing-structure-status.md) |  |
+| [POST-update-pricing-structure-item](post-update-pricing-structure-item.md) |  |
+| [POST-update-pricing-structure](post-update-pricing-structure.md) |  |
+| [GET-pricing-structure-by-id](get-pricing-structure-by-id.md) |  |
 
 ### Bulk Edit
 
 | End Point | Description |
 | :--- | :--- |
-| POST-preview-bulk-edit |  |
-| POST-schedule-bulk-edit |  |
+| [POST-preview-bulk-edit](post-preview-bulk-edit.md) |  |
+| [POST-schedule-bulk-edit](post-schedule-bulk-edit.md) |  |
 
 ### Job
 
 | End Point | Description |
 | :--- | :--- |
-| GET-all-jobs |  |
-| GET-job-details-by-id |  |
-| GET-job-by-id |  |
+| [GET-all-jobs](untitled-4.md) |  |
+| [GET-job-details-by-id](get-job-details-by-id.md) |  |
+| [GET-job-by-id](get-job-by-id.md) |  |
 
 ### Data Import / Export
 
 | End Point | Description |
 | :--- | :--- |
-| POST-schedule-attribute-data-import |  |
-| POST-schedule-item-data-import |  |
-| POST-schedule-pricing-data-import |  |
-| POST-preview-attribute-data-import |  |
-| POST-preview-item-data-import |  |
-| POST-preview-price-data-import |  |
-| POST-preview-attribute-data-export |  |
-| POST-preview-item-data-export |  |
-| POST-preview-price-data-export |  |
-| POST-schedule-attribute-data-export |  |
-| POST-schedule-item-data-export |  |
-| POST-schedule-pricing-data-export |  |
-| GET-export-file-by-id |  |
-| GET-all-data-export-content-by-id |  |
-| GET-all-data-export-artifacts |  |
-| DELETE-data-export-artifact-by-id |  |
+| [POST-schedule-attribute-data-import](post-schedule-attribute-data-import.md) |  |
+| [POST-schedule-item-data-import](post-scedule-item-data-import.md) |  |
+| [POST-schedule-pricing-data-import](post-schedule-pricing-data-import.md) |  |
+| [POST-preview-attribute-data-import](post-preview-attribute-data-import.md) |  |
+| [POST-preview-item-data-import](post-preview-item-data-import.md) |  |
+| [POST-preview-price-data-import](post-preview-price-data-import.md) |  |
+| [POST-preview-attribute-data-export](post-preview-attribute-data-export.md) |  |
+| [POST-preview-item-data-export](post-preview-item-data-export.md) |  |
+| [POST-preview-price-data-export](post-preview-price-data-export.md) |  |
+| [POST-schedule-attribute-data-export](post-schedule-attribute-data-export.md) |  |
+| [POST-schedule-item-data-export](post-schedule-item-data-export.md) |  |
+| [POST-schedule-pricing-data-export](post-schedule-pricing-data-export.md) |  |
+| [GET-export-file-by-id](get-export-file-by-id.md) |  |
+| [GET-all-data-export-content-by-id](get-data-export-content-by-id.md) |  |
+| [GET-all-data-export-artifacts](get-all-data-export-artifacts.md) |  |
+| [DELETE-data-export-artifact-by-id](delete-data-export-artifact-by-id.md) |  |
 
 ### Dashboard 
 
 | End Point | Description |
 | :--- | :--- |
-| POST-save-user-dashboard |  |
-| GET-user-dashboard |  |
-| POST-save-user-dashboard |  |
-| GET-user-dashboard |  |
-| POST-user-dashboard-widget-data |  |
-| GET-user-dashboard-widget-data |  |
+| [POST-save-user-dashboard](post-save-user-dashboard.md) |  |
+| [GET-user-dashboard](get-user-dashboard.route.ts.md) |  |
+| [POST-save-user-dashboard](post-save-user-dashboard.md) |  |
+| [GET-user-dashboard](get-user-dashboard.route.ts.md) |  |
+| [POST-user-dashboard-widget-data](post-user-dashboard-widget-data.md) |  |
+| [GET-user-dashboard-widget-data](get-user-dashboard-widget-data.md) |  |
 
 ### Trading Partner
 
 | End Point | Description |
 | :--- | :--- |
-| GET-partner-pricing-structures |  |
-| GET-partner-priced-items-by-pricing-structure |  |
-|  |  |
+| [GET-partner-pricing-structures](get-partner-pricing-structures.md) |  |
+| [GET-partner-priced-items-by-pricing-structure](get-partner-priced-items-by-pricing-structure.md) |  |
 
 ### Validation
 
 | End Point | Description |
 | :--- | :--- |
-| GET-all-view-validations |  |
-| GET-view-validation-results |  |
-| POST-schedule-validation |  |
-| DELETE-validation-result-by-id |  |
+| [GET-all-view-validations](get-all-view-validations.md) |  |
+| [GET-view-validation-results](get-view-validation-results.md) |  |
+| [POST-schedule-validation](post-schedule-validation.md) |  |
+| [DELETE-validation-result-by-id](delete-validation-result-by-id.md) |  |
 
