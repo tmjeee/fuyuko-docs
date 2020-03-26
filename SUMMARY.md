@@ -104,4 +104,5 @@
 * [GET-view-validation-results](apis/get-view-validation-results.md)
 * [POST-schedule-validation](apis/post-schedule-validation.md)
 * [GET-view-by-id](apis/get-view-by-id.md)
+* [GET-user-settings](apis/get-user-settings.md)
 
