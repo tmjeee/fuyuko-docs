@@ -114,4 +114,5 @@
 * [GET-user-notification](apis/get-user-notification.md)
 * [POST-user-notification](apis/post-user-notification.md)
 * [POST-add-attribute](apis/post-add-attribute.md)
+* [GET-search-for-items-by-view](apis/get-search-for-items-by-view.md)
 
