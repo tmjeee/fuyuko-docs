@@ -122,4 +122,5 @@
 * [GET-all-data-export-artifacts](apis/get-all-data-export-artifacts.md)
 * [DELETE-data-export-artifact-by-id](apis/delete-data-export-artifact-by-id.md)
 * [POST-add-item-image](apis/post-add-item-image.md)
+* [DELETE-item-image-by-id](apis/delete-item-image-by-id.md)
 
