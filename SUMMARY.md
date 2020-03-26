@@ -13,6 +13,7 @@
 * [Log In](user-guide/log-in.md)
 * [Dashboard](user-guide/dashboard.md)
 * [Profile](user-guide/profile.md)
+* [User Roles Management](user-guide/user-roles-management.md)
 
 ## Developer Guide
 

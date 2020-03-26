@@ -36,3 +36,5 @@ Click on pencil icon
 
 Upon changing theme a success message will popup
 
+![](../.gitbook/assets/profile-change-theme.png)
+
