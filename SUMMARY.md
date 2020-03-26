@@ -14,6 +14,8 @@
 * [Dashboard](user-guide/dashboard.md)
 * [Profile](user-guide/profile.md)
 * [User Management](user-guide/user-roles-management.md)
+* [Invitation & Activation](user-guide/invitation-and-activation.md)
+* [Self Registration](user-guide/self-registration.md)
 
 ## Developer Guide
 
