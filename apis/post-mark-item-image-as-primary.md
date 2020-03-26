@@ -39,7 +39,7 @@ Cake successfully retrieved.
 {% endapi-method-response-example-description %}
 
 ```
-{    "name": "Cake's name",    "recipe": "Cake's recipe name",    "cake": "Binary cake"}
+true
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
