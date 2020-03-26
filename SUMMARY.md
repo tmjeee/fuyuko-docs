@@ -123,4 +123,5 @@
 * [DELETE-data-export-artifact-by-id](apis/delete-data-export-artifact-by-id.md)
 * [POST-add-item-image](apis/post-add-item-image.md)
 * [DELETE-item-image-by-id](apis/delete-item-image-by-id.md)
+* [POST-mark-item-image-as-primary](apis/post-mark-item-image-as-primary.md)
 
