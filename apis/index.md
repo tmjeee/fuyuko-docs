@@ -28,6 +28,7 @@
 | POST-self-register |  |
 | GET-self-register |  |
 | DELETE-self-register |  |
+| GET-search-self-registration-by-username |  |
 
 ### Avatar
 
@@ -59,6 +60,11 @@
 | GET-users-by-status |  |
 | DELETE-user-by-id |  |
 | POST-change-user-status |  |
+| GET-search-user-by-username-and-status |  |
+| GET-user-settings |  |
+| POST-user-settings |  |
+| GET-user-notification |  |
+| POST-user-notification |  |
 
 ### Group
 
@@ -68,6 +74,8 @@
 | GET-group-by-id |  |
 | GET-search-group-with-no-such-role |  |
 | GET-group-with-role |  |
+| GET-search-for-group-by-name |  |
+|  |  |
 
 ### Role
 
@@ -84,6 +92,7 @@
 | GET-all-views |  |
 | POST-save-view |  |
 | DELTE-views |  |
+| GET-view-by-id |  |
 
 ### Attributes
 
@@ -93,7 +102,8 @@
 | GET-search-attributes-by-view |  |
 | POST-update-attributes |  |
 | POST-change-attribute-status |  |
-|  |  |
+| GET-attribute-by-view |  |
+| POST-add-attribute |  |
 
 ### Item
 
@@ -104,7 +114,11 @@
 | GET-item-primary-image |  |
 | POST-update-item |  |
 | POST-update-item-status |  |
-|  |  |
+| GET-items-by-view |  |
+| GET-search-for-items-by-view |  |
+| POST-add-item-image |  |
+| DELTE-item-image-by-id |  |
+| POST-mark-item-image-as-primary |  |
 
 ### Rules
 
@@ -115,6 +129,12 @@
 | GET-all-rules-by-view |  |
 | POST-update-rile-status |  |
 | POST-update-rules |  |
+| GET-rule-by-view |  |
+| GET-all-custom-rules |  |
+| GET-all-custom-rules-by-view |  |
+| POST-add-custom-rule-to-view |  |
+| POST-change-custom-rule-status |  |
+| DELETE-remove-custom-rule-from-view |  |
 
 ### Pricing Structure
 
@@ -125,6 +145,8 @@
 | POST-update-pricing-structure-status |  |
 | POST-update-pricing-structure-item |  |
 | POST-update-pricing-structure |  |
+| GET-pricing-structure-by-id |  |
+| GET-pricing-structure-by-id |  |
 
 ### Bulk Edit
 
@@ -141,7 +163,7 @@
 | GET-job-details-by-id |  |
 | GET-job-by-id |  |
 
-### Data Import
+### Data Import / Export
 
 | End Point | Description |
 | :--- | :--- |
@@ -158,6 +180,9 @@
 | POST-schedule-item-data-export |  |
 | POST-schedule-pricing-data-export |  |
 | GET-export-file-by-id |  |
+| GET-all-data-export-content-by-id |  |
+| GET-all-data-export-artifacts |  |
+| DELETE-data-export-artifact-by-id |  |
 
 ### Dashboard 
 
@@ -165,4 +190,25 @@
 | :--- | :--- |
 | POST-save-user-dashboard |  |
 | GET-user-dashboard |  |
+| POST-save-user-dashboard |  |
+| GET-user-dashboard |  |
+| POST-user-dashboard-widget-data |  |
+| GET-user-dashboard-widget-data |  |
+
+### Trading Partner
+
+| End Point | Description |
+| :--- | :--- |
+| GET-partner-pricing-structures |  |
+| GET-partner-priced-items-by-pricing-structure |  |
+|  |  |
+
+### Validation
+
+| End Point | Description |
+| :--- | :--- |
+| GET-all-view-validations |  |
+| GET-view-validation-results |  |
+| POST-schedule-validation |  |
+| DELETE-validation-result-by-id |  |
 

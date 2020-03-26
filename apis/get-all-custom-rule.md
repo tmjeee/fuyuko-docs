@@ -2,7 +2,7 @@
 description: Get all custom rules
 ---
 
-# GET-all-custom-rule
+# GET-all-custom-rules
 
 {% api-method method="get" host="https://<host>:<port>/api/v1" path="/custom-rules" %}
 {% api-method-summary %}
