@@ -106,4 +106,5 @@
 * [GET-view-by-id](apis/get-view-by-id.md)
 * [GET-user-settings](apis/get-user-settings.md)
 * [POST-user-settings](apis/post-user-settings.md)
+* [GET-all-custom-rule](apis/get-all-custom-rule.md)
 
