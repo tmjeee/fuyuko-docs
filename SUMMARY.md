@@ -117,4 +117,5 @@
 * [GET-search-for-items-by-view](apis/get-search-for-items-by-view.md)
 * [DELETE-validation-result-by-id](apis/delete-validation-result-by-id.md)
 * [GET-all-pricing-structures-by-view](apis/get-all-pricing-structures-by-view.md)
+* [GET-data-export-content-by-id](apis/get-data-export-content-by-id.md)
 
