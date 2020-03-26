@@ -10,7 +10,8 @@
 ## User Guide
 
 * [Index - User Guide](user-guide/untitled.md)
-* [Log in](user-guide/log-in.md)
+* [Log In](user-guide/log-in.md)
+* [Dashboard](user-guide/dashboard.md)
 
 ## Developer Guide
 
