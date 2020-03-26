@@ -26,6 +26,12 @@ This endpoint allows you to get free cakes.
 Authentication token.
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="customRuleIds" type="array" required=false %}
+Array of custom rule ids
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -41,6 +47,10 @@ true
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
+
+{% hint style="info" %}
+`customRuleIds` request body parameter is expected to be a JSON array of custom rule ids.
+{% endhint %}
 
 
 
