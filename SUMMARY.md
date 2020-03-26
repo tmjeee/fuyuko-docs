@@ -119,4 +119,5 @@
 * [GET-all-pricing-structures-by-view](apis/get-all-pricing-structures-by-view.md)
 * [GET-data-export-content-by-id](apis/get-data-export-content-by-id.md)
 * [GET-pricing-structure-by-id](apis/get-pricing-structure-by-id.md)
+* [GET-all-data-export-artifacts](apis/get-all-data-export-artifacts.md)
 
