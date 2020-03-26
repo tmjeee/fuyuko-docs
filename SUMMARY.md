@@ -120,4 +120,5 @@
 * [GET-data-export-content-by-id](apis/get-data-export-content-by-id.md)
 * [GET-pricing-structure-by-id](apis/get-pricing-structure-by-id.md)
 * [GET-all-data-export-artifacts](apis/get-all-data-export-artifacts.md)
+* [DELETE-data-export-artifact-by-id](apis/delete-data-export-artifact-by-id.md)
 
