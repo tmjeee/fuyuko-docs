@@ -110,4 +110,5 @@
 * [GET-all-custom-rules-by-view](apis/get-all-custom-rules-by-view.md)
 * [POST-add-custom-rule-to-view](apis/post-add-custom-rule-to-view.md)
 * [POST-change-custom-rule-status](apis/post-change-custom-rule-status.md)
+* [DELETE-remove-custom-rule-from-view](apis/delete-remove-custom-rule-from-view.md)
 
