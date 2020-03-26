@@ -10,15 +10,15 @@
 
 | End Point | Description |
 | :--- | :--- |
-| GET-heartbeat | Heatbeat |
+| [GET-heartbeat](untitled.md) | Heatbeat |
 
 ### Invitation
 
 | End Point | Description |
 | :--- | :--- |
-| POST-activate-invitation |  |
-| POST-create-invitation |  |
-| GET-invitation-by-code |  |
+| [POST-activate-invitation](post-activate-invitation.md) |  |
+| [POST-create-invitation](post-create-invitation.md) |  |
+| [GET-invitation-by-code](get-inviations-by-code.md) |  |
 
 ### Self Registration
 
