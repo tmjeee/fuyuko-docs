@@ -1,12 +1,12 @@
 ---
-description: Get user notifications
+description: Create user notification
 ---
 
-# GET-user-notification
+# POST-user-notification
 
-{% api-method method="get" host="https://<host>:<port>/api/v1" path="/user/:userId/notifications" %}
+{% api-method method="post" host="https://<host>:<port>/api/v1" path="/user/:userId/notification" %}
 {% api-method-summary %}
-User notifications
+Create user notification
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -26,6 +26,24 @@ User ID
 Authentication token.
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="notification" type="object" required=false %}
+Notification JSON object
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="notification.status" type="string" required=true %}
+Status
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="notification.title" type="string" required=true %}
+TItle
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="notification.description" type="string" required=true %}
+Description
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -35,15 +53,7 @@ Cake successfully retrieved.
 {% endapi-method-response-example-description %}
 
 ```
-[
-    {
-        "id": 1,
-        "isNew": 1,
-        "status": "INFO",
-        "title": "Notification 1",
-        "message": "Simple notification one"
-    }
-]
+true
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}

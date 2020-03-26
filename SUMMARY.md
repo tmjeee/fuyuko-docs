@@ -112,4 +112,5 @@
 * [POST-change-custom-rule-status](apis/post-change-custom-rule-status.md)
 * [DELETE-remove-custom-rule-from-view](apis/delete-remove-custom-rule-from-view.md)
 * [GET-user-notification](apis/get-user-notification.md)
+* [POST-user-notification](apis/post-user-notification.md)
 
