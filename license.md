@@ -1,6 +1,6 @@
 # License
 
-Fuyuko software is released under **`GNU Lesser General Public License version 3`** ``
+**Fuyuko Master Data Management software** is released under **`GNU Lesser General Public License version 3`** ``
 
 Following is the content of the license for anyone who would be interested :-
 
