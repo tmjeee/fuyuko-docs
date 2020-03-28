@@ -35,5 +35,9 @@ Listed are the `roles`, and you will be able to add `groups` to the respective `
 
 ### Users Management
 
+![](../.gitbook/assets/user-mgt-users.png)
 
+![](../.gitbook/assets/user-mgt-users-active.png)
+
+![](../.gitbook/assets/user-mgt-users-inactive%20%281%29.png)
 
