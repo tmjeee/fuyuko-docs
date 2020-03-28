@@ -20,6 +20,7 @@
 * [Self Registration](user-guide/self-registration.md)
 * [Predefined Rules](user-guide/predefined-rules.md)
 * [Custom Rules](user-guide/custom-rules.md)
+* [Attributes](user-guide/attributes.md)
 
 ## Developer Guide
 
