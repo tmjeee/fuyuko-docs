@@ -18,6 +18,8 @@
 * [User Management](user-guide/user-roles-management.md)
 * [Invitation & Activation](user-guide/invitation-and-activation.md)
 * [Self Registration](user-guide/self-registration.md)
+* [Predefined Rules](user-guide/predefined-rules.md)
+* [Custom Rules](user-guide/custom-rules.md)
 
 ## Developer Guide
 
