@@ -20,3 +20,7 @@ Dashboard page typically looks like the following
 
 ![](../.gitbook/assets/dashboard-select-widgets.png)
 
+## Dashboard with multiple instances of same widget
+
+![](../.gitbook/assets/dashboard-multiple-instance-of-same-widget.png)
+
