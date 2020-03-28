@@ -4,19 +4,19 @@ description: 'Documentation of APIs, segregated into categories'
 
 # Index - APIs
 
-### Common Response
+## Common Response
 
 | End Point | Description |
 | :--- | :--- |
 | [Common response](common-response.md) | Common response for all REST request |
 
-### General
+## General
 
 | End Point | Description |
 | :--- | :--- |
 | [GET-heartbeat](untitled.md) | Heatbeat |
 
-### Invitation
+## Invitation
 
 | End Point | Description |
 | :--- | :--- |
@@ -24,7 +24,7 @@ description: 'Documentation of APIs, segregated into categories'
 | [POST-create-invitation](post-create-invitation.md) |  |
 | [GET-invitation-by-code](get-inviations-by-code.md) |  |
 
-### Self Registration
+## Self Registration
 
 | End Point | Description |
 | :--- | :--- |
@@ -34,7 +34,7 @@ description: 'Documentation of APIs, segregated into categories'
 | [DELETE-self-register](delete-self-register.md) |  |
 | [GET-search-self-registration-by-username](get-search-self-registration-by-username.md) |  |
 
-### Avatar
+## Avatar
 
 | End Point | Description |
 | :--- | :--- |
@@ -44,14 +44,14 @@ description: 'Documentation of APIs, segregated into categories'
 | [GET-all-global-avatar](get-all-global-avatars.md) |  |
 | [POST-save-user-avatar](post-save-user-avatar.md) |  |
 
-### Login / Logout
+## Login / Logout
 
 | End Point | Description |
 | :--- | :--- |
 | [POST-login](post-login.md) |  |
 | [POST-logout](post-logout.md) |  |
 
-### User
+## User
 
 | End Point | Description |
 | :--- | :--- |
@@ -70,7 +70,7 @@ description: 'Documentation of APIs, segregated into categories'
 | [GET-user-notification](get-user-notification.md) |  |
 | [POST-user-notification](post-user-notification.md) |  |
 
-### Group
+## Group
 
 | End Point | Description |
 | :--- | :--- |
@@ -81,7 +81,7 @@ description: 'Documentation of APIs, segregated into categories'
 | [GET-search-for-group-by-name](untitled-5.md) |  |
 |  |  |
 
-### Role
+## Role
 
 | End Point | Description |
 | :--- | :--- |
@@ -89,7 +89,7 @@ description: 'Documentation of APIs, segregated into categories'
 | [POST-add-role-to-group](post-add-role-to-group.md) |  |
 | [GET-all-roles](get-all-roles.md) |  |
 
-### View
+## View
 
 | End Point | Description |
 | :--- | :--- |
@@ -98,7 +98,7 @@ description: 'Documentation of APIs, segregated into categories'
 | [DELETE-views](delete-views.md) |  |
 | [GET-view-by-id](get-view-by-id.md) |  |
 
-### Attributes
+## Attributes
 
 | End Point | Description |
 | :--- | :--- |
@@ -109,7 +109,7 @@ description: 'Documentation of APIs, segregated into categories'
 | [GET-attribute-by-view](get-attribute-by-view.md) |  |
 | [POST-add-attribute](post-add-attribute.md) |  |
 
-### Item
+## Item
 
 | End Point | Description |
 | :--- | :--- |
@@ -124,7 +124,7 @@ description: 'Documentation of APIs, segregated into categories'
 | [DELETE-item-image-by-id](delete-item-image-by-id.md) |  |
 | [POST-mark-item-image-as-primary](post-mark-item-image-as-primary.md) |  |
 
-### Rules
+## Rules
 
 | End Point | Description |
 | :--- | :--- |
@@ -140,7 +140,7 @@ description: 'Documentation of APIs, segregated into categories'
 | [POST-change-custom-rule-status](post-change-custom-rule-status.md) |  |
 | [DELETE-remove-custom-rule-from-view](delete-remove-custom-rule-from-view.md) |  |
 
-### Pricing Structure
+## Pricing Structure
 
 | End Point | Description |
 | :--- | :--- |
@@ -151,14 +151,14 @@ description: 'Documentation of APIs, segregated into categories'
 | [POST-update-pricing-structure](post-update-pricing-structure.md) |  |
 | [GET-pricing-structure-by-id](get-pricing-structure-by-id.md) |  |
 
-### Bulk Edit
+## Bulk Edit
 
 | End Point | Description |
 | :--- | :--- |
 | [POST-preview-bulk-edit](post-preview-bulk-edit.md) |  |
 | [POST-schedule-bulk-edit](post-schedule-bulk-edit.md) |  |
 
-### Job
+## Job
 
 | End Point | Description |
 | :--- | :--- |
@@ -166,7 +166,7 @@ description: 'Documentation of APIs, segregated into categories'
 | [GET-job-details-by-id](get-job-details-by-id.md) |  |
 | [GET-job-by-id](get-job-by-id.md) |  |
 
-### Data Import / Export
+## Data Import / Export
 
 | End Point | Description |
 | :--- | :--- |
@@ -187,7 +187,7 @@ description: 'Documentation of APIs, segregated into categories'
 | [GET-all-data-export-artifacts](get-all-data-export-artifacts.md) |  |
 | [DELETE-data-export-artifact-by-id](delete-data-export-artifact-by-id.md) |  |
 
-### Dashboard 
+## Dashboard and Widgets
 
 | End Point | Description |
 | :--- | :--- |
@@ -198,14 +198,14 @@ description: 'Documentation of APIs, segregated into categories'
 | [POST-user-dashboard-widget-data](post-user-dashboard-widget-data.md) |  |
 | [GET-user-dashboard-widget-data](get-user-dashboard-widget-data.md) |  |
 
-### Trading Partner
+## Trading Partner
 
 | End Point | Description |
 | :--- | :--- |
 | [GET-partner-pricing-structures](get-partner-pricing-structures.md) |  |
 | [GET-partner-priced-items-by-pricing-structure](get-partner-priced-items-by-pricing-structure.md) |  |
 
-### Validation
+## Validation
 
 | End Point | Description |
 | :--- | :--- |

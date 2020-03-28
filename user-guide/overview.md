@@ -4,29 +4,29 @@ Fuyuko is a Master Data Management web based software application.
 
 Following are the core concepts of the software.
 
-### Authentication and authorisation
+## Authentication and authorisation
 
-### Views
+## Views
 
-### Attributes
+## Attributes
 
-### Items
+## Items
 
-### Rules and Validations
+## Rules and Validations
 
-### Pricing Structures
+## Pricing Structures
 
-### Data Import and Export
+## Data Import and Export
 
-### Bulk Edit
+## Bulk Edit
 
-### Self Registrations and Invitations
+## Self Registrations and Invitations
 
-### Themes
+## Themes
 
-### Dashboard and Widgets
+## Dashboard and Widgets
 
-### Trading Partners
+## Trading Partners
 
 
 
