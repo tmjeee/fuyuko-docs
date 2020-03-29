@@ -16,6 +16,12 @@ description: 'Documentation of APIs, segregated into categories'
 | :--- | :--- |
 | [GET-heartbeat](untitled.md) | Heatbeat |
 
+## Help
+
+| End Point | Description |
+| :--- | :--- |
+| [GET-help](get-help.md) |  |
+
 ## Invitation
 
 | End Point | Description |
