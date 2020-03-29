@@ -32,6 +32,7 @@
 ## APIs
 
 * [Index - APIs](apis/index/README.md)
+  * [GET-help](apis/index/get-help.md)
   * [POST-mark-item-image-as-primary](apis/index/post-mark-item-image-as-primary.md)
   * [DELETE-item-image-by-id](apis/index/delete-item-image-by-id.md)
   * [POST-add-item-image](apis/index/post-add-item-image.md)
