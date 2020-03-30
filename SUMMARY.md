@@ -24,6 +24,7 @@
 * [Item - Tabular](user-guide/item-tabular.md)
 * [Item - Thumbnail](user-guide/item-thumbnail.md)
 * [Item - List](user-guide/item-list.md)
+* [View](user-guide/view.md)
 
 ## Developer Guide
 
