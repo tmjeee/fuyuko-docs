@@ -6,13 +6,13 @@ Following are the core concepts of the software.
 
 ## Authentication and authorisation
 
-
+## Self Registrations and Invitations
 
 ## Views
 
-## Attributes
-
 ## Items
+
+## Attributes
 
 ## Rules and Validations
 
@@ -21,8 +21,6 @@ Following are the core concepts of the software.
 ## Data Import and Export
 
 ## Bulk Edit
-
-## Self Registrations and Invitations
 
 ## Themes
 
