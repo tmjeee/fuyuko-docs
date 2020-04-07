@@ -27,6 +27,7 @@
 * [View](user-guide/view.md)
 * [Validation](user-guide/validation.md)
 * [Pricing Structure](user-guide/pricing-structure.md)
+* [Bulk Edit](user-guide/bulk-edit.md)
 
 ## Developer Guide
 
