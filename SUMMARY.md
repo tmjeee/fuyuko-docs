@@ -26,6 +26,7 @@
 * [Item - List](user-guide/item-list.md)
 * [View](user-guide/view.md)
 * [Validation](user-guide/validation.md)
+* [Pricing Structure](user-guide/pricing-structure.md)
 
 ## Developer Guide
 
