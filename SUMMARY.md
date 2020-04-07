@@ -25,6 +25,7 @@
 * [Item - Thumbnail](user-guide/item-thumbnail.md)
 * [Item - List](user-guide/item-list.md)
 * [View](user-guide/view.md)
+* [Validation](user-guide/validation.md)
 
 ## Developer Guide
 
