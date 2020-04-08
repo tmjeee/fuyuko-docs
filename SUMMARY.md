@@ -29,6 +29,7 @@
 * [Pricing Structure](user-guide/pricing-structure.md)
 * [Bulk Edit](user-guide/bulk-edit.md)
 * [Settings](user-guide/settings.md)
+* [Import](user-guide/import.md)
 
 ## Developer Guide
 
