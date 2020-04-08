@@ -35,9 +35,9 @@
 
 ## Developer Guide
 
-* [Developer Guide Index](developer-guide/untitled.md)
-* [Dev - Overview](developer-guide/dev-overview.md)
-* [Dev - Building](developer-guide/dev-building.md)
+* [Developer Guide Index](developer-guide/untitled/README.md)
+  * [Dev - Overview](developer-guide/untitled/dev-overview.md)
+  * [Dev - Building](developer-guide/untitled/dev-building.md)
 
 ## APIs
 
