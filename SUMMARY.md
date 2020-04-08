@@ -44,6 +44,7 @@
   * [GET-all-custom-imports](apis/index/get-all-custom-imports.md)
   * [POST-custom-import-validate-input](apis/index/post-custom-import-validate-input.md)
   * [POST-custom-import-preview](apis/index/post-custom-import-preview.md)
+  * [POST-custom-import-submit-job](apis/index/post-custom-import-submit-job.md)
   * [POST-mark-item-image-as-primary](apis/index/post-mark-item-image-as-primary.md)
   * [DELETE-item-image-by-id](apis/index/delete-item-image-by-id.md)
   * [POST-add-item-image](apis/index/post-add-item-image.md)
