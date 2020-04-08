@@ -1,4 +1,4 @@
-# Item - Tabular
+# Item
 
 ## Tabular
 
@@ -7,8 +7,6 @@
 ![](../.gitbook/assets/item-tabular-list.png)
 
 ### Listing with children expanded
-
-
 
 ![](../.gitbook/assets/item-tabular-list-with-children.png)
 
@@ -195,7 +193,4 @@
 ### Edit Item Double Select Attribute
 
 ![](../.gitbook/assets/item-list-edit-attribute-doubleselect.png)
-
-
-
 

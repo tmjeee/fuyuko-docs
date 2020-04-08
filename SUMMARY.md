@@ -21,7 +21,7 @@
 * [Predefined Rules](user-guide/predefined-rules.md)
 * [Custom Rules](user-guide/custom-rules.md)
 * [Attributes](user-guide/attributes.md)
-* [Item - Tabular](user-guide/item-tabular.md)
+* [Item](user-guide/item-tabular.md)
 * [Item - Thumbnail](user-guide/item-thumbnail.md)
 * [Item - List](user-guide/item-list.md)
 * [View](user-guide/view.md)
