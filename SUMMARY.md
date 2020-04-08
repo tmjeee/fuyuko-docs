@@ -19,7 +19,6 @@
 * [Invitation & Activation](user-guide/invitation-and-activation.md)
 * [Self Registration](user-guide/self-registration.md)
 * [Rules](user-guide/rules.md)
-* [Custom Rules](user-guide/custom-rules.md)
 * [Attributes](user-guide/attributes.md)
 * [Item](user-guide/item.md)
 * [View](user-guide/view.md)

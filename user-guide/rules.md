@@ -20,5 +20,3 @@
 
 ![](../.gitbook/assets/rules-custom-add.png)
 
-
-

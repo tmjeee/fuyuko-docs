@@ -172,7 +172,7 @@ description: 'Documentation of APIs, segregated into categories'
 | [GET-job-details-by-id](get-job-details-by-id.md) |  |
 | [GET-job-by-id](get-job-by-id.md) |  |
 
-## Data Import / Export
+## Import / Export
 
 | End Point | Description |
 | :--- | :--- |
