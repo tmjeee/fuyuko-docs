@@ -1,14 +1,14 @@
 # Index
 
-## \`\`[`Overview`](overview.md)\`\`
+## [Overview](overview.md)
 
-## Logging in and out
+## [Logging in and out](log-in.md)
 
-## Dashboard
+## [Dashboard](dashboard.md)
 
-## Profile
+## [Profile](profile.md)
 
-## User Management
+## [User Management](user-roles-management.md)
 
 ## Invitation & Activation
 
@@ -35,6 +35,12 @@
 ## Export
 
 ## Artifacts
+
+## Jobs
+
+## Partner
+
+## Help
 
 
 
