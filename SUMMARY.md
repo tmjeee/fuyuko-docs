@@ -35,6 +35,11 @@
   * [Dev - Requrements](developer-guide/untitled/installation.md)
   * [Dev - Installation](developer-guide/untitled/requirements.md)
   * [Dev - Building](developer-guide/untitled/dev-building.md)
+  * [Dev - Front End](developer-guide/untitled/dev-front-end/README.md)
+    * [Dev - FE - Configuration](developer-guide/untitled/dev-front-end/dev-fe-configuration.md)
+  * [Dev - Back End](developer-guide/untitled/dev-back-end/README.md)
+    * [Dev - BE - Configuration](developer-guide/untitled/dev-back-end/dev-be-configuration.md)
+  * [Dev - Database](developer-guide/untitled/dev-database.md)
 
 ## APIs
 

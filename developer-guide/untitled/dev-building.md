@@ -3,6 +3,10 @@
 ## Checking out the source from Github
 
 ```text
-$> git 
+$> git clone https://github.com/tmjeee/fuyuko.git
 ```
+
+## Directory Structure
+
+
 
