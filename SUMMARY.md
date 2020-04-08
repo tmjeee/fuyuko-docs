@@ -33,6 +33,7 @@
 * [Custom Export](user-guide/custom-export.md)
 * [Export Artifacts](user-guide/export-artifacts.md)
 * [Jobs](user-guide/jobs.md)
+* [Partner](user-guide/partner.md)
 
 ## Developer Guide
 
