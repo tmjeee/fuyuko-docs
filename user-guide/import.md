@@ -1,6 +1,8 @@
 # Import
 
-## Attributes Import
+## Build In Imports
+
+### Attributes Import
 
 ![](../.gitbook/assets/import-step1.png)
 
@@ -12,7 +14,7 @@
 
 ![](../.gitbook/assets/import-attributes-result.png)
 
-## Items Import
+### Items Import
 
 ![](../.gitbook/assets/import-step1.png)
 
@@ -22,7 +24,7 @@
 
 ![](../.gitbook/assets/import-items-step4.png)
 
-## Pricing Import
+### Pricing Import
 
 ![](../.gitbook/assets/import-prices-step2.png)
 
@@ -33,4 +35,8 @@
 ![](../.gitbook/assets/import-prices-step4.png)
 
 ![](../.gitbook/assets/import-prices-result.png)
+
+## Custom Imports
+
+
 
