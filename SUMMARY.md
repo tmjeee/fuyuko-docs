@@ -33,6 +33,7 @@
 * [Export](user-guide/export.md)
 * [Custom Import](user-guide/custom-import.md)
 * [Custom Export](user-guide/custom-export.md)
+* [Export Artifacts](user-guide/export-artifacts.md)
 
 ## Developer Guide
 
