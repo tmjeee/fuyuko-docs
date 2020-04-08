@@ -48,6 +48,7 @@
   * [GET-all-custom-export](apis/index/get-all-custom-export.md)
   * [POST-custom-export-validate-input](apis/index/post-custom-export-validate-input.md)
   * [POST-custom-export-preview](apis/index/post-custom-export-preview.md)
+  * [POST-custom-export-submit-job](apis/index/post-custom-export-submit-job.md)
   * [POST-mark-item-image-as-primary](apis/index/post-mark-item-image-as-primary.md)
   * [DELETE-item-image-by-id](apis/index/delete-item-image-by-id.md)
   * [POST-add-item-image](apis/index/post-add-item-image.md)
