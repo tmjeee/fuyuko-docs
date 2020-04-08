@@ -2,7 +2,7 @@
 
 **Fuyuko Master Data Management software** is released under **`GNU Lesser General Public License version 3`** ``
 
-Following is the content of the license for anyone who would be interested :-
+Disclosed as follows is the content of the license for any parties that are interested :-
 
 ```text
                    GNU LESSER GENERAL PUBLIC LICENSE
