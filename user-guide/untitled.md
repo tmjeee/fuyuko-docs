@@ -14,9 +14,29 @@
 
 ## Self Registration
 
-## Predefined Rules
+## Rules
 
-## Custom Rules
+## Attributes
+
+## Items
+
+## View
+
+## Validation
+
+## Pricing Structure
+
+## Bulk Edit
+
+## Settings
+
+## Import
+
+## Export
+
+## Artifacts
+
+
 
 
 

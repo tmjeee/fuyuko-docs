@@ -28,7 +28,7 @@
 * [Settings](user-guide/settings.md)
 * [Import](user-guide/import.md)
 * [Export](user-guide/export.md)
-* [Export Artifacts](user-guide/export-artifacts.md)
+* [Artifacts](user-guide/export-artifacts.md)
 * [Jobs](user-guide/jobs.md)
 * [Partner](user-guide/partner.md)
 * [Help](user-guide/help.md)

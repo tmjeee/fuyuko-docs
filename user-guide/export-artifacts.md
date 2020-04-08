@@ -1,4 +1,4 @@
-# Export Artifacts
+# Artifacts
 
 ![](../.gitbook/assets/artifacts.png)
 
