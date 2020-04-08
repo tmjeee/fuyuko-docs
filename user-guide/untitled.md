@@ -1,4 +1,4 @@
-# Index - User Guide
+# Index
 
 1. Loging in
 2. 
