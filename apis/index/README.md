@@ -193,6 +193,19 @@ description: 'Documentation of APIs, segregated into categories'
 | [GET-all-data-export-artifacts](get-all-data-export-artifacts.md) |  |
 | [DELETE-data-export-artifact-by-id](delete-data-export-artifact-by-id.md) |  |
 
+## Custom Import / Export
+
+| End Point | Description |
+| :--- | :--- |
+| [GET-all-custom-imports](get-all-custom-imports.md) |  |
+| [POST-custom-import-validate-input](post-custom-import-validate-input.md) |  |
+| [POST-custom-import-preview](post-custom-import-preview.md) |  |
+| [POST-custom-import-submit-job](post-custom-import-submit-job.md) |  |
+| [GET-all-custom-exports](get-all-custom-exports.md) |  |
+| [POST-custom-export-validate-input](post-custom-export-validate-input.md) |  |
+| [POST-custom-export-preview](post-custom-export-preview.md) |  |
+| [POST-custom-export-submit-job](post-custom-export-submit-job.md) |  |
+
 ## Dashboard and Widgets
 
 | End Point | Description |

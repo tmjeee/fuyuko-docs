@@ -2,7 +2,7 @@
 description: Get all custom exports
 ---
 
-# GET-all-custom-export
+# GET-all-custom-exports
 
 {% api-method method="get" host="https://<host>:<port>/api/v1" path="/custom-exports" %}
 {% api-method-summary %}

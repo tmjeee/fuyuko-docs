@@ -45,7 +45,7 @@
   * [POST-custom-import-validate-input](apis/index/post-custom-import-validate-input.md)
   * [POST-custom-import-preview](apis/index/post-custom-import-preview.md)
   * [POST-custom-import-submit-job](apis/index/post-custom-import-submit-job.md)
-  * [GET-all-custom-export](apis/index/get-all-custom-export.md)
+  * [GET-all-custom-exports](apis/index/get-all-custom-exports.md)
   * [POST-custom-export-validate-input](apis/index/post-custom-export-validate-input.md)
   * [POST-custom-export-preview](apis/index/post-custom-export-preview.md)
   * [POST-custom-export-submit-job](apis/index/post-custom-export-submit-job.md)
