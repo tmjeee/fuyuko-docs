@@ -31,6 +31,7 @@
 * [Settings](user-guide/settings.md)
 * [Import](user-guide/import.md)
 * [Export](user-guide/export.md)
+* [Custom Import](user-guide/custom-import.md)
 
 ## Developer Guide
 
