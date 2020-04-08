@@ -30,6 +30,7 @@
 * [Bulk Edit](user-guide/bulk-edit.md)
 * [Settings](user-guide/settings.md)
 * [Import](user-guide/import.md)
+* [Export](user-guide/export.md)
 
 ## Developer Guide
 
