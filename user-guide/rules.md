@@ -1,12 +1,12 @@
 # Rules
 
-## Predefined Rules
+## Build In Rules
 
 ### Listing
 
 ![](../.gitbook/assets/rules-predefined-listing.png)
 
-### Add Predefine Rules
+### Add Build In Rules
 
 ![](../.gitbook/assets/rules-predefined-add.png)
 
