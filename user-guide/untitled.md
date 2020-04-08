@@ -10,37 +10,37 @@
 
 ## [User Management](user-roles-management.md)
 
-## Invitation & Activation
+## [Invitation & Activation](invitation-and-activation.md)
 
-## Self Registration
+## [Self Registration](self-registration.md)
 
-## Rules
+## [Rules](rules.md)
 
-## Attributes
+## [Attributes](attributes.md)
 
-## Items
+## [Item](item.md)
 
-## View
+## [View](view.md)
 
-## Validation
+## [Validation](validation.md)
 
-## Pricing Structure
+## [Pricing Structure](pricing-structure.md)
 
-## Bulk Edit
+## [Bulk Edit](bulk-edit.md)
 
-## Settings
+## [Settings](settings.md)
 
-## Import
+## [Import](import.md)
 
-## Export
+## [Export](export.md)
 
-## Artifacts
+## [Artifacts](artifacts.md)
 
-## Jobs
+## [Jobs](jobs.md)
 
-## Partner
+## [Partner](partner.md)
 
-## Help
+## [Help](help.md)
 
 
 
