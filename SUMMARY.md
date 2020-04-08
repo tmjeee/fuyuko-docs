@@ -22,8 +22,6 @@
 * [Custom Rules](user-guide/custom-rules.md)
 * [Attributes](user-guide/attributes.md)
 * [Item](user-guide/item-tabular.md)
-* [Item - Thumbnail](user-guide/item-thumbnail.md)
-* [Item - List](user-guide/item-list.md)
 * [View](user-guide/view.md)
 * [Validation](user-guide/validation.md)
 * [Pricing Structure](user-guide/pricing-structure.md)
