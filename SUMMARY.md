@@ -3,11 +3,6 @@
 * [Introduction](README.md)
 * [License](license.md)
 
-## Setup
-
-* [Requrements](setup/installation.md)
-* [Installation](setup/requirements.md)
-
 ## User Guide
 
 * [User Guide Index](user-guide/untitled/README.md)
@@ -36,6 +31,8 @@
 ## Developer Guide
 
 * [Developer Guide Index](developer-guide/untitled/README.md)
+  * [Dev - Requrements](developer-guide/untitled/installation.md)
+  * [Dev - Installation](developer-guide/untitled/requirements.md)
   * [Dev - Overview](developer-guide/untitled/dev-overview.md)
   * [Dev - Building](developer-guide/untitled/dev-building.md)
 

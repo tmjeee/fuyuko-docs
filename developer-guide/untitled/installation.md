@@ -2,7 +2,7 @@
 description: Requirements for installing Fuyuko application
 ---
 
-# Requrements
+# Dev - Requrements
 
 Following is a list of prerequisite tools / frameworks to be installed before installation is attempted
 
