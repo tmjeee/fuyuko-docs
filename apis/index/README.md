@@ -2,7 +2,7 @@
 description: 'Documentation of APIs, segregated into categories'
 ---
 
-# Index
+# APIs Index
 
 ## Common Response
 
