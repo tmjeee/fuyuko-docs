@@ -8,8 +8,9 @@ Following is a list of prerequisite tools / frameworks to be installed before in
 
 * Nodejs 12+
 
-Following are the fundamental tools / frameworks that are being used in the application
+Following are the fundamental tools / frameworks that are being used in the application. 
 
+* Typescript
 * Angular 9+
 * Nodejs 12+
 * Angular Materials
