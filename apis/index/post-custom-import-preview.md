@@ -1,12 +1,12 @@
 ---
-description: Validate inputs of custom import
+description: Custom import preview
 ---
 
-# POST-custom-import-validate-input
+# POST-custom-import-preview
 
-{% api-method method="post" host="https://<host>:<port>/api/v1" path="/view/:viewId/custom-import/:customImportId/validate-input" %}
+{% api-method method="post" host="https://<host>:<port>/api/v1" path="/view/:viewId/custom-import/:customImportId/preview" %}
 {% api-method-summary %}
-Validate custom import's inputs
+Custom Import Preview
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -32,7 +32,7 @@ Authentication token.
 {% endapi-method-headers %}
 
 {% api-method-body-parameters %}
-{% api-method-parameter name="values" type="string" required=true %}
+{% api-method-parameter name="values" type="array" required=true %}
 
 {% endapi-method-parameter %}
 
@@ -58,12 +58,34 @@ Cake successfully retrieved.
 
 ```
 {
-    "valid": true,
+    "proceed": true,
     "messages": [
         {
             "status": "INFO",
-            "title": "sample info title",
-            "message": "sample info message"
+            "title": "test",
+            "message": "test message"
+        }
+    ],
+    "columns": [
+        "column1",
+        "column2",
+        "column3"
+    ],
+    "rows": [
+        {
+            "column1": "row1 column1",
+            "column2": "row1 column2",
+            "column3": "row1 column3"
+        },
+        {
+            "column1": "row2 column1",
+            "column2": "row2 column2",
+            "column3": "row2 column3"
+        },
+        {
+            "column1": "row3 column1",
+            "column2": "row3 column2",
+            "column3": "row3 column3"
         }
     ]
 }
@@ -76,8 +98,6 @@ Cake successfully retrieved.
 {% hint style="info" %}
 `values` is expected to be a `JSON Array` of an object containing `type`, `name` and `value`
 {% endhint %}
-
-
 
 
 
