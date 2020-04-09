@@ -52,11 +52,15 @@ Invitation activated successfully.
 
 ```
 {
+  "status": "SUCCESS",
+  "message": "....",
+  "payload": {
     "email": "invitation1@gmail.com",
     "registrationId": 1,
     "message": "Successfully activated invitation1 (invitation1@gmail.com)",
     "status": "SUCCESS",
     "username": "invitation1"
+  }
 }
 ```
 {% endapi-method-response-example %}

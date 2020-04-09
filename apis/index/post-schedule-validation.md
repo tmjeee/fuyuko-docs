@@ -46,8 +46,12 @@ Cake successfully retrieved.
 
 ```
 {
+  "status": "SUCCESS",
+  "message": "....",
+  "payload": {
     "ok": true,
     "validationId": 2
+  }
 }
 ```
 {% endapi-method-response-example %}

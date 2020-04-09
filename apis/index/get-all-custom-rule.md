@@ -29,7 +29,10 @@ Cake successfully retrieved.
 {% endapi-method-response-example-description %}
 
 ```
-[
+{
+  "status": "SUCCESS",
+  "message": "....",
+  "payload": [
     {
         "id": 1,
         "name": "0.0.1-sample-rule-1.js",
@@ -40,7 +43,8 @@ Cake successfully retrieved.
         "name": "0.0.2-sample-rule-2.js",
         "description": "0.0.2 Sample Rule #2"
     }
-]
+  ]
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}

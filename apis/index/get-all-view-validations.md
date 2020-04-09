@@ -35,7 +35,10 @@ Cake successfully retrieved.
 {% endapi-method-response-example-description %}
 
 ```
-[
+{
+  "status": "SUCCESS",
+  "message": "....",
+  "payload": [
     {
         "id": 1,
         "name": "test view1 vaslidation",
@@ -45,7 +48,8 @@ Cake successfully retrieved.
         "creationDate": "2020-03-25T13:42:20.000Z",
         "lastUpdate": "2020-03-25T13:42:22.000Z"
     }
-]
+  ]
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}

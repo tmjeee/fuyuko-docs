@@ -35,7 +35,10 @@ Cake successfully retrieved.
 {% endapi-method-response-example-description %}
 
 ```
-[
+{
+  "status": "SUCCESS",
+  "message": "....",
+  "payload": [
     {
         "id": 1,
         "isNew": 1,
@@ -43,7 +46,8 @@ Cake successfully retrieved.
         "title": "Notification 1",
         "message": "Simple notification one"
     }
-]
+  ]
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}

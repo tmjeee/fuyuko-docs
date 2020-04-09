@@ -29,7 +29,9 @@ Cake successfully retrieved.
 {% endapi-method-response-example-description %}
 
 ```
-[
+{
+  "status": "SUCCESS",
+  "payload": [
     {
         "id": 1,
         "name": "0.0.1-sample-custom-import-1.js",
@@ -143,8 +145,8 @@ Cake successfully retrieved.
                 "description": "file xxx input description"
             }
         ]
-    }
-]
+    }]
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}

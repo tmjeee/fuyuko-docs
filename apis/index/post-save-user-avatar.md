@@ -52,7 +52,9 @@ Cake successfully retrieved.
 {
     "status": "SUCCESS",
     "message": "UserId 1, Avatar updated",
-    "userAvatarId": 1
+    "payload": {
+      "userAvatarId": 1
+    }
 }
 ```
 {% endapi-method-response-example %}

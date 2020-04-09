@@ -58,6 +58,8 @@ Cake successfully retrieved.
 
 ```
 {
+  "status": "SUCCESS",
+  "payload":{
     "proceed": true,
     "messages": [
         {
@@ -88,6 +90,7 @@ Cake successfully retrieved.
             "column3": "row3 column3"
         }
     ]
+  }
 }
 ```
 {% endapi-method-response-example %}

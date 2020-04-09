@@ -41,7 +41,10 @@ Cake successfully retrieved.
 {% endapi-method-response-example-description %}
 
 ```
-true
+{
+  "status": "SUCCESS",
+  "message": "....."
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}

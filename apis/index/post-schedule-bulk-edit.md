@@ -42,12 +42,16 @@ Cake successfully retrieved.
 
 ```
 {
+  "status": "SUCCESS",
+  "message": "....",
+  "payload": {
     "id": 1,
     "name": "BulkEditJob-05bb9170-8ded-4fb7-9023-6fff52804a32",
     "creationDate": "2020-03-16T03:57:23.000Z",
     "lastUpdate": "2020-03-16T03:57:23.000Z",
     "status": "ENABLED",
     "progress": "SCHEDULED"
+  }
 }
 ```
 {% endapi-method-response-example %}

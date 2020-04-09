@@ -39,7 +39,10 @@ Cake successfully retrieved.
 {% endapi-method-response-example-description %}
 
 ```
-[
+{
+  "status": "SUCCESS",
+  "message": "....",
+  "payload": [
     {
         "1": {
             "attributeId": 1,
@@ -431,7 +434,8 @@ Cake successfully retrieved.
             }
         ]
     }
-]
+  ]
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}

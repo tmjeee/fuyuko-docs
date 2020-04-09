@@ -40,6 +40,9 @@ Cake successfully retrieved.
 
 ```
 {
+  "status": "SUCCESS",
+  "message": "....",
+  "payload": {
     "id": 1,
     "viewId": 1,
     "name": "test view1 vaslidation",
@@ -2217,6 +2220,7 @@ Cake successfully retrieved.
             "message": "Attribute string attribute (1) value {type: string value: some string 43314 eq {type: string value: val string 1{type: string value: val string 2 FAILED "
         }
     ]
+  }
 }
 ```
 {% endapi-method-response-example %}

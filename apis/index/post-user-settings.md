@@ -36,7 +36,8 @@ Cake successfully retrieved.
 
 ```
 {
-    "ok": true
+  "status": "SUCCESS",
+  "message": "...."
 }
 ```
 {% endapi-method-response-example %}

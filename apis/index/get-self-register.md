@@ -29,7 +29,10 @@ Cake successfully retrieved.
 {% endapi-method-response-example-description %}
 
 ```
-[
+{
+  "status": "SUCCESS",
+  "message": "....",
+  "payload": [
     {
         "id": 2,
         "username": "self2",
@@ -921,7 +924,8 @@ Cake successfully retrieved.
         "creationDate": "2020-03-12T05:49:32.000Z",
         "activated": 0
     }
-]
+  ]
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}

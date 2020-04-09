@@ -46,11 +46,15 @@ Cake successfully retrieved.
 
 ```
 {
+  "status": "SUCCESS",
+  "message": "....",
+  "payload": {
     "registrationId": 100,
     "email": "ccccctest1@gmail.com",
     "username": "ccccctest1",
     "status": "SUCCESS",
     "message": "User ccccctest1 (ccccctest1@gmail.com) registered"
+  }
 }
 ```
 {% endapi-method-response-example %}

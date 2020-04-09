@@ -36,7 +36,11 @@ Cake successfully retrieved.
 
 ```
 {
+  "status": "SUCCESS",
+  "message": "....",
+  "payload": {
     "data": "\"{\\\"strategyId\\\":\\\"2x\\\",\\\"instances\\\":[{\\\"instanceId\\\":\\\"9349cd40-6e83-11ea-ac04-5ddd8bc50828\\\",\\\"typeId\\\":\\\"sample-1-widget\\\"},{\\\"instanceId\\\":\\\"94325880-6e83-11ea-ac04-5ddd8bc50828\\\",\\\"typeId\\\":\\\"sample-2-widget\\\"}],\\\"special\\\":[[{\\\"instanceId\\\":\\\"9349cd40-6e83-11ea-ac04-5ddd8bc50828\\\",\\\"typeId\\\":\\\"sample-1-widget\\\"}],[{\\\"instanceId\\\":\\\"94325880-6e83-11ea-ac04-5ddd8bc50828\\\",\\\"typeId\\\":\\\"sample-2-widget\\\"}]]}\""
+  }
 }
 ```
 {% endapi-method-response-example %}

@@ -29,7 +29,10 @@ Cake successfully retrieved.
 {% endapi-method-response-example-description %}
 
 ```
-[
+{
+  "status": "SUCCESS",
+  "message": "....",
+  "payload": [
     {
         "id": 1,
         "name": "Test View 1",
@@ -175,7 +178,8 @@ Cake successfully retrieved.
         "name": "New-View-0.31603594555136105",
         "description": "New-View-Description-0.31603594555136105"
     }
-]
+  ]
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}

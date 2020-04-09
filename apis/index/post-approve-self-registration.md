@@ -36,11 +36,15 @@ Cake successfully retrieved.
 
 ```
 {
+  "status": "SUCCESS",
+  "message": "....",
+  "payload": {
     "email": "self1@gmail.com",
     "message": "Self registration approval for self1 (self1@gmail.com) success",
     "registrationId": 1,
     "status": "SUCCESS",
     "username": "self1"
+  }
 }
 ```
 {% endapi-method-response-example %}

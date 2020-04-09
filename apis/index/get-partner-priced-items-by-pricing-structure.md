@@ -35,7 +35,10 @@ Cake successfully retrieved.
 {% endapi-method-response-example-description %}
 
 ```
-[
+{
+  "status": "SUCCESS",
+  "message": "....",
+  "payload": [
     {
         "1": {
             "attributeId": 1,
@@ -1489,7 +1492,8 @@ Cake successfully retrieved.
         "lastUpdate": "2020-03-23T06:51:25.000Z",
         "children": []
     }
-]
+  ]
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}

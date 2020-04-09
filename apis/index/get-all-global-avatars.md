@@ -23,7 +23,10 @@ All global avatar's information successfully retrieved.
 {% endapi-method-response-example-description %}
 
 ```
-[
+{
+  "status": "SUCCESS",
+  "message": "....",
+  "payload": [
     {
         "id": 1,
         "name": "avatar-01.png",
@@ -78,7 +81,8 @@ All global avatar's information successfully retrieved.
         "mimeType": "image/png",
         "size": 17542
     }
-]
+  ]
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}

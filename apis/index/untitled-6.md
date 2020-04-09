@@ -40,6 +40,9 @@ Cake successfully retrieved.
 
 ```
 {
+  "status": "SUCCESS",
+  "message": "....",
+  "payload": {
     "id": 1,
     "name": "Rule #1",
     "status": "ENABLED",
@@ -82,6 +85,7 @@ Cake successfully retrieved.
             ]
         }
     ]
+  }
 }
 ```
 {% endapi-method-response-example %}

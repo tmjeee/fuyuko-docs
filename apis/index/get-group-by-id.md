@@ -36,6 +36,9 @@ Cake successfully retrieved.
 
 ```
 {
+  "status": "SUCCESS",
+  "message": "....",
+  "payload": {
     "id": 1,
     "name": "VIEW Group",
     "description": "Group with VIEW role",
@@ -47,6 +50,7 @@ Cake successfully retrieved.
             "description": "VIEW Role"
         }
     ]
+  }
 }
 ```
 {% endapi-method-response-example %}

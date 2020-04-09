@@ -29,7 +29,10 @@ Cake successfully retrieved.
 {% endapi-method-response-example-description %}
 
 ```
-[
+{
+  "status": "SUCCESS",
+  "message": "....",
+  "payload": [
     {
         "id": 1,
         "name": "BulkEditJob-05bb9170-8ded-4fb7-9023-6fff52804a32",
@@ -39,7 +42,8 @@ Cake successfully retrieved.
         "status": "ENABLED",
         "progress": "COMPLETED"
     }
-]
+  ]
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}

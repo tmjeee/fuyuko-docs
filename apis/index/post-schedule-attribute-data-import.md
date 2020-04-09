@@ -46,6 +46,9 @@ Cake successfully retrieved.
 
 ```
 {
+  "status": "SUCCESS",
+  "message": "....",
+  "payload": {
     "id": 2,
     "name": "attribute-data-import-job-22d55815-2073-4979-9e18-a0605f36fbae",
     "description": "attribute-data-import-job-22d55815-2073-4979-9e18-a0605f36fbae description",
@@ -53,6 +56,7 @@ Cake successfully retrieved.
     "lastUpdate": "2020-03-16T04:30:17.000Z",
     "status": "ENABLED",
     "progress": "SCHEDULED"
+  }
 }
 ```
 {% endapi-method-response-example %}

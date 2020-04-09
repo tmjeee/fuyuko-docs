@@ -30,11 +30,15 @@ User avatar info successfully retrieved
 
 ```
 {
+  "status": "SUCCESS",
+  "message": "....",
+  "payload": {
     "id": 1,
     "name": "no-avatar.jpg",
     "size": 1755,
     "global": true,
     "mimeType": "image/jpeg"
+  }
 }
 ```
 {% endapi-method-response-example %}

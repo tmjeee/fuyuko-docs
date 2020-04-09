@@ -36,6 +36,9 @@ Cake successfully retrieved.
 
 ```
 {
+  "status": "SUCCESS",
+  "message": "....",
+  "payload": {
     "id": 1,
     "firstName": "xxxxx",
     "lastName": "yyyyyy",
@@ -96,6 +99,7 @@ Cake successfully retrieved.
             ]
         }
     ]
+  }
 }
 ```
 {% endapi-method-response-example %}

@@ -36,6 +36,9 @@ Cake successfully retrieved.
 
 ```
 {
+  "status": "SUCCESS",
+  "message": "....",
+  "payload": {
     "id": 1,
     "name": "Pricing Structure #1",
     "viewId": 1,
@@ -133,7 +136,8 @@ Cake successfully retrieved.
             "children": []
         }
     ]
-}
+  }
+ }
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}

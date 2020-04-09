@@ -34,6 +34,9 @@ Cake successfully retrieved.
 
 ```
 {
+  "status": "SUCCESS",
+  "message": "....",
+  "payload": {
     "jwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxLCJ1c2VybmFtZSI6ImN5cHJlc3MiLCJmaXJzdE5hbWUiOiJjeXByZXNzIiwibGFzdE5hbWUiOiJqZWUiLCJ0aGVtZSI6ImRlZXBwdXJwbGVfYW1iZXJfbGlnaHQiLCJlbWFpbCI6InRtamVlZUBnbWFpbC5jb20iLCJncm91cHMiOlt7ImlkIjoxLCJuYW1lIjoiVklFVyBHcm91cCIsImRlc2NyaXB0aW9uIjoiR3JvdXAgd2l0aCBWSUVXIHJvbGUiLCJzdGF0dXMiOiJFTkFCTEVEIiwicm9sZXMiOlt7ImlkIjoxLCJuYW1lIjoiVklFVyIsImRlc2NyaXB0aW9uIjoiVklFVyBSb2xlIn1dfSx7ImlkIjoyLCJuYW1lIjoiRURJVCBHcm91cCIsImRlc2NyaXB0aW9uIjoiR3JvdXAgd2l0aCBWSUVXICYgRURJVCByb2xlIiwic3RhdHVzIjoiRU5BQkxFRCIsInJvbGVzIjpbeyJpZCI6MiwibmFtZSI6IkVESVQiLCJkZXNjcmlwdGlvbiI6IkVESVQgUm9sZSJ9XX0seyJpZCI6MywibmFtZSI6IkFETUlOIEdyb3VwIiwiZGVzY3JpcHRpb24iOiJHcm91cCB3aXRoIFZJRVcgJiBFRElUICYgUEFSVE5FUiAmIEFETUlOIHJvbGUiLCJzdGF0dXMiOiJFTkFCTEVEIiwicm9sZXMiOlt7ImlkIjozLCJuYW1lIjoiQURNSU4iLCJkZXNjcmlwdGlvbiI6IkFETUlOIFJvbGUifV19LHsiaWQiOjQsIm5hbWUiOiJQQVJUTkVSIEdyb3VwIiwiZGVzY3JpcHRpb24iOiJHcm91cCB3aXRoIFBBUlRORVIgcm9sZSIsInN0YXR1cyI6IkVOQUJMRUQiLCJyb2xlcyI6W3siaWQiOjQsIm5hbWUiOiJQQVJUTkVSIiwiZGVzY3JpcHRpb24iOiJQQVJUTkVSIFJvbGUifV19XX0sImlhdCI6MTU4Mzk4NzU1NiwiZXhwIjoxNTgzOTkxMTU2fQ.hZD9qusN9hac9Kc8auHUXHbsmoM6hKarnRj8HRD000c",
     "status": "SUCCESS",
     "message": "Successfully logged in",
@@ -99,6 +102,7 @@ Cake successfully retrieved.
             }
         ]
     }
+  }
 }
 ```
 {% endapi-method-response-example %}

@@ -30,6 +30,9 @@ Cake successfully retrieved.
 
 ```
 {
+  "status": "SUCCESS",
+  "message": "....",
+  "payload": {
     "id": 3,
     "activated": 0,
     "creationDate": "2020-03-09T23:04:14.000Z",
@@ -38,6 +41,7 @@ Cake successfully retrieved.
         1,
         4
     ]
+  }
 }
 ```
 {% endapi-method-response-example %}

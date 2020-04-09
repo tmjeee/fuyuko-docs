@@ -62,6 +62,8 @@ Cake successfully retrieved.
 
 ```
 {
+  "status": "SUCCESS",
+  "payload":{
     "valid": true,
     "messages": [
         {
@@ -70,6 +72,7 @@ Cake successfully retrieved.
             "message": "Custom export job 0.0.1-sample-custom-export-1.js-f7eaf241-41a0-4cf2-ba9f-5a30f76bfcc3 submitted"
         }
     ]
+  }
 }
 ```
 {% endapi-method-response-example %}

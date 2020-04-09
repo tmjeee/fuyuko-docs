@@ -50,6 +50,9 @@ Cake successfully retrieved.
 
 ```
 {
+  "status": "SUCCESS",
+  "message": "....",
+  "payload": {
     "type": "PRICE",
     "attributes": [
         {
@@ -2081,6 +2084,7 @@ Cake successfully retrieved.
             "children": []
         }
     ]
+  }
 }
 ```
 {% endapi-method-response-example %}

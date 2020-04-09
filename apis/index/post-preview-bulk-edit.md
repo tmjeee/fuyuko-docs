@@ -46,6 +46,9 @@ Cake successfully retrieved.
 
 ```
 {
+  "status": "SUCCESS",
+  "message": "....",
+  "payload": {
     "changeAttributes": [
         {
             "id": 4,
@@ -734,6 +737,7 @@ Cake successfully retrieved.
             }
         }
     ]
+  }
 }
 ```
 {% endapi-method-response-example %}

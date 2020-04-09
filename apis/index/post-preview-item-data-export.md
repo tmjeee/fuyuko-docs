@@ -46,6 +46,9 @@ Cake successfully retrieved.
 
 ```
 {
+  "status": "SUCCESS",
+  "message": "....",
+  "payload": {
     "type": "ITEM",
     "attributes": [
         {
@@ -2077,6 +2080,7 @@ Cake successfully retrieved.
             "children": []
         }
     ]
+  }
 }
 ```
 {% endapi-method-response-example %}

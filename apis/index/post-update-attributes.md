@@ -62,6 +62,7 @@ Request body is expected to be in JSON Object with an `attributes` property of J
 {% endhint %}
 
 ```text
+// following is how the JSON Object would be like
 {
   "attributes": [
     {

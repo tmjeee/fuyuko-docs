@@ -30,6 +30,8 @@ Cake successfully retrieved.
 
 ```
 {
+    "status": "SUCCESS",
+    "message": "....",
     "total": 4,
     "limit": 4,
     "offset": 0,

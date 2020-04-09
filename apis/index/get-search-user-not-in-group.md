@@ -39,7 +39,10 @@ Cake successfully retrieved.
 {% endapi-method-response-example-description %}
 
 ```
-[
+{
+  "status": "SUCCESS",
+  "message": "....",
+  "payload": [
     {
         "id": 5,
         "username": "editor1",
@@ -247,7 +250,8 @@ Cake successfully retrieved.
             }
         ]
     }
-]
+  ]
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}

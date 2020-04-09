@@ -40,9 +40,13 @@ Cake successfully retrieved.
 
 ```
 {
+  "status": "SUCCESS",
+  "message": "....",
+  "payload": {
     "key1": "value1",
     "key2": "value2"
-}
+  }
+} 
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}

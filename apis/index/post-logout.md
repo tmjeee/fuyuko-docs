@@ -24,7 +24,7 @@ Cake successfully retrieved.
 
 ```
 {
-    "ok": true,
+    "status": "SUCCESS",
     "message": "Logged out, have a nice day"
 }
 ```

@@ -58,6 +58,8 @@ Cake successfully retrieved.
 
 ```
 {
+  "status": "SUCCESS",
+  "payload":{
     "valid": true,
     "messages": [
         {
@@ -66,6 +68,7 @@ Cake successfully retrieved.
             "message": "sample info message"
         }
     ]
+  }
 }
 ```
 {% endapi-method-response-example %}

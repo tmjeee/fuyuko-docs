@@ -56,6 +56,9 @@ User successfully saved.
 
 ```
 {
+  "status": "SUCCESS",
+  "message": "....",
+  "payload": {
     "id": 1,
     "firstName": "xxxxx",
     "lastName": "yyyyyy",
@@ -116,6 +119,7 @@ User successfully saved.
             ]
         }
     ]
+  }
 }
 ```
 {% endapi-method-response-example %}

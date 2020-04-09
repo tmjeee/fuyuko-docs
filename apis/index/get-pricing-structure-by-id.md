@@ -36,12 +36,16 @@ Cake successfully retrieved.
 
 ```
 {
+  "status": "SUCCESS",
+  "message": "....",
+  "payload": {
     "id": 1,
     "viewId": 1,
     "name": "Pricing Structure #1",
     "description": "Pricing Structure #1 Description",
     "creationDate": "2020-03-23T06:51:24.000Z",
     "lastUpdate": "2020-03-23T06:51:24.000Z"
+  }
 }
 ```
 {% endapi-method-response-example %}

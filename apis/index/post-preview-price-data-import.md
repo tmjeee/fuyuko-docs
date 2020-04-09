@@ -48,6 +48,9 @@ Cake successfully retrieved.
 
 ```
 {
+  "status": "SUCCESS",
+  "message": "....",
+  "payload": {
     "type": "PRICE",
     "dataImportId": 6,
     "messages": {
@@ -65,6 +68,7 @@ Cake successfully retrieved.
         ]
     },
     "items": []
+ }
 }
 ```
 {% endapi-method-response-example %}

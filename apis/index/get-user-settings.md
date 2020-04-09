@@ -36,9 +36,13 @@ Cake successfully retrieved.
 
 ```
 {
+  "status": "SUCCESS",
+  "message": "....",
+  "payload": {
     "openHelpNav": false,
     "openSideNav": true,
     "openSubSideNav": true
+  }
 }
 ```
 {% endapi-method-response-example %}

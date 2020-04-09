@@ -46,6 +46,9 @@ Cake successfully retrieved.
 
 ```
 {
+  "status": "SUCCESS",
+  "message": "....",
+  "payload": {
     "id": 3,
     "name": "item-data-import-job-405e9259-fda8-4fc7-b0a0-4292a135384e",
     "description": "item-data-import-job-405e9259-fda8-4fc7-b0a0-4292a135384e description",
@@ -53,17 +56,8 @@ Cake successfully retrieved.
     "lastUpdate": "2020-03-16T04:36:15.000Z",
     "status": "ENABLED",
     "progress": "SCHEDULED"
+  }
 }
-```
-{% endapi-method-response-example %}
-
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-Could not find a cake matching this query.
-{% endapi-method-response-example-description %}
-
-```
-{    "message": "Ain't no cake like that."}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}

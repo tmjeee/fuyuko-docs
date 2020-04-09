@@ -35,7 +35,10 @@ Cake successfully retrieved.
 {% endapi-method-response-example-description %}
 
 ```
-[
+{
+  "status": "SUCCESS",
+  "message": "....",
+  "payload": [
     {
         "id": 1,
         "name": "Pricing Structure #1",
@@ -52,7 +55,8 @@ Cake successfully retrieved.
         "creationDate": "2020-03-23T06:51:24.000Z",
         "lastUpdate": "2020-03-23T06:51:24.000Z"
     }
-]
+  ]
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}

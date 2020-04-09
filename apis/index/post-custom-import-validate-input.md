@@ -58,14 +58,20 @@ Cake successfully retrieved.
 
 ```
 {
-    "valid": true,
-    "messages": [
+  "status": "SUCCESS",
+  "payload": {
+  "status": "SUCCESS",
+   "payload": {
+     "valid": true,
+     "messages": [
         {
             "status": "INFO",
             "title": "sample info title",
             "message": "sample info message"
         }
-    ]
+     ]
+   }
+ }
 }
 ```
 {% endapi-method-response-example %}
