@@ -59,6 +59,7 @@ Cake successfully retrieved.
 ```
 {
   "status": "SUCCESS",
+  "message": "...",
   "payload": {
   "status": "SUCCESS",
    "payload": {

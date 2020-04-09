@@ -63,6 +63,7 @@ Cake successfully retrieved.
 ```
 {
   "status": "SUCCESS",
+  "message": "...",
   "payload": {
     "valid": true,
     "messages": [

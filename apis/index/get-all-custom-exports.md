@@ -31,6 +31,7 @@ Cake successfully retrieved.
 ```
 {
   "status": "SUCCESS",
+  "message": "...",
   "payload":[
     {
         "id": 1,
