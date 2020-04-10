@@ -38,8 +38,15 @@
   * [Dev - Building](developer-guide/untitled/dev-building.md)
   * [Dev - Front End](developer-guide/untitled/dev-front-end/README.md)
     * [Dev - FE - Configuration](developer-guide/untitled/dev-front-end/dev-fe-configuration.md)
+    * [Dev - BE - Docker](developer-guide/untitled/dev-front-end/dev-be-docker.md)
   * [Dev - Back End](developer-guide/untitled/dev-back-end/README.md)
     * [Dev - BE - Configuration](developer-guide/untitled/dev-back-end/dev-be-configuration.md)
+    * [Dev - BE - Updater](developer-guide/untitled/dev-back-end/dev-be-updater.md)
+    * [DEV - BE - End Point Route](developer-guide/untitled/dev-back-end/dev-be-end-point-route.md)
+    * [Dev - BE - Custom Rule](developer-guide/untitled/dev-back-end/dev-be-custom-rule.md)
+    * [Dev - BE - Custom Export](developer-guide/untitled/dev-back-end/dev-be-custom-export.md)
+    * [Dev - BE - Custom Import](developer-guide/untitled/dev-back-end/dev-be-custom-import.md)
+    * [Dev - BE - Docker](developer-guide/untitled/dev-back-end/dev-be-docker.md)
   * [Dev - Database](developer-guide/untitled/dev-database.md)
 
 ## APIs
