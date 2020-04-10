@@ -61,7 +61,7 @@ There should be no spaces between `=` and both `<config-name>` and `<config-valu
 
 ### Configurations
 
-Make sure configurations in `src/config/config.json` is being setup accordingly
+Make sure configurations in `src/config/config.json` is being setup accordingly. See [here](dev-front-end/dev-fe-configuration.md) for more info about the possible configuration options.
 
 ## Back End Installation
 
@@ -85,5 +85,5 @@ $> ng serve &
 
 ### Configurations
 
-Setup the configurations in `src/config/config.json` accodingly 
+Setup the configurations in `src/config/config.json` accodingly. See [here](dev-back-end/dev-be-configuration.md) for more information about the configuration options.
 
