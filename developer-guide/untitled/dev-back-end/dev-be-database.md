@@ -28,13 +28,22 @@ const q: QueryA = await conn.query(`
 // QueryA allows one to iterate over it, 
 // each individual iteration results in a QueryI
 for (const i of q) {
-   // i will be of type QueryI
+   // i can be of type QueryI
    const queryI: QueryI = i;
    
    const id: number = queryI.ID;
    const name: string = queryI.NAME;
    const description: string = queryI.DESCRIPTION;
+   
+   // we can acces metadata of columns as well
+   // m can be of type QueryM as well
+   const queryM: QueryM = i;
+   
+   // get the type of the column
+   const columnType: string = queryM.meta.type;
 }
+
+
 ```
 
 ## Processing SQL Updates
