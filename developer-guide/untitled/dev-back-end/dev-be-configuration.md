@@ -1,5 +1,7 @@
 # Dev - BE - Configuration
 
+## General configurations
+
 Follwowing is the configuration file, `config.json`,  located in `/src/config/`
 
 ```text
@@ -55,4 +57,19 @@ Follwowing is the configuration file, `config.json`,  located in `/src/config/`
 | smtp-password |  |
 | smtp-from-email |  |
 | default-theme |  |
+
+## Overriding configurations 
+
+Configurations can be overriden at command line eg.
+
+```text
+$> node app.js --db-user="myUser" --db-password="myPass"
+```
+
+would override `db-user` and `db-password` config properties to `myUser` and `myPass` respectively.
+
+{% hint style="info" %}
+* Note the double quotes, they are parsed, so the double quotes are needed to indicate it is string, similarly `["one","two"]` would be parsed to array of `strings` as some config properties takes in array of `strings` eg. `updater-profiles`
+* Note that there is no space on both left and right of the `=`, it needs to be `<config_property>=<config_value_expression>`
+{% endhint %}
 
