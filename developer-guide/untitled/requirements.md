@@ -59,6 +59,10 @@ node src/app.js --db-host=mariadb
 There should be no spaces between `=` and both `<config-name>` and `<config-value>`
 {% endhint %}
 
+### Configurations
+
+Make sure configurations in `src/config/config.json` is being setup accordingly
+
 ## Back End Installation
 
 Following instructions assume we are in b`e/` subdirectory of the root installation directory, if you are not cd into it using the following command
@@ -78,4 +82,8 @@ To run in background
 ```text
 $> ng serve &
 ```
+
+### Configurations
+
+Setup the configurations in `src/config/config.json` accodingly 
 

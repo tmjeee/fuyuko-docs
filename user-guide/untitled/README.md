@@ -8,11 +8,7 @@
 
 ## [Profile](profile.md)
 
-## [User Management](user-roles-management.md)
-
-## [Invitation & Activation](invitation-and-activation.md)
-
-## [Self Registration](self-registration.md)
+## [Registering / Request Access](registering-request-access/)
 
 ## [Rules](rules.md)
 
