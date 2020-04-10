@@ -10,9 +10,15 @@ Warning:
 This documentation is currently a work in progress. Updates and changes will be made in time. Utill this warning message is gone, it should be treated as a beta version where drastic changes can be made.
 {% endhint %}
 
-This is the official documentation of **Fuyuko Master Data Management Software Version 1.0.0** documentation. 
+{% hint style="info" %}
+Github repository \(source code\) for the application can be found [here](https://github.com/tmjeee/fuyuko). 
+{% endhint %}
 
-It is divided into the following sections :-
+{% hint style="info" %}
+Bug / feature report\(s\) can be done [here](https://github.com/tmjeee/fuyuko/issues).
+{% endhint %}
+
+This is the documentation of **Fuyuko Master Data Management Software \(version 1.0.0\)** documentation. 
 
 ## [User Documentation](user-guide/untitled/)
 
