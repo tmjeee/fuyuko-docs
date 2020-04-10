@@ -52,11 +52,11 @@ $> node src/app.js --<config-name>=<config-value>
 Eg. the following would override `db-host` to `mariadb`
 
 ```text
-node src/app.js --db-host=mariadb
+node src/app.js --db-host="mariadb"
 ```
 
 {% hint style="info" %}
-There should be no spaces between `=` and both `<config-name>` and `<config-value>`
+There should be no spaces between `=` and both `<config-name>` and `<config-value>`. See [here](dev-back-end/dev-be-configuration.md) for more information regarding configuration and its properties
 {% endhint %}
 
 ### Configurations
