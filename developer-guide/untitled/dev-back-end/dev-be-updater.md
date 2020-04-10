@@ -17,7 +17,7 @@ Located in `src/config/config.json`, following are the properties that govern up
 
 ### `updater-run` property
 
-To turn updater on or off. No updater scripts will be run if turn off.
+To turn updater on or off. No updater scripts will be run if it is off.
 
 ### `updater-profiles` property
 
