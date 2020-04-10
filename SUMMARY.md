@@ -47,7 +47,7 @@
     * [Dev - BE - utils](developer-guide/untitled/dev-back-end/dev-be-utils.md)
     * [Dev - BE - models](developer-guide/untitled/dev-back-end/dev-be-models.md)
     * [Dev - BE - Updater](developer-guide/untitled/dev-back-end/dev-be-updater.md)
-    * [DEV - BE - End Point Route](developer-guide/untitled/dev-back-end/dev-be-end-point-route.md)
+    * [DEV - BE - REST End Point Route](developer-guide/untitled/dev-back-end/dev-be-end-point-route.md)
     * [Dev - BE - Custom Rule](developer-guide/untitled/dev-back-end/dev-be-custom-rule.md)
     * [Dev - BE - Custom Export](developer-guide/untitled/dev-back-end/dev-be-custom-export.md)
     * [Dev - BE - Custom Import](developer-guide/untitled/dev-back-end/dev-be-custom-import.md)
