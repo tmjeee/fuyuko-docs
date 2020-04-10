@@ -70,6 +70,6 @@ would override `db-user` and `db-password` config properties to `myUser` and `my
 
 {% hint style="info" %}
 * Note the double quotes, they are parsed, so the double quotes are needed to indicate it is string, similarly `["one","two"]` would be parsed to array of `strings` as some config properties takes in array of `strings` eg. `updater-profiles`
-* Note that there is no space on both left and right of the `=`, it needs to be `<config_property>=<config_value_expression>`
+* Note that there is no space on both left and right of the `=`, it needs to be `<config_property>=<config_value>`
 {% endhint %}
 
