@@ -42,9 +42,42 @@ Following is a typical directory structure for `src/updater`
 * Scripts will run once only \(regardless of how many times the application is started\) as it will registered itself upon first run.
 * Script only runs when has a profile defined in `updater-profiles` properties located in `src/config/config.json`.
 
-
-
 ## Profile
 
- 
+ Each script can have many profiles. But they need to match with the updater's profile \(defined by `updater-profiles` property in the configuration\) in order for it to be executed, if it has not yet being executed before.
+
+## Writing a custom updater script
+
+Writing a custom updater script would require:
+
+* creating a script file that follows `<semver-version-format>-<name of script>.ts` format
+* the script file needs to be located in `src/updater/scripts` folder
+* the script file needs to contain
+  * a `profiles` property that returns an array of profile \(string\) it supports
+  * a `update()` function where the operations related to it's update should be performed
+
+ Example,
+
+```text
+// an example of an update script ts file
+
+// profiles that this script supports
+export const profiles = ['MY_PROFILE'];
+
+// function to call to perform an update
+export const update = async () => {
+   // code for this script actual update operation
+   ...
+} 
+```
+
+{% hint style="info" %}
+The '`MY_PROFILE`' will need to present in updater's profile as well in order for the script to run
+
+```
+ "updater-profiles": [ ..., "MY_PROFILE" ]  
+```
+{% endhint %}
+
+
 
