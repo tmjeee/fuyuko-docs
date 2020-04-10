@@ -1,10 +1,14 @@
 # Dev - BE - logger
 
+## Import
+
 This package is located in `src/logger`, typically imported through
 
 ```text
 import {d, i, w, e} from '<path_to>/src/logger';
 ```
+
+## Usage
 
 logging can be done as follows :-
 

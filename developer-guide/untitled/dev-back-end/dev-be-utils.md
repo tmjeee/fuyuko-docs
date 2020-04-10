@@ -1,6 +1,6 @@
 # Dev - BE - utils
 
-## General
+## Import
 
 Utilities classes are under `src/util` folder
 
@@ -9,9 +9,9 @@ import {makeApiError, makeApiErrorObj, fsRead, fsReadResult, range}
        from '<path-to>/src/util';
 ```
 
-### `makeApiErrorObj` and `makeApiError`
+## `makeApiErrorObj` and `makeApiError`
 
-### `fsRead`
+## `fsRead`
 
-### `range`
+## `range`
 
