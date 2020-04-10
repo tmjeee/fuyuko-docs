@@ -61,6 +61,23 @@ export default reg;
 Routing script needs to be register in `src/route/v1/v1-app-router.ts` as follows
 
 ```text
+import registerGetMyCustomScriptRoute 
+     from '<path-to>/GET-my-custom-script.route.ts';     // (1)
+
+....
+
+registerGetMyCustomScriptRoute(                          // (2)
+     v1AppRouter,                                        // (3)
+     registry                                            // (4)
+);
 
 ```
+
+### Point \(1\)
+
+### Point \(2\)
+
+### Point \(3\)
+
+### Point \(4\)
 
