@@ -33,13 +33,13 @@ Removing and existing custom rule, will result in all it's information being los
 
 Upon startup, the application will try to synchronise the custom rule scripts with the information it had in the database based on the following conditions:
 
-1. If a custom rule script, identified by it's name exists in src/custom-rule/rules directory but do not exists in application database, one will be created
-2. If a custom rule script, identifed by its name do not exists in src/custom-rule/rules directory but exists in application database, the one in application database will be wipe out.
-3. If a custom rule script, identified by its name exists in src/custom-rule/rules directory and also exists in application database, no action is required, they are in sync.
+1. If a custom rule script, identified by it's **file** **name** exists in `src/custom-rule/rules` directory but do not exists in application database, one will be **created**
+2. If a custom rule script, identifed by its **file name** do not exists in `src/custom-rule/rules` directory but exists in application database, the one in application database will be **wipe out**.
+3. If a custom rule script, identified by its **file name** exists in `src/custom-rule/rules` directory and also exists in application database, **no action is required**, they are in sync.
 
 ## Script Structure
 
-The name of the rule would be the filename of the custom rule script.
+The name of the custom rule would be the **filename** of the custom rule script.
 
 If you were to write a custom rule script , you would need to follow this structure.
 
