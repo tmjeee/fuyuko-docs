@@ -3,7 +3,13 @@
 ## Directory Structure
 
 ```text
-
++ src/
+   + component/
+      + attribute-table-component/
+      + avatar-component/
+      + carousel-component/
+      + dashboard-component/
+      ...
 ```
 
 ## Characteristics
@@ -14,4 +20,5 @@
   * `@Ouput()` events
   * `@Input()` callback functions
 * Reusability
+* Each component directory is an angular module by itself and can encompass many related components.
 
