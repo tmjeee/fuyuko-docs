@@ -1,6 +1,6 @@
 # Dev - BE - Configuration
 
-## General configurations
+## Configurations
 
 Follwowing is the configuration file, `config.json`,  located in `/src/config/`
 
