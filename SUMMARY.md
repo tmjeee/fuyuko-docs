@@ -38,7 +38,7 @@
   * [Dev - Building](developer-guide/untitled/dev-building.md)
   * [Dev - Front End](developer-guide/untitled/dev-front-end/README.md)
     * [Dev - FE - Configuration](developer-guide/untitled/dev-front-end/dev-fe-configuration.md)
-    * [Dev - BE - Docker](developer-guide/untitled/dev-front-end/dev-be-docker.md)
+    * [Dev - FE - Docker](developer-guide/untitled/dev-front-end/dev-be-docker.md)
   * [Dev - Back End](developer-guide/untitled/dev-back-end/README.md)
     * [Dev - BE - Configuration](developer-guide/untitled/dev-back-end/dev-be-configuration.md)
     * [Dev - BE - Node](developer-guide/untitled/dev-back-end/dev-be-node.md)
@@ -54,8 +54,8 @@
     * [Dev - BE - Docker](developer-guide/untitled/dev-back-end/dev-be-docker.md)
   * [Dev - Database](developer-guide/untitled/dev-database/README.md)
     * [Dev - DB - Tables](developer-guide/untitled/dev-database/dev-database.md)
-    * [Dev - DB - Docker](developer-guide/untitled/dev-database/dev-db-docker.md)
     * [Dev -DB -SQLs](developer-guide/untitled/dev-database/dev-db-sqls.md)
+    * [Dev - DB - Docker](developer-guide/untitled/dev-database/dev-db-docker.md)
 
 ## APIs
 
