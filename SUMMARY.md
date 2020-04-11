@@ -52,7 +52,10 @@
     * [Dev - BE - Custom Export](developer-guide/untitled/dev-back-end/dev-be-custom-export.md)
     * [Dev - BE - Custom Import](developer-guide/untitled/dev-back-end/dev-be-custom-import.md)
     * [Dev - BE - Docker](developer-guide/untitled/dev-back-end/dev-be-docker.md)
-  * [Dev - Database](developer-guide/untitled/dev-database.md)
+  * [Dev - Database](developer-guide/untitled/dev-database/README.md)
+    * [Dev - DB - Tables](developer-guide/untitled/dev-database/dev-database.md)
+    * [Dev - DB - Docker](developer-guide/untitled/dev-database/dev-db-docker.md)
+    * [Dev -DB -SQLs](developer-guide/untitled/dev-database/dev-db-sqls.md)
 
 ## APIs
 

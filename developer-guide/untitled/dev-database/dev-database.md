@@ -1,8 +1,4 @@
-# Dev - Database
-
-{% hint style="info" %}
-This software was designed to work with **MariaDB** or **MySQL** or their derivatives 
-{% endhint %}
+# Dev - DB - Tables
 
 Following are the tables and description of their functions group by features
 
