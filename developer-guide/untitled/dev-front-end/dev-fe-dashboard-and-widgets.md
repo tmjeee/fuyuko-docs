@@ -41,7 +41,7 @@ A 2 columns dashboard strategy
 
 ### Creating a new Dashboard Strategy
 
-Create a custom dashboard strategy file with a class that Implements DashboardStrategy as follows :
+Create a custom dashboard strategy file with a class that Implements `DashboardStrategy` as follows :
 
 ```text
 export class MyDashboardStrategy implements DashboardStrategy {
@@ -126,7 +126,41 @@ export const DASHBOARD_STRATEGIES = [
 
 ### Creating a new Dashboard Widget
 
+Create a custom dashboard widget file with a class that extends `DashboardWidget` as follows :
 
+{% hint style="info" %}
+As this is a normal angular widget, you can implements `OnInit`, `OnDestroy` or any other angular component lifecycle interfaces
+{% endhint %}
+
+```text
+@Component({
+    templateUrl: './my-widget.component.html',
+    styleUrls: ['./my-widget.component.scss']
+})
+export class MyWidgetComponent extends DashboardWidget {
+
+    static info(): DashboardWidgetInfo {                                // (1)
+        return { 
+            id: 'my-widget', 
+            name: 'my-widget', 
+            type: MyWidgetComponent 
+        };
+    }
+
+    constructor(dashboardWidgetService: DashboardWidgetService) {       // (2)
+        super(dashboardWidgetService);
+    }
+
+    saveClicked() {
+        this.saveData(userId, widgetInstance, data);
+    }
+    
+    loadClicked() {
+    
+    }
+}
+
+```
 
 
 
