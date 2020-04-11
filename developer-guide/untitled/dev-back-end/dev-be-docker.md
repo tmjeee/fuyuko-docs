@@ -43,6 +43,6 @@ $> docker logs tmjee-fuyuko-be
 ## Inspect docker container's properties
 
 ```text
-$> docker inspect tmjee-fuyuko-fe
+$> docker inspect tmjee-fuyuko-be
 ```
 
