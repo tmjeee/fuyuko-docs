@@ -25,6 +25,20 @@ Dashboard has 2 properties:
 * A strategy that dictates how the dashboard widgets should be layout. It can be a 1 column strategy, which layout dashboard wigets in single column or a 2 columns strategy, which layout dashboard wigets in 2 columns or it can be something entirely different
 * A bunch of dashboard wigets that could be dragged and drop on to the dashboard. Each widgets can be created multiple times, eg Widget1 for example can be drop 2 times creating widgets of different instance but all are of Widget1 type.
 
+### Current Available Dashboard Strategies
+
+#### dashboard-1x.strategy.ts
+
+A single column dashboard strategy
+
+![](../../../.gitbook/assets/dashboard-strategy-1x.png)
+
+#### dashboard-2x.strategy.ts
+
+A 2 columns dashboard strategy
+
+![](../../../.gitbook/assets/dashboard-strategy-2x.png)
+
 ### Creating a new Dashboard Strategy
 
 Create a custom dashboard strategy file with a class that Implements DashboardStrategy as follows :
