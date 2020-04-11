@@ -34,27 +34,75 @@ Following is the directory structure for layouts
 
 ![](../../../.gitbook/assets/dashboard-layout.png)
 
+| Section | Description |
+| :--- | :--- |
+| Toolbar |  |
+| side nav |  |
+| primary outlet |  |
+| help menu |  |
+
 ### gen-layout
 
 ![](../../../.gitbook/assets/gen-layout.png)
+
+| Section | Description |
+| :--- | :--- |
+| Toolbar |  |
+| side nav |  |
+| primary outlet |  |
+| help menu |  |
 
 ### import-export-gen-layout
 
 ![](../../../.gitbook/assets/import-export-layout.png)
 
+| Section | Description |
+| :--- | :--- |
+| Toolbar |  |
+| side nav |  |
+| primary outlet |  |
+| help menu |  |
+
 ### login-layout
 
 ![](../../../.gitbook/assets/login-layout.png)
+
+| Section | Description |
+| :--- | :--- |
+| primary router |  |
 
 ### partner-layout
 
 ![](../../../.gitbook/assets/partner-layout.png)
 
+| Section | Description |
+| :--- | :--- |
+| Toolbar |  |
+| side nav |  |
+| primary outlet |  |
+| help menu |  |
+
 ### user-gen-layout
 
 ![](../../../.gitbook/assets/user-gen-layout.png)
 
+| Section | Description |
+| :--- | :--- |
+| Toolbar |  |
+| side nav |  |
+| sub-side nav |  |
+| primary outlet |  |
+| help menu |  |
+
 ### view-gen-layout
 
 ![](../../../.gitbook/assets/view-gen-layout.png)
+
+| Section | Description |
+| :--- | :--- |
+| Toolbar |  |
+| side nav |  |
+| sub-side nav |  |
+| primary outlet |  |
+| help menu |  |
 
