@@ -34,3 +34,9 @@ $> docker container ls | grep -i tmjee
 
 This will list all fuyuko application related docker containers
 
+## See docker container's logs
+
+```text
+$> docker logs tmjee-fuyuko-be
+```
+
