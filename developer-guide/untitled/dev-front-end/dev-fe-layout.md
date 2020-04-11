@@ -29,6 +29,7 @@ Following is the directory structure for layouts
 * [Layout components](dev-fe-layout.md) are angular components, that decide how `<router-outlet>` are layouted eg. side navigation, sub-side navigation, help menu etc.
 * In rare cases it might require services to be injected
 * It is the main components wrapping [page components](dev-fe-page.md) which in order wrapped [components](dev-fe-component.md)
+* Not reusable
 
 ### dashboard-layout
 
