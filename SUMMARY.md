@@ -59,6 +59,7 @@
     * [Dev - BE - Custom Rule](developer-guide/untitled/dev-back-end/dev-be-custom-rule.md)
     * [Dev - BE - Custom Export](developer-guide/untitled/dev-back-end/dev-be-custom-export.md)
     * [Dev - BE - Custom Import](developer-guide/untitled/dev-back-end/dev-be-custom-import.md)
+    * [DEV - BE - Error handling](developer-guide/untitled/dev-back-end/dev-be-error-handling.md)
     * [Dev - BE - Docker](developer-guide/untitled/dev-back-end/dev-be-docker.md)
   * [Dev - Database](developer-guide/untitled/dev-database/README.md)
     * [Dev - DB - Tables](developer-guide/untitled/dev-database/dev-database.md)
