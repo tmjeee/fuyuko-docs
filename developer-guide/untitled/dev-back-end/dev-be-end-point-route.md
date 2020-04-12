@@ -7,6 +7,14 @@ Located in `src/route` directory and is versioned eg.
 * `src/route/v1`, will be the **version 1** of the REST end point routes
 * `src/route/v2`, which do not exists as of this writting, will be the **version 2** of the REST end point routes
 
+## Error Handling
+
+There are 2 ways of bubbling up exception, see [here](dev-be-error-handling.md) for more information about error handling
+
+* Throwing exception
+* Returning a HTTP status of 400  an `ApiErrorContext`
+* Returning a HTTP status of 200 with `ApiResponse` having status as '**ERROR**'
+
 ## Script naming convention
 
 Typically named as follows
