@@ -5,8 +5,14 @@
 ```text
 + src/
    + app/
-      + model/
-      + share-utils/
+      + model/                     // Section: Shared Models
+      + share-utils/               // Section: Shared Utils
         
 ```
+
+## Shared Models
+
+## Shared Utils
+
+
 
