@@ -147,20 +147,38 @@ export class MyWidgetComponent extends DashboardWidget {
         };
     }
 
-    constructor(dashboardWidgetService: DashboardWidgetService) {       // (2)
+    constructor(dashboardWidgetService: DashboardWidgetService,        // (2)
+                authService: AuthService) {   
         super(dashboardWidgetService);
     }
 
-    saveClicked() {
-        this.saveData(userId, widgetInstance, data);
+    loadClicked() {                                                    // (3)
+        this.loadData().pipe((tap(data: DataMap) => {
+           // data loaded
+        }).subscribe();
     }
-    
-    loadClicked() {
-    
-    }
-}
 
+    saveClicked() {                                                    // (4)
+        const data: DataMap = {
+           myData1: 'myDataValue1',
+           myData2: 'myDataValue2'
+        };
+        this.saveData(data).pipe((tap(r: ApiResponse) => {
+          if (r.status === 'SUCCESS') {
+             // data saved
+          }
+        }).subscribe();
+    }    
+}
 ```
+
+#### Point \(1\)
+
+#### Point \(2\)
+
+#### Point \(3\)
+
+#### Point \(4\)
 
 
 
