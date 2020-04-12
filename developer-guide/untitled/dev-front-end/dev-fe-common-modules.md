@@ -5,18 +5,18 @@
 ```text
 + /src
    + /app/
-      + error-handler/                            // Error Handling
+      + error-handler/                  // Section: Error Handling
         ...
-      + guard/                                    // Guards
+      + guard/                          // Section: Guards
         ...
-      + interceptor/                              // Interceptor
+      + interceptor/                    // Section: Interceptor
         ...
-      + utils/                                    // Utils
+      + utils/                          // Section: Utils
         ...
       + component/
-         + shared-component-utils/                // Angular Component Utils
+         + shared-component-utils/      // Section: Angular Component Utils
            ...
-      - app-materials.module.ts                   // Angular Materials Module 
+      - app-materials.module.ts         // Seciton: Angular Materials Module 
 ```
 
 ## Error Handling
