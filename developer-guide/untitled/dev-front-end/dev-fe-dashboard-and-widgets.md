@@ -41,14 +41,13 @@ A 2 columns dashboard strategy
 
 ### Creating a new Dashboard Strategy
 
-Create a custom dashboard strategy file with a class that Implements `DashboardStrategy` as follows :
+1\) Create a custom dashboard strategy file with a class that Implements `DashboardStrategy` as follows:
 
 ```text
 export class MyDashboardStrategy implements DashboardStrategy {
 
    columnIndexes(): number[] {                                          // (1)
       // return the indexes of columns this strategy has
-   
    }
    
    getDashboardWidgetInstancesForColumn(columnIndex: number):            // (2)
@@ -99,23 +98,39 @@ export class MyDashboardStrategy implements DashboardStrategy {
 
 #### Point \(1\)
 
+return the indexes of columns this strategy has.
+
 #### Point \(2\)
+
+return the widget instance for this column index  
 
 #### Point \(3\)
 
+add this serialized dashboard instance to this dashboard
+
 #### Point \(4\)
+
+remove the given dashbord widget instances identified by the given instance ids
 
 #### Point \(5\)
 
+move a dashboard widget in this column identified by the columnIndex, from previous index in this column \(previousIndex\) to a new index \(currentIndex\). This is basically moving widget in the same column.
+
 #### Point \(6\)
+
+this is basically moving Widget from a column to a different column, from previousColumnIndex to currentColumnIndex. The widget is in previousIndex in previous column and in currentIndex in the current column
 
 #### Point \(7\)
 
+serialize this dashboard for saving purposes. It should be able to reconstruct the dashboard based on the return string at later stage
+
 #### Point \(8\)
 
-Place custom dashboard strategy file in `src/component/dashboard-component/strategies` directory.
+deserialize this dashboard from the given serialized data
 
-Register strategy by adding it to `DASHBOARD_STRATEGIES` constant field in  `src/component/dashboard-component/strategies/index.ts` 
+2\) Place custom dashboard strategy file in `src/component/dashboard-component/strategies` directory.
+
+3\) Register strategy by adding it to `DASHBOARD_STRATEGIES` constant field in  `src/component/dashboard-component/strategies/index.ts` 
 
 ```text
 export const DASHBOARD_STRATEGIES = [
@@ -126,7 +141,7 @@ export const DASHBOARD_STRATEGIES = [
 
 ### Creating a new Dashboard Widget
 
-Create a custom dashboard widget file with a class that extends `DashboardWidget` as follows :
+1\) Create a custom dashboard widget file with a class that extends `DashboardWidget` as follows :
 
 {% hint style="info" %}
 As this is a normal angular widget, you can implements `OnInit`, `OnDestroy` or any other angular component lifecycle interfaces
@@ -147,15 +162,15 @@ export class MyWidgetComponent extends DashboardWidget {
         };
     }
 
-    constructor(dashboardWidgetService: DashboardWidgetService,        // (2)
-                authService: AuthService) {   
+    constructor(dashboardWidgetService: DashboardWidgetService) {      // (2)
         super(dashboardWidgetService);
     }
 
     loadClicked() {                                                    // (3)
-        this.loadData().pipe((tap(data: DataMap) => {
-           // data loaded
-        }).subscribe();
+        this.dashboardWidgetService.loadData()
+          .pipe((tap(data: DataMap) => {
+             // data loaded
+          }).subscribe();
     }
 
     saveClicked() {                                                    // (4)
@@ -163,22 +178,54 @@ export class MyWidgetComponent extends DashboardWidget {
            myData1: 'myDataValue1',
            myData2: 'myDataValue2'
         };
-        this.saveData(data).pipe((tap(r: ApiResponse) => {
-          if (r.status === 'SUCCESS') {
-             // data saved
-          }
-        }).subscribe();
+        this.dashboardWidgetService.saveData(data)
+           .pipe((tap(r: ApiResponse) => {
+              if (r.status === 'SUCCESS') {
+                 // data saved
+              }
+           }).subscribe();
     }    
 }
 ```
 
 #### Point \(1\)
 
+Create a `static info()` function returning a `DashboardWidgetInfo` object containing static info about the widget
+
+| Properties | Description |
+| :--- | :--- |
+| id |  |
+| name |  |
+| type |  |
+
 #### Point \(2\)
+
+Stick in constructor with dependencies \(`DashboardWidgetService`\) that superclass `DashboardWidget` required.
+
+{% hint style="info" %}
+`DashboardWidgetService` is scoped in such a way that every `DashboardWidget` will have a copy of a separate instace so that it can contain information specific to this `DashboardWidget` eg. `instanceId`, current `User` etc.
+{% endhint %}
 
 #### Point \(3\)
 
+One can load data for this widget instance through `DashboardWidgetService` `loadData()` function returning an `Observable<DataMap>`
+
 #### Point \(4\)
+
+One can save data for this widget instance through `DashboardWidgetService` `saveData(data)` function where data is of type `DataMap`, returning an `Observable<ApiResponse>`.
+
+2\) Place custom dashboard widget file in `src/component/dashboard-component/widgets/<widget-name>` directory, where `<widget-name>` in this case is your widget name eg. `my-widget-component` together will all the artifacts the components need eg. the html template and scss files just like any other Angular components would require.
+
+3\) Register strategy by adding it to `DASHBOARD_WIDGET_INFOS` constant field in  `src/component/dashboard-component/widgets/index.ts` 
+
+```text
+export const DASHBOARD_WIDGET_INFOS = [
+    ...
+    MyWidgetComponent.info(),
+    ...
+];
+
+```
 
 
 
