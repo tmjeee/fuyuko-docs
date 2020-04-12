@@ -4,8 +4,8 @@ App initializer lies as a const function in `src/app/app.module.ts`, it gets cal
 
 It does :
 
-* Custom init\(\) of services that needs it
-* Custom destroy\(\) of services that needs it.
-* init\(\) is done when user login
-* destroy\(\) is done when user logout
+* Custom `init()` of services that needs it, happens when user login
+* Custom `destroy()` of services that needs it, happens when user logout.
+
+
 
