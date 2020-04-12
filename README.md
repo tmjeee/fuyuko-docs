@@ -1,5 +1,7 @@
 ---
-description: Documentation of Fuyuko Master Data Management application.
+description: >-
+  Documentation of Fuyuko Master Data Management (MDM) / Product Information
+  Management (PIM) application.
 ---
 
 # Introduction
