@@ -48,6 +48,9 @@ Cake successfully retrieved.
 {
   "status": "SUCCESS",
   "message": "....",
+  "limit": 10,
+  "offset": 0,
+  "total": 200,
   "payload": [
     {
         "1": {
