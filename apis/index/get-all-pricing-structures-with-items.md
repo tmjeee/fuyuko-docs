@@ -26,6 +26,16 @@ Pricing Structure Id .
 Authentication token.
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-query-parameters %}
+{% api-method-parameter name="limit" type="number" required=false %}
+limit for pagination, greater than zero
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="offset" type="number" required=false %}
+offset for pagniation, zero or greater
+{% endapi-method-parameter %}
+{% endapi-method-query-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -43,7 +53,11 @@ Cake successfully retrieved.
     "name": "Pricing Structure #1",
     "viewId": 1,
     "description": "Pricing Structure #1 Description",
-    "items": [
+    "items": {
+      "limit": 10,
+      "offset": 0,
+      "total": 200,
+      "payload": [
         {
             "id": 1,
             "itemId": 1,
@@ -135,7 +149,7 @@ Cake successfully retrieved.
             "price": 9.39,
             "children": []
         }
-    ]
+    ]}
   }
  }
 ```
