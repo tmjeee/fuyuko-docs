@@ -30,6 +30,16 @@ View Id
 Authentication token.
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-query-parameters %}
+{% api-method-parameter name="limit" type="number" required=false %}
+Limit for pagination, greater than 0
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="offset" type="number" required=false %}
+Offset for pagination, 0 or greater
+{% endapi-method-parameter %}
+{% endapi-method-query-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -444,5 +454,9 @@ Cake successfully retrieved.
 
 {% hint style="info" %}
 `itemIds` can be comma separated if needs be
+{% endhint %}
+
+{% hint style="info" %}
+Query parameters limit and offset must both be present in order for pagination to work.
 {% endhint %}
 
