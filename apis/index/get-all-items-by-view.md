@@ -29,11 +29,11 @@ Authentication token.
 
 {% api-method-query-parameters %}
 {% api-method-parameter name="limit" type="number" required=false %}
-limit for pagination
+limit for pagination, greater than 0
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="offset" type="number" required=false %}
-offset for pagination, starts with 0
+offset for pagination, 0 or greater
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}
