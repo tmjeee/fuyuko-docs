@@ -29,7 +29,7 @@ There are 2 ways for user to get themselves into the application
 
 User get to a link and register themself. They would then wait for an existing user with appropriate role to approve their self registration and subsequently assigning them into appropriate group. See [here](registering-request-access/self-registration.md) for more info about self registration.
 
-### 2\) Thorugh an invitation
+### 2\) Through an invitation
 
 An existing user with appropriate role would trigger an invitation email being sent to a potential user with group and roles predefined. Upon clicking on an activation link on the email the potential user will have their account created an activated in the application. See [here](registering-request-access/invitation-and-activation.md) for more info.
 
@@ -39,7 +39,9 @@ See [here](registering-request-access/) for more information.
 
 View is the top most concept in the application. Almost everything revolves around the view \(item, attributes, pricing etc\) apart from user, group and roles. Information inside a view cannot be transfer or applied to a differrent view. 
 
-View contains Item, attributes and pricing information. Validation, bulk edits, build in and custom import and exports applies to a particular view as well.
+View contains Item, attributes and pricing information. Validations, bulk edits, build in and custom import and exports applies to a particular view as well.
+
+See [here](view.md) for more info.
 
 ## Items
 
