@@ -26,6 +26,16 @@ View Id.
 Authentication token.
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-query-parameters %}
+{% api-method-parameter name="limit" type="number" required=false %}
+limit of pagination, greater than zero
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="offset" type="number" required=false %}
+offset of pagination, zero or greater
+{% endapi-method-parameter %}
+{% endapi-method-query-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -38,6 +48,9 @@ Cake successfully retrieved.
 {
   "status": "SUCCESS",
   "message": "....",
+  "limit": 50,
+  "offset": 0,
+  "total": 100,
   "payload": [
     {
         "id": 1,
@@ -715,6 +728,10 @@ Cake successfully retrieved.
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
+
+{% hint style="info" %}
+Pagination query parameters `limit` and `offset` must both be present for pagination to work.
+{% endhint %}
 
 
 
