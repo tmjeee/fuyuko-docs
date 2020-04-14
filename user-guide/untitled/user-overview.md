@@ -37,17 +37,19 @@ See [here](registering-request-access/) for more information.
 
 ## Views
 
-View is the top most concept in the application. Almost everything revolves around the view \(item, attributes, pricing etc\) apart from user, group and roles. Information inside a view cannot be transfer or applied to a differrent view. 
+`View` is the top most concept in the application. Almost everything revolves around the view \(item, attributes, pricing etc\) apart from user, group and roles. Information inside a view cannot be transfer or applied to a differrent view. 
 
-View contains Item, attributes and pricing information. Validations, bulk edits, build in and custom import and exports applies to a particular view as well.
+`View` contains `Item`, `Attributes` and `Pricing` information. `Validations`, `Bulk Edits`, `Build-In Import`, `Build-In Export`, `Custom Import` and `Custom Export` applies to a particular `View` as well.
 
 See [here](view.md) for more info.
 
-## Items
+### Items
 
+`Items` lie inside a `View`. `Item` is hierarchical, it can contains other Items as children. `Item` can contains `Attributes`. `Item` has a _name_, which must be **unique** across the `View` it is in, a _description_ and **multiple** `Images`, of which only **one** an be the primary Image.
 
+See [here](item.md) for more info about managing `Items`.
 
-## Attributes
+### Attributes
 
 ## Rules and Validations
 
