@@ -206,6 +206,20 @@ This would require some technical skills as it involves writting scripts that pe
 
 ## Bulk Edit
 
+A wizard like a process to perform edit when conditions are met, see [here](bulk-edit.md) for more info. Made up of 
+
+### Change Clause
+
+Indicate what attribute\(s\) and its value\(s\) to change
+
+### When Clause
+
+Indicate when the change should take effect.
+
+{% hint style="info" %}
+Bulk edit is essentially telling the application " when &lt;attribute&gt; &lt;operator&gt; &lt;operand&gt; is true, change &lt;attribute value&gt; to &lt;new attribute value&gt;
+{% endhint %}
+
 ## Themes
 
 ## Dashboard and Widgets
