@@ -212,17 +212,80 @@ A wizard like a process to perform edit when conditions are met, see [here](bulk
 
 Indicate what attribute\(s\) and its value\(s\) to change
 
+| Change Clause |  |
+| :--- | :--- |
+| Attribute | Attribute to change |
+| Value | The value to change it to |
+
 ### When Clause
 
 Indicate when the change should take effect.
 
-{% hint style="info" %}
-Bulk edit is essentially telling the application " when &lt;attribute&gt; &lt;operator&gt; &lt;operand&gt; is true, change &lt;attribute value&gt; to &lt;new attribute value&gt;
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">When Clause Components</th>
+      <th style="text-align:left"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Attribute</td>
+      <td style="text-align:left">Attribute to check</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Operator</td>
+      <td style="text-align:left">
+        <p>Operator</p>
+        <p></p>
+        <ul>
+          <li>equal (eq)</li>
+          <li>not equal (not eq)</li>
+          <li>less than (lt)</li>
+          <li>not less than (not lt)</li>
+          <li>greater than (gt)</li>
+          <li>not greater than (not gt)</li>
+          <li>greater than or equals (gte)</li>
+          <li>not greater than or equals (not gte)</li>
+          <li>less than or equals (lte)</li>
+          <li>not less than or equals (not lte)</li>
+          <li>empty (empty)</li>
+          <li>not empty (not empty)</li>
+          <li>contain (contain)</li>
+          <li>not contain (not contain)</li>
+          <li>regular expression (regexp)</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Operand / Value</td>
+      <td style="text-align:left">Value the operator operates on to check for validity</td>
+    </tr>
+  </tbody>
+</table>{% hint style="info" %}
+Bulk edit is essentially telling the application " when `<attribute>` `<operator>` `<operand>` is true, change `<attribute value>` to `<new attribute value>`"
+
+Eg. change all "currency code attribute" to "AUD" when "country code attribute" is "AUS"
 {% endhint %}
 
 ## Themes
 
+Each theme will have "dark" and "Light" mode. Theme availables are:
+
+* Deeppurple Amber Light Theme
+* Deeppurple Amber Dark Theme
+* Indigo Pink Light Theme
+* Indigo Pink Dark Theme
+* Pink Bluegrey Light Theme
+* Pink Bluegrey Dark Theme
+* Purple Green Light Theme
+* Purple Green Dark Theme
+* Indigo Lightblue Light Theme
+* Indigo Lightblue Dark Theme
+
 ## Dashboard and Widgets
+
+
 
 ## Trading Partners
 
