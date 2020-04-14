@@ -152,9 +152,57 @@ See setting up [rules](rules.md) and running [validations](validation.md) based 
 
 ## Pricing Structures
 
+`Pricing Structures` are a way to group pricing in a `View`. A View can contain many `Pricing Structures`. Each `Pricing Structure` holds prices for all Items within that `View`. This way we can have `Pricing Structures` for different trading partners.
 
+See [here](pricing-structure.md) for more info about the setup an usage of pricing structures.
 
-## Data Import and Export
+## Data Import
+
+There are 2 types of data import, see [here](import.md) for more info. All imports revolves importing into a particular `View`.
+
+### Built-In Data Import
+
+| Built-In Data Import Types | Description |
+| :--- | :--- |
+| Attributes Import | Import of `Attributes` in csv format, through a wizard like process in the application. |
+| Items Import | Import of `Items` in csv format, through a wizard like process in the application. |
+| Prices Import | Import of `Prices` in csv format, through a wizard like process in the application. |
+
+### Custom Data Import
+
+This would require some technical skills as it involves writting scripts that perform custom imports into the application. The script will need to be installed into the application \(see [here](../../developer-guide/untitled/dev-back-end/dev-be-custom-import.md) for more info\) before it is available for the user to select. The custom scripts will allow inputs of the following types to be created in the gather information for custom import
+
+| Input types | Description |
+| :--- | :--- |
+| string | Text input |
+| number | Number input |
+| date | Date picker |
+| checkbox | True or false checkbox |
+| select | Drop down list with one possible selection |
+
+## Data Export
+
+There are 2 types of data export, see [here](export.md) for more info. All export revolves around exporting `Items`, `Attributes` and Prices of a particular `View`
+
+### Build-In  Data Export
+
+| Build-In Data Export Types | Description |
+| :--- | :--- |
+| Prices Export | Export of `Prices` in csv format through a wizard like proces in the application. |
+| Attributes Export | Export of `Attributes` in csv format through a wizard like process in the application. |
+| Items Export | Export of `Items` in csv format through a wizard like process in the application. |
+
+### Custom Data Export
+
+This would require some technical skills as it involves writting scripts that perform custom exports from `Views` of application. The script will need to be installed into the application \(see [here](../../developer-guide/untitled/dev-back-end/dev-be-custom-export.md) for more info\) before it is available for the user to select. The custom scripts will allow inputs of the following types to be created in the gather information for custom import
+
+| Input types | Description |
+| :--- | :--- |
+| string | Text input |
+| number | Number input |
+| date | Date picker |
+| checkbox | True or false checkbox |
+| select | Drop down list with one possible selection |
 
 ## Bulk Edit
 
