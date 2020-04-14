@@ -51,9 +51,108 @@ See [here](item.md) for more info about managing `Items`.
 
 ### Attributes
 
+`Attributes` belongs to `Item`. Followings are the `Attributes` currently available.
+
+{% hint style="info" %}
+The difference between `text` and `string` is that `string` is represented with a HTML text field whereas text with HTML text area.
+{% endhint %}
+
+| Attribute | Description |
+| :--- | :--- |
+| `string` | Any characters representation.  |
+| `text` | Any characters representation |
+| `number` | Numeric representation |
+| `date` | Date  |
+| `currency` | Currency, amount in numeric format with country of the currency |
+| `volume` | Volume, represented by a number and a unit of measurement |
+| `dimension` | Dimension, length, width and height represented by number and a unit of measurement |
+| `area` | Area, represented by number and a unit of measurement |
+| `width` | Width, represented by number and a unit of measurement |
+| `length` | Length, represented by a number and a unit of measurement |
+| `height` | Height, represented by a number and a unit of measurement |
+| `select` | A drop down list of text, where only one can be selected |
+| `doubleselect` | Two drop down list of text, where only one can be selected on both. The second drop down list depends on the first. |
+
 ## Rules and Validations
 
+Rules can be defined for a view. Rules can be either 
+
+### Built-in Rules
+
+These are rules with predefined options where one can select to build up the rules. They are made up of
+
+#### Where clauses
+
+Dictates when the validation should take place. It shall take place when all the where clauses are matched. A where clause is made up of 
+
+#### Validate clauses
+
+Dictates what attribute to be valIdated and what are the valid value of that attribute.
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Where / Validate Clause Components</th>
+      <th style="text-align:left">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Attribute</td>
+      <td style="text-align:left">The attribute to apply to</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Operator</td>
+      <td style="text-align:left">
+        <p>Operator eg.</p>
+        <ul>
+          <li>equal (eq)</li>
+          <li>not equal (not eq)</li>
+          <li>less than (lt)</li>
+          <li>not less than (not lt)</li>
+          <li>greater than (gt)</li>
+          <li>not greater than (not gt)</li>
+          <li>greater than or equals (gte)</li>
+          <li>not greater than or equals (not gte)</li>
+          <li>less than or equals (lte)</li>
+          <li>not less than or equals (not lte)</li>
+          <li>empty (empty)</li>
+          <li>not empty (not empty)</li>
+          <li>contain (contain)</li>
+          <li>not contain (not contain)</li>
+          <li>regular expression (regexp)</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Operand / Value</td>
+      <td style="text-align:left">Values depending on the operator</td>
+    </tr>
+  </tbody>
+</table>{% hint style="info" %}
+Built-in validator basically allows one to say 
+
+**When** `<attribute1> <operator1>` `<operand1>` is true, **validate** that `<attribute2>`  `<operator2>` `<operand2>` is true.
+
+Eg. **When** `"attribute 1"` `"equals"` "`AUS"`, **validate** that `"attribute 2"` `"equals" "USD"` etc.
+{% endhint %}
+
+{% hint style="info" %}
+* Operator that could be applied depends on the Attribute's Type
+* Operand depends on the Operator
+
+It should be obvious in the UI, as invalid operators and operand will not show up when they are invalid.
+{% endhint %}
+
+### Custom Validation
+
+This would require writing scripts that perform certain validation operation and registering the results / error found. This would require technical skills and certain installation steps to be performed to installed it before it can show up in the application for user selection. See [here](../../developer-guide/untitled/dev-back-end/dev-be-custom-rule.md) for more info about setting it up.
+
+See setting up [rules](rules.md) and running [validations](validation.md) based on them in the application.
+
 ## Pricing Structures
+
+
 
 ## Data Import and Export
 
