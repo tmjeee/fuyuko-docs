@@ -6,6 +6,10 @@ Items can be listed in three formats
 * Thumbnail
 * List
 
+{% hint style="info" %}
+Changes made to Table, Thumbnail and List, will not be persisted until "Save" button is pressed. Remember to click "Save" to persist the changes
+{% endhint %}
+
 ## 1\) Tabular
 
 This is the tabular representation of Item. Each item will have the following mandatory fields :-
