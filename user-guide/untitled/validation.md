@@ -8,7 +8,7 @@
 
 ### Creating a Validation
 
-## 
+
 
 ![](../../.gitbook/assets/validation-new.png)
 
