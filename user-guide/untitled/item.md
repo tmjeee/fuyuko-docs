@@ -254,73 +254,113 @@ Listing of item with items expanded showing its fields and attributes.
 
 ### Search
 
+List is search capable.
+
+{% hint style="info" %}
+Search field is not auto-complete capable. User will need to type in search term and press enter for search to happen.
+{% endhint %}
+
 ![](../../.gitbook/assets/item-list-search.png)
 
 ### Add new Item
+
+Clicking on "Add" button will result in the following popup dialog.
 
 ![](../../.gitbook/assets/item-list-new-item.png)
 
 ### Add New Item Image
 
+Clicking on the "upload" image icon at the left bottom of the image carousel will allow an Upload Item Image dialog to popup. 
+
 ![](../../.gitbook/assets/item-list-add-item-image.png)
 
 ### Edit Item Name
+
+Clicking on item name, will result in the following dialog.
 
 ![](../../.gitbook/assets/item-list-edit-item-name%20%282%29.png)
 
 ### Edit Item Description
 
+Clicking on item description, will popup the following dialog.
+
 ![](../../.gitbook/assets/item-list-edit-item-description.png)
 
 ### Edit Item String Attribute
+
+Clicking on "string" attribute type will popup the following dialog.
 
 ![](../../.gitbook/assets/item-list-edit-attribute-string.png)
 
 ### Edit Item Text Attribute
 
+Clicking on the "text" attribute type will popup the following dialog.
+
 ![](../../.gitbook/assets/item-list-edit-attribute-text.png)
 
 ### Edit Item Number Attribute
+
+Clicking on the "number" attribute type will popup the following dialog.
 
 ![](../../.gitbook/assets/item-list-edit-attribute-number.png)
 
 ### Edit Item Currency Attribute
 
+Clicking on the "currency" attribute type, will popup the following dialog.
+
 ![](../../.gitbook/assets/item-list-edit-attribute-currency.png)
 
 ### Edit Item Date Attribute
+
+Clicking on the "date" attribute type, will popup the following dialog.
 
 ![](../../.gitbook/assets/item-list-edit-attribute-date.png)
 
 ### Edit Item Area Attribute
 
+Clicking on the "area" attribute type, will popup the following dialog.
+
 ![](../../.gitbook/assets/item-list-edit-attribute-area.png)
 
 ### Edit Item Dimension Attribute
+
+Clicking on the "dimension" attribute type, will popup the following dialog.
 
 ![](../../.gitbook/assets/item-list-edit-attribute-dimension.png)
 
 ### Edit Item Volume Attribute
 
+Clicking on the "volume" attribute type, will popup the following dialog.
+
 ![](../../.gitbook/assets/item-list-edit-attribute-volume.png)
 
 ### Edit Item Length Attribute
+
+Clicking on the "length" attribute type, will popup the following dialog.
 
 ![](../../.gitbook/assets/item-list-edit-attribute-length.png)
 
 ### Edit Item Width Attribute
 
+Clicking on the "width" attribute type, will popup the following dialog.
+
 ![](../../.gitbook/assets/item-list-edit-attribute-width.png)
 
 ### Edit Item Height Attribute
+
+Clicking on the "height" attribute type, will popup the following dialog.
 
 ![](../../.gitbook/assets/item-list-edit-attribute-height.png)
 
 ### Edit Item Select Attribute
 
+Clicking on the "select" attribute type, will popup the following dialog.
+
 ![](../../.gitbook/assets/item-list-edit-attribute-select.png)
 
 ### Edit Item Double Select Attribute
+
+Clicking on the "doubleselect" attribute type, will popup the following dialog.
 
 ![](../../.gitbook/assets/item-list-edit-attribute-doubleselect.png)
 
