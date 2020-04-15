@@ -285,11 +285,23 @@ Each theme will have "dark" and "Light" mode. Theme availables are:
 
 ## Dashboard and Widgets
 
+Dashboard is basically a section where you can : 
 
+* Select its layout, right now there are only 2 layouts
+  * 1 column, where widget are stacked up
+  * 2 columns, where widget can be stacked up on either left or right
+  * See [here](../../developer-guide/untitled/dev-front-end/dev-fe-dashboard-and-widgets.md) for more information about creating a dashboard layout of your own
+* Select widgets to display in the dashboard. 
+  * Multiple instances of the same widgets are possible.
+  * Widgets can be moved around by drag and drop
+  * Removeable by click on the cross button which should appear when they are hovered over
+  * See [here](../../developer-guide/untitled/dev-front-end/dev-fe-dashboard-and-widgets.md) for more information about creating a widget of your own
+
+See [here](dashboard.md) for more information about configuring the layout and adding / removing widgets.
 
 ## Trading Partners
 
-
+Trading partners are basically those user with ROLE\_PARTNER in the group they are in. This allow them access to the trading partner page where they can see prices of items based on Pricing Structure. Each trading partner can have one or many Pricing Structures assinged to them allowing them to see sets of items with potentially different prices. See [here](partner.md) for more information.
 
 
 
