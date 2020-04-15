@@ -2,6 +2,8 @@
 
 ## Listing
 
+This list down hte attributes within a view, where the view is selectable from the view drop down at the top.
+
 ![](../../.gitbook/assets/attribute-list.png)
 
 ## Search for attribute
