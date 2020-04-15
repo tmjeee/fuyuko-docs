@@ -2,17 +2,21 @@
 
 ## Listing
 
+Following is the listing of all validations ran, right now it is empty.
+
 ![](../../.gitbook/assets/validation.png)
 
 ## Creating and Scheduling a validation
 
 ### Creating a Validation
 
-
+To run a validation click "Validate View" button. A popup should present itself.
 
 ![](../../.gitbook/assets/validation-new.png)
 
 ### Scheduling a validation
+
+After submitting the form above, the validation will be scheduled.
 
 ![](../../.gitbook/assets/validation-scheduled.png)
 
