@@ -13,11 +13,12 @@ This documentation is currently a work in progress. Updates and changes will be 
 {% endhint %}
 
 {% hint style="info" %}
-Github repository \(source code\) for the application can be found [here](https://github.com/tmjeee/fuyuko). 
-{% endhint %}
+Information: 
 
-{% hint style="info" %}
-Bug / feature report\(s\) can be done [here](https://github.com/tmjeee/fuyuko/issues).
+* Github repository \(source code\) for the application can be found [here](https://github.com/tmjeee/fuyuko). 
+* Bug / feature report\(s\) can be done [here](https://github.com/tmjeee/fuyuko/issues).
+* Build pipelines are available [here](https://app.buddy.works/tmjeee/fuyuko/pipelines).
+* Cypress integration tests runs are [here](https://dashboard.cypress.io/projects/ozp71m/runs).
 {% endhint %}
 
 This is the documentation of **Fuyuko Master Data Management Software \(version 1.0.0\)** documentation. 
