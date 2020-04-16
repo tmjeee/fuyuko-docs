@@ -71,6 +71,7 @@
 
 * [APIs Index](apis/index/README.md)
   * [GET-help](apis/index/get-help.md)
+  * [GET-pricing-structures-by-view](apis/index/get-pricing-structures-by-view.md)
   * [GET-all-custom-imports](apis/index/get-all-custom-imports.md)
   * [POST-custom-import-validate-input](apis/index/post-custom-import-validate-input.md)
   * [POST-custom-import-preview](apis/index/post-custom-import-preview.md)
