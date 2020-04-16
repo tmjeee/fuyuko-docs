@@ -156,6 +156,7 @@ description: 'Documentation of APIs, segregated into categories'
 | [POST-update-pricing-structure-item](post-update-pricing-structure-item.md) |  |
 | [POST-update-pricing-structure](post-update-pricing-structure.md) |  |
 | [GET-pricing-structure-by-id](get-pricing-structure-by-id.md) |  |
+| [GET-pricing-structures-by-view](get-pricing-structures-by-view.md) |  |
 
 ## Bulk Edit
 
