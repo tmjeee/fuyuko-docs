@@ -189,7 +189,7 @@ description: 'Documentation of APIs, segregated into categories'
 | [POST-schedule-attribute-data-export](post-schedule-attribute-data-export.md) |  |
 | [POST-schedule-item-data-export](post-schedule-item-data-export.md) |  |
 | [POST-schedule-pricing-data-export](post-schedule-pricing-data-export.md) |  |
-| [GET-export-file-by-id](get-export-file-by-id.md) |  |
+| [GET-export-file-by-id]() |  |
 | [GET-all-data-export-content-by-id](get-data-export-content-by-id.md) |  |
 | [GET-all-data-export-artifacts](get-all-data-export-artifacts.md) |  |
 | [DELETE-data-export-artifact-by-id](delete-data-export-artifact-by-id.md) |  |

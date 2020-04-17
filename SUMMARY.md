@@ -116,7 +116,6 @@
   * [POST-user-dashboard-widget-data](apis/index/post-user-dashboard-widget-data.md)
   * [GET-user-dashboard](apis/index/get-user-dashboard.route.ts.md)
   * [POST-save-user-dashboard](apis/index/post-save-user-dashboard.md)
-  * [GET-export-file-by-id](apis/index/get-export-file-by-id.md)
   * [POST-schedule-pricing-data-export](apis/index/post-schedule-pricing-data-export.md)
   * [POST-schedule-item-data-export](apis/index/post-schedule-item-data-export.md)
   * [POST-schedule-attribute-data-export](apis/index/post-schedule-attribute-data-export.md)
