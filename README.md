@@ -19,6 +19,7 @@ Information:
 * Bug / feature report\(s\) can be done [here](https://github.com/tmjeee/fuyuko/issues).
 * Build pipelines are available [here](https://app.buddy.works/tmjeee/fuyuko/pipelines).
 * Cypress integration tests runs are [here](https://dashboard.cypress.io/projects/ozp71m/runs).
+* Docker images are [here](https://hub.docker.com/repositories/tmjee)
 {% endhint %}
 
 This is the documentation of **Fuyuko Master Data Management Software \(version 1.0.0\)** documentation. 
