@@ -16,7 +16,7 @@ This documentation is currently a work in progress. Updates and changes will be 
 Information: 
 
 * Github repository \(source code\) for the application can be found [here](https://github.com/tmjeee/fuyuko). 
-* Bug / feature report\(s\) can be done [here](https://github.com/tmjeee/fuyuko/issues).
+* Bug / Issues/ Features filing\(s\) and tracking\(s\) can be done [here](https://github.com/tmjeee/fuyuko/issues).
 * Build pipelines are available [here](https://app.buddy.works/tmjeee/fuyuko/pipelines).
 * Cypress integration tests runs are [here](https://dashboard.cypress.io/projects/ozp71m/runs).
 * Docker images are [here](https://hub.docker.com/repositories/tmjee)
