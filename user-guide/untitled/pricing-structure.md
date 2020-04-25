@@ -1,10 +1,12 @@
 # Pricing Structure
 
+
+
 ![](../../.gitbook/assets/pricing-structure.png)
 
-![](../../.gitbook/assets/pricing-structure-delete.png)
-
 ![](../../.gitbook/assets/pricing-structure-listing.png)
+
+![](../../.gitbook/assets/pricing-structure-delete.png)
 
 ![](../../.gitbook/assets/pricing-structure-edit.png)
 
