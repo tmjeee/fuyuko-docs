@@ -71,6 +71,7 @@
 
 * [APIs Index](apis/index/README.md)
   * [GET-help](apis/index/get-help.md)
+  * [POST-update-group](apis/index/post-update-group.md)
   * [DELETE-groups](apis/index/delete-groups.md)
   * [GET-pricing-structures-by-view](apis/index/get-pricing-structures-by-view.md)
   * [GET-all-custom-imports](apis/index/get-all-custom-imports.md)
