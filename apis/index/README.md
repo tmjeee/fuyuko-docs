@@ -85,7 +85,8 @@ description: 'Documentation of APIs, segregated into categories'
 | [GET-search-group-with-no-such-role](untitled-2.md) |  |
 | [GET-group-with-role](get-groups-with-role.md) |  |
 | [GET-search-for-group-by-name](untitled-5.md) |  |
-|  |  |
+| [POST-update-group](post-update-group.md) |  |
+| [DELETE-groups](delete-groups.md) |  |
 
 ## Role
 
