@@ -73,6 +73,7 @@
   * [GET-help](apis/index/get-help.md)
   * [POST-unlink-pricing-structure-group](apis/index/post-unlink-pricing-structure-group.md)
   * [POST-link-pricing-structure-group](apis/index/post-link-pricing-structure-group.md)
+  * [GET-groups-associated-with-pricing-structure](apis/index/get-groups-associated-with-pricing-structure.md)
   * [GET-groups-not-associated-with-pricing-structure](apis/index/get-groups-not-associated-with-pricing-structure.md)
   * [GET-pricing-structure-group-associations](apis/index/get-pricing-structure-group-associations.md)
   * [POST-update-group](apis/index/post-update-group.md)
