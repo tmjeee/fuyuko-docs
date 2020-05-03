@@ -158,6 +158,10 @@ description: 'Documentation of APIs, segregated into categories'
 | [POST-update-pricing-structure](post-update-pricing-structure.md) |  |
 | [GET-pricing-structure-by-id](get-pricing-structure-by-id.md) |  |
 | [GET-pricing-structures-by-view](get-pricing-structures-by-view.md) |  |
+| [GET-pricing-structure-group-associations](get-pricing-structure-group-associations.md) |  |
+| [GET-groups-not-associated-with-pricing-structure](get-groups-not-associated-with-pricing-structure.md) |  |
+| [POST-link-pricing-structure-group](post-link-pricing-structure-group.md) |  |
+| [POST-unlink-pricing-structure-group](post-unlink-pricing-structure-group.md) |  |
 
 ## Bulk Edit
 
