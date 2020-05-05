@@ -1,6 +1,6 @@
 # GET-view-category-items
 
-{% api-method method="get" host="https://api.cakes.com" path="/view/:viewId/category/:categoryId/items" %}
+{% api-method method="get" host="https://<host>:<port>/api/v1" path="/view/:viewId/category/:categoryId/items" %}
 {% api-method-summary %}
 Get view category items
 {% endapi-method-summary %}
@@ -26,6 +26,16 @@ Category Id
 Authentication token.
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-query-parameters %}
+{% api-method-parameter name="limit" type="number" required=false %}
+Limit for pagination
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="offset" type="number" required=false %}
+Offset for pagination
+{% endapi-method-parameter %}
+{% endapi-method-query-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
