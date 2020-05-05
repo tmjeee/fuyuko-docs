@@ -212,6 +212,18 @@ description: 'Documentation of APIs, segregated into categories'
 | [POST-custom-export-preview](post-custom-export-preview.md) |  |
 | [POST-custom-export-submit-job](post-custom-export-submit-job.md) |  |
 
+## Category
+
+| End Point | Description |
+| :--- | :--- |
+| [GET-view-categories](get-view-categories.route.ts.md) |  |
+| [GET-view-categories-with-items](untitled-11.md) |  |
+| [GET-view-category-items](untitled-10.md) |  |
+| [POST-add-category](untitled-9.md) |  |
+| [POST-update-category](untitled-8.md) |  |
+| POST-add-item-to-category |  |
+| DELETE-remove-item-from-category |  |
+
 ## Dashboard and Widgets
 
 | End Point | Description |
