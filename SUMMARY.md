@@ -73,7 +73,7 @@
   * [GET-help](apis/index/get-help.md)
   * [GET-view-categories.route.ts](apis/index/get-view-categories.route.ts.md)
   * [GET-view-categories-with-items](apis/index/untitled-11.md)
-  * [Untitled](apis/index/untitled-10.md)
+  * [GET-view-category-items](apis/index/untitled-10.md)
   * [Untitled](apis/index/untitled-9.md)
   * [Untitled](apis/index/untitled-8.md)
   * [Untitled](apis/index/untitled-7.md)
