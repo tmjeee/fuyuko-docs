@@ -74,6 +74,7 @@
   * [GET-view-categories.route.ts](apis/index/get-view-categories.route.ts.md)
   * [GET-view-categories-with-items](apis/index/untitled-11.md)
   * [GET-view-category-items](apis/index/untitled-10.md)
+  * [DELETE-category](apis/index/delete-category.md)
   * [POST-add-category](apis/index/untitled-9.md)
   * [POST-update-category](apis/index/untitled-8.md)
   * [POST-add-item-to-category](apis/index/untitled-7.md)
