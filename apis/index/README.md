@@ -220,9 +220,10 @@ description: 'Documentation of APIs, segregated into categories'
 | [GET-view-categories-with-items](untitled-11.md) |  |
 | [GET-view-category-items](untitled-10.md) |  |
 | [POST-add-category](untitled-9.md) |  |
+| [DELETE-category](delete-category.md) |  |
 | [POST-update-category](untitled-8.md) |  |
-| POST-add-item-to-category |  |
-| DELETE-remove-item-from-category |  |
+| [POST-add-item-to-category](untitled-7.md) |  |
+| [DELETE-remove-item-from-category](untitled-1.md) |  |
 
 ## Dashboard and Widgets
 
