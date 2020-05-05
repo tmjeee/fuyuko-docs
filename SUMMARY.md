@@ -75,7 +75,7 @@
   * [GET-view-categories-with-items](apis/index/untitled-11.md)
   * [GET-view-category-items](apis/index/untitled-10.md)
   * [POST-add-category](apis/index/untitled-9.md)
-  * [Untitled](apis/index/untitled-8.md)
+  * [POST-update-category](apis/index/untitled-8.md)
   * [Untitled](apis/index/untitled-7.md)
   * [Untitled](apis/index/untitled-1.md)
   * [POST-unlink-pricing-structure-group](apis/index/post-unlink-pricing-structure-group.md)
