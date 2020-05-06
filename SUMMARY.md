@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [License](license.md)
+* [Sponsors](sponsors.md)
 
 ## User Guide
 
