@@ -36,6 +36,8 @@
 
 ## [Partner](partner.md)
 
+## [Category](category.md)
+
 ## [Help](help.md)
 
 

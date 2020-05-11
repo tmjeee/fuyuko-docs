@@ -28,6 +28,7 @@
   * [Artifacts](user-guide/untitled/artifacts.md)
   * [Jobs](user-guide/untitled/jobs.md)
   * [Partner](user-guide/untitled/partner.md)
+  * [Category](user-guide/untitled/category.md)
   * [Help](user-guide/untitled/help.md)
 
 ## Developer Guide
