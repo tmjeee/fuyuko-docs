@@ -51,5 +51,13 @@ A success message should appear if the edit was successful, with the new price a
 
 ![](../../.gitbook/assets/pricing-structure-save-price-success.png)
 
+## Partner Association
+
+Having `PARTNER` role allow you to have access to the partner page. Partner association links a group to a pricing structure in a view, allowing that group to view the pricing structure. In short, to access the partner page one would need `PARTNER` role and a partner association \(associate a `Group` with a `Pricing Structure`\)
+
+![](../../.gitbook/assets/pricing-structure-partner-association.png)
+
+
+
 
 
