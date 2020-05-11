@@ -2,6 +2,10 @@
 
 ## Build In Export
 
+{% hint style="info" %}
+Successful export appears as an artifact. See [here](artifacts.md) for more information about export artifacts.
+{% endhint %}
+
 ### Output format \(csv\) of Attribute Export
 
 Following is a sample of a typical attribute export in csv format.
