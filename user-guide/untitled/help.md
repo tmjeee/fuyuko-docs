@@ -1,5 +1,7 @@
 # Help
 
+This is the help section that slides open when the question mark icon in the top right corner is clicked.
+
 ## Dashboard
 
 ![](../../.gitbook/assets/help-dashboard.png)
