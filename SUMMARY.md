@@ -203,3 +203,8 @@
   * [GET-heartbeat](apis/index/untitled.md)
   * [Common response](apis/index/common-response.md)
 
+## Articles
+
+* [Articles Index](articles/articles-index/README.md)
+  * [Article - Buddy CICD SaaS](articles/articles-index/article-buddy-cicd-saas.md)
+
