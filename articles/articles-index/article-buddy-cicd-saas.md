@@ -4,7 +4,7 @@
 
 Buddy is a pretty intuitive Countinuous Integration and Countinuous Deployment \(CICD\) build server providing its offerings as a Software as a Service \(SaaS\). It is very developer friendly which I'm pretty sure you'd find convincing after reading through this article. What DigitalOcean does to Kubernetes is pretty much what Buddy does to CICD, something like "CICD for Dummies" on steriod.
 
-## Pipelines
+## Pipelines & Actions
 
 The concept of Buddy revolves around pipelines, which to my understanding really means a collection of actions you'd like to run to achieve an overall effect, eg. 
 
