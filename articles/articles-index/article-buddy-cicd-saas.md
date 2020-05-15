@@ -24,6 +24,10 @@ If docker environment image you require is not there, it is just one click away 
 
 ![](../../.gitbook/assets/image.png)
 
+Or if you are more like a chat person that is also a click away, with a chat icon on the far right bottom.
+
+![](../../.gitbook/assets/selection_214.png)
+
 ## How I use Buddy
 
 This section is about how I configure Buddy to suits my own needs. It might not be best practises others agree to but the good side is I find Buddy pretty flexible enough to cater for different situations. I'm saying this as a software developer without much DevOps experience at all, apart from doing some Docker related stuff \(creating image, running them, push and retrieving them from Docker Hub etc.\) and some limited Kubernetes stuff \(deployment of pods, writting simple kubernetes yaml file for demos and development work etc\)
