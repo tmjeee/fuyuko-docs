@@ -16,11 +16,11 @@ The concept of Buddy revolves around pipelines, which to my understanding really
 
 Each points would possibly constitues an action
 
-The nice things about Buddy's action is that there are plenty of them. All of them required filling in some texts fileds and then your are done. You will find actions \(docker images\) with cypress ready, kubernetes ready to stuff not limited to DigitalOcean integrations.
+The nice things about Buddy's action is that there are plenty of them. All of them required filling in some texts fileds and then your are done. You will find actions \(docker images\) with cypress environment ready, kubernetes environment ready to stuff not limited to DigitalOcean integrations etc.
 
 ![](../../.gitbook/assets/selection_211.png)
 
-If docker environment image you require is not there, it is just one click away to getting your specific environment requested. From experience the Buddy team responsiveness is good, given the stuff I asked about are pretty technical at times.
+If docker environment image you require is not there, it is just one click away to getting your specific environment requested. From experiences the Buddy team responsiveness is good, given the stuff I asked about are pretty technical at times.
 
 ![](../../.gitbook/assets/image.png)
 
@@ -34,5 +34,5 @@ This section is about how I configure Buddy to suits my own needs. It might not 
 
 ### Grouping of Pipelines
 
-
+I find it nice to be able to group and categories related pipelines. 
 
