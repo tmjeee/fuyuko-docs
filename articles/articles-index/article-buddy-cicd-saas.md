@@ -14,7 +14,7 @@ The concept of Buddy revolves around pipelines, which to my understanding really
 * If successfull, create a docker image
 * If susccessfull push docker image to docker hub
 
-Each points would possibly constitue an action
+Each points would possibly constitues an action
 
 The nice things about Buddy's action is that there are plenty of them. All of them required filling in some texts fileds and then your are done. You will find actions \(docker images\) with cypress ready, kubernetes ready to stuff not limited to DigitalOcean integrations.
 
