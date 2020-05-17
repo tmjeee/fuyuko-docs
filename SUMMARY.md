@@ -73,6 +73,7 @@
 
 * [APIs Index](apis/index/README.md)
   * [GET-help](apis/index/get-help.md)
+  * [POST-edit-category](apis/index/post-edit-category.md)
   * [GET-view-categories.route.ts](apis/index/get-view-categories.route.ts.md)
   * [GET-view-categories-with-items](apis/index/untitled-11.md)
   * [GET-view-category-items](apis/index/untitled-10.md)
