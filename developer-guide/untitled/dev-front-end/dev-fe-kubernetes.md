@@ -44,3 +44,57 @@ Run the following command to have a FE kubernetes deployment installed
 $> kubectl apply -f ./k8s-fuyuko-fe-deployment.yaml
 ```
 
+Deployment and pods should be listed when running the following command respectively
+
+```text
+$> kubectl get deployments
+```
+
+```text
+$> kubectl get pods
+```
+
+## Installing a Load Balancer for FE deployment
+
+### With HTTPS
+
+{% hint style="info" %}
+Edit k8s-fuyuko-fe-loadbalancer.yaml and put in your HTTPS certificate id, this will need to be configured in your provider environment which differs between providers.
+
+```text
+metadata:
+  ...
+  annotations:
+    ...
+    service.beta.kubernetes.io/do-loadbalancer-certificate-id: "Your SSL Certificate ID"
+
+```
+{% endhint %}
+
+### Without HTTPS
+
+{% hint style="info" %}
+Edit k8s-fuyuko-fe-loadbalancer.yaml and remove the following lines from the `annotations` section
+
+```text
+service.beta.kubernetes.io/do-loadbalancer-tls-ports: "8443"
+service.beta.kubernetes.io/do-loadbalancer-certificate-id: "..."
+```
+{% endhint %}
+
+### Apply load balancer yaml configurations
+
+Install the load balancer by running the followings
+
+```text
+$> kubectl apply -f ./k8s-fuyuko-fe-loadbalancer.yaml
+```
+
+Upon successful installation, your loadbalancer should appear when the following command is ran
+
+```text
+$> kubectl get services
+```
+
+
+
