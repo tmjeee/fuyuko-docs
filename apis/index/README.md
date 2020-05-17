@@ -223,7 +223,6 @@ description: 'Documentation of APIs, segregated into categories'
 | [DELETE-category](delete-category.md) |  |
 | [POST-update-category](untitled-8.md) |  |
 | [POST-add-item-to-category](untitled-7.md) |  |
-| [POST-edit-category]() |  |
 | [DELETE-remove-item-from-category](untitled-1.md) |  |
 
 ## Dashboard and Widgets
