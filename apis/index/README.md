@@ -224,6 +224,8 @@ description: 'Documentation of APIs, segregated into categories'
 | [POST-update-category](untitled-8.md) |  |
 | [POST-add-item-to-category](untitled-7.md) |  |
 | [DELETE-remove-item-from-category](untitled-1.md) |  |
+| [GET-Category-Simple-Items-In-Category](get-category-simple-items-in-category.md) |  |
+| [GET-Category-Simple-Items-Not-In-Category](get-category-simple-items-not-in-category.md) |  |
 
 ## Dashboard and Widgets
 
