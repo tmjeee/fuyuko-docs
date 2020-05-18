@@ -1,4 +1,4 @@
-# Article - Buddy CICD SaaS
+# Article - Buddy a Continuous Integration & Countinuous Delivery \(CICD\) Software as a Service \(SaaS\)
 
 ## Oveview
 

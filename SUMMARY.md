@@ -210,5 +210,5 @@
 ## Articles
 
 * [Articles Index](articles/articles-index/README.md)
-  * [Article - Buddy CICD SaaS](articles/articles-index/article-buddy-cicd-saas.md)
+  * [Article - Buddy a Continuous Integration & Countinuous Delivery \(CICD\) Software as a Service \(SaaS\)](articles/articles-index/article-buddy-cicd-saas.md)
 
