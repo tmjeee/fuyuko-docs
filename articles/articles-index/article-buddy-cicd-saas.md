@@ -101,5 +101,7 @@ If your provider is not listed, a bit more configuration would be needed but in 
 
 ## Summary
 
+Buddy seems to ticking all the right boxes as far as we are concern, typically in easing on the DevOps skill sets required, leaving one the luxury of conerntrating of the application under development itself, which is nice to have for smaller start ups where resource are often limited and streached. 
+
 
 
