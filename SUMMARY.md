@@ -75,6 +75,9 @@
 
 * [APIs Index](apis/index/README.md)
   * [GET-help](apis/index/get-help.md)
+  * [POST-check-forgot-password-code](apis/index/post-check-forgot-password-code.md)
+  * [POST-reset-forgotten-password](apis/index/post-reset-forgotten-password.md)
+  * [POST-forgot-password](apis/index/post-forgot-password.md)
   * [GET-Category-Simple-Items-In-Category](apis/index/get-category-simple-items-in-category.md)
   * [GET-Category-Simple-Items-Not-In-Category](apis/index/get-category-simple-items-not-in-category.md)
   * [GET-view-categories.route.ts](apis/index/get-view-categories.route.ts.md)

@@ -21,7 +21,7 @@ Following sections' code snippet assume you are located in `<root>/kubernetes/` 
 Run script `k8s-fuyuko-fe-config.sh` file to have `config.json` located in \(`/assets/config.json` in docker image\) to be configured as a **Kubernetes Config Map**, allowing it to be configured independently.
 
 ```text
-$> ./k8s-fuyuko-be-config.sh 
+$> ./k8s-fuyuko-fe-config.sh 
 ```
 
 Once this is ran successfully, you should be able to see fuyuko-be-config configmaps listed when the following command is ran.
@@ -33,7 +33,7 @@ $> kubectl get configmaps
 Edit `fuyuko-be-config` config map to suits your environment using :
 
 ```text
-$> kubectl edit configmaps fuyuko-be-config 
+$> kubectl edit configmaps fuyuko-fe-config 
 ```
 
 ## Running a FE kubernetes deployment
