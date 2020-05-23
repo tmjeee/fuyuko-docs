@@ -166,3 +166,10 @@ Following are the tables and description of their functions group by features
 | :--- | :--- |
 | TBL\_USER\_NOTIFICATION |  |
 
+## Category
+
+| Table Name | Description |
+| :--- | :--- |
+| TBL\_VIEW\_CATEGORY |  |
+| TBL\_LOOKUP\_VIEW\_CATEGORY\_ITEM |  |
+
