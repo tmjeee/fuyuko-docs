@@ -173,3 +173,9 @@ Following are the tables and description of their functions group by features
 | TBL\_VIEW\_CATEGORY |  |
 | TBL\_LOOKUP\_VIEW\_CATEGORY\_ITEM |  |
 
+## Reset Password
+
+| Table Name | Description |
+| :--- | :--- |
+| TBL\_FORGOT\_PASSWORD |  |
+
