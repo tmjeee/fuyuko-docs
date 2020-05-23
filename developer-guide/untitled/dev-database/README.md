@@ -1,6 +1,24 @@
 # Dev - Database
 
 {% hint style="info" %}
-This software was designed to work with **MariaDB** or **MySQL** or their derivatives
+This software was designed to work with **MariaDB 10.x** or **MySQL 8.x** or their later derivatives
 {% endhint %}
+
+## Setting Time Zone 
+
+As the application depends on database timezone, it is important to set time zone of your MariaDb or MySQL database timezone to be consistent with FE and BE. To set the time zone in Mariadb / MySQL.
+
+Run the followings to import all the timezones into MariaDB / MySQL \(a one time only process\)
+
+```text
+$> mysql_tzinfo_to_sql /usr/share/zoneinfo | mariadb -u root mysql -p
+```
+
+Set the timezone through the following Query
+
+```text
+SET GLOBAL time_zone = 'Australia/Sydney';  # or whatever your timezone is
+```
+
+Standard timezone values can be found [here](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones).
 
