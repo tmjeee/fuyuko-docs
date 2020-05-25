@@ -12,6 +12,7 @@
   * [Dashboard](user-guide/untitled/dashboard.md)
   * [Profile](user-guide/untitled/profile.md)
   * [User Management](user-guide/untitled/user-roles-management.md)
+  * [Forgot Password](user-guide/untitled/forgot-password.md)
   * [Registering / Request Access](user-guide/untitled/registering-request-access/README.md)
     * [Self Registration & Activation](user-guide/untitled/registering-request-access/self-registration.md)
     * [Invitation & Activation](user-guide/untitled/registering-request-access/invitation-and-activation.md)
