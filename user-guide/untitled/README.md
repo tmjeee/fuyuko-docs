@@ -8,6 +8,8 @@
 
 ## [Profile](profile.md)
 
+## [Forgot Password](forgot-password.md)
+
 ## [Registering / Request Access](registering-request-access/)
 
 ## [Rules](rules.md)
