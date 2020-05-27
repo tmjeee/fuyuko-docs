@@ -24,6 +24,17 @@ Information:
 
 This is the documentation of **Fuyuko Master Data Management Software \(version 1.0.0\)** documentation. 
 
+Fuyuko is an Open Source Master Data Management \(MDM\) / Product Information Management \(PIM\) software, designed with the following features in mind :
+
+* simple
+* build off popular, proven tech \(typescript, nodejs, angular9+\)
+* plays well with Kubernetes
+* dockerizable
+* open source
+* no breaking the bank while managing your product data effectively
+
+Thanks for visiting. Hope you enjoy it just as much as we do building it  :-\)
+
 ## [User Documentation](user-guide/untitled/)
 
 Intended for those who wish to use the application as an application user on a daily basis to perform master data / product information management tasks.
