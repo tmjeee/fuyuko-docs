@@ -1,12 +1,12 @@
 # GET-Category-Simple-Items-In-Category
 
-{% api-method method="get" host="https://<host>:<port>/api/v1" path="/view/:viewId/category/:category/category-simple-items-in-category" %}
+{% api-method method="get" host="https://<host>:<port>/api/v1" path="/view/:viewId/category/:categoryId/category-simple-items-in-category" %}
 {% api-method-summary %}
 Get Items In Category
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Get Items in the given `:categoryId`.
 {% endapi-method-description %}
 
 {% api-method-spec %}

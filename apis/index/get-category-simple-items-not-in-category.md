@@ -6,7 +6,7 @@ Get Items Not In Category
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Get items not in the given `:categoryId`
 {% endapi-method-description %}
 
 {% api-method-spec %}

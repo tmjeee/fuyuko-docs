@@ -10,7 +10,7 @@ Get help content
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Get help based on given `:helpPostfix`.
 {% endapi-method-description %}
 
 {% api-method-spec %}

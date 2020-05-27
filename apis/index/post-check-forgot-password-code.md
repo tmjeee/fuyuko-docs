@@ -6,7 +6,7 @@ Check Validity of Forgot Password code
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Check if the given reset password `:code` is valid or not.
 {% endapi-method-description %}
 
 {% api-method-spec %}

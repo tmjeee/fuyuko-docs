@@ -6,7 +6,7 @@ Send Forgotten Password
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Trigger a reset password action.
 {% endapi-method-description %}
 
 {% api-method-spec %}

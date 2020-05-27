@@ -6,7 +6,7 @@ Get view categories
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Get all categories in a `:viewId`
 {% endapi-method-description %}
 
 {% api-method-spec %}
