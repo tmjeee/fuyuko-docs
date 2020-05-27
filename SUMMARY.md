@@ -114,7 +114,7 @@
   * [GET-data-export-content-by-id](apis/index/get-data-export-content-by-id.md)
   * [GET-all-pricing-structures-by-view](apis/index/get-all-pricing-structures-by-view.md)
   * [DELETE-validation-result-by-id](apis/index/delete-validation-result-by-id.md)
-  * [GET-search-for-items-by-view](apis/index/get-search-for-items-by-view.md)
+  * [GET-search-for-items-in-view](apis/index/get-search-for-items-by-view.md)
   * [POST-add-attribute](apis/index/post-add-attribute.md)
   * [POST-user-notification](apis/index/post-user-notification.md)
   * [GET-user-notification](apis/index/get-user-notification.md)

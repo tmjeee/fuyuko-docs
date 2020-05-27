@@ -2,15 +2,15 @@
 description: Search for items by view
 ---
 
-# GET-search-for-items-by-view
+# GET-search-for-items-in-view
 
 {% api-method method="get" host="https://<host>:<port>/api/v1" path="/view/:viewId/searchType/:searchType/search/:search" %}
 {% api-method-summary %}
-Get Cakes
+Search for items in view
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Search for items in view.
 {% endapi-method-description %}
 
 {% api-method-spec %}
