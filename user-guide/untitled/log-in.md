@@ -4,3 +4,9 @@ Navigate to the login page `http://<host>:<port>/login-layout/login`and you woul
 
 ![](../../.gitbook/assets/selection_002.png)
 
+Upon logged in, the following icon will be visible on the left hand side vertical menu.
+
+![](../../.gitbook/assets/image%20%2813%29.png)
+
+Clicking on it will log you out.
+
