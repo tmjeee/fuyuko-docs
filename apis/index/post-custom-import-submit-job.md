@@ -57,7 +57,7 @@ The preview object from preview request step
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-Cake successfully retrieved.
+Successfully retrieved.
 {% endapi-method-response-example-description %}
 
 ```
