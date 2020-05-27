@@ -6,7 +6,7 @@ Add item to category
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Add Item to a category
 {% endapi-method-description %}
 
 {% api-method-spec %}

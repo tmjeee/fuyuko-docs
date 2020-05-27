@@ -6,7 +6,7 @@ Unlink Pricing Structure Group
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Remove a partner group from a pricing structure.
 {% endapi-method-description %}
 
 {% api-method-spec %}

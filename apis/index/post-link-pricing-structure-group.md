@@ -6,7 +6,7 @@ Link Pricing Structure Group
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Add a partner group to a pricing structure.
 {% endapi-method-description %}
 
 {% api-method-spec %}

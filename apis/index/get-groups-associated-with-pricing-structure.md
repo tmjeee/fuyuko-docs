@@ -6,7 +6,7 @@ Get Groups associated with pricing structure
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Get groups linked to a pricing structure.
 {% endapi-method-description %}
 
 {% api-method-spec %}
