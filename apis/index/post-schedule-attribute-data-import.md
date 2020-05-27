@@ -6,11 +6,11 @@ description: Schedule attribute data import
 
 {% api-method method="post" host="https://<host>:<port>/api/v1" path="/view/:viewId/import/attributes" %}
 {% api-method-summary %}
-Schedule attriute data import
+Schedule attribute data import
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Schedule an attribute data import.
 {% endapi-method-description %}
 
 {% api-method-spec %}

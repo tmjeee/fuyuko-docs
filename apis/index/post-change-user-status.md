@@ -10,7 +10,7 @@ Change user's status
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Change user's status.
 {% endapi-method-description %}
 
 {% api-method-spec %}

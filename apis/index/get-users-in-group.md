@@ -10,7 +10,7 @@ Get users in a group
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Retrieve all users in a group.
 {% endapi-method-description %}
 
 {% api-method-spec %}

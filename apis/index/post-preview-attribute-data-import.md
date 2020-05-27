@@ -10,7 +10,7 @@ Preview attribute data import
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Get preview data for an attribute import.
 {% endapi-method-description %}
 
 {% api-method-spec %}

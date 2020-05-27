@@ -10,7 +10,7 @@ Get rule by view
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Get rules in a view.
 {% endapi-method-description %}
 
 {% api-method-spec %}

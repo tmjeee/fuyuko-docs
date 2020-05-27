@@ -10,7 +10,7 @@ Get users by status
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Get users by status.
 {% endapi-method-description %}
 
 {% api-method-spec %}

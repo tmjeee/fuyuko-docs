@@ -10,7 +10,7 @@ Schedule pricing data import
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Schedule a price data import job to run.
 {% endapi-method-description %}
 
 {% api-method-spec %}

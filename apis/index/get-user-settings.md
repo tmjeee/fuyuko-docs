@@ -10,7 +10,7 @@ User settings
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Get user settings.
 {% endapi-method-description %}
 
 {% api-method-spec %}

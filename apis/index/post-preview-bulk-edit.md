@@ -10,7 +10,7 @@ Request a bulk edit preview
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Preview a bulk edit.
 {% endapi-method-description %}
 
 {% api-method-spec %}

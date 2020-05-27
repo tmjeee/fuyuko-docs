@@ -10,7 +10,7 @@ Schedule item data export
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Schedule items data export.
 {% endapi-method-description %}
 
 {% api-method-spec %}

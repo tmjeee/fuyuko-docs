@@ -10,7 +10,7 @@ Update rule status
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Update a rule's status in a view.
 {% endapi-method-description %}
 
 {% api-method-spec %}

@@ -10,7 +10,7 @@ User dashboard widget data
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Get user's dashboard widget data.
 {% endapi-method-description %}
 
 {% api-method-spec %}

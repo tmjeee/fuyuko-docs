@@ -10,7 +10,7 @@ Get view validation results
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Get View's validation result.
 {% endapi-method-description %}
 
 {% api-method-spec %}

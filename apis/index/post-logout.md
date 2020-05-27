@@ -10,7 +10,7 @@ Logout
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Logout.
 {% endapi-method-description %}
 
 {% api-method-spec %}

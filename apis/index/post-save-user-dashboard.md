@@ -10,7 +10,7 @@ Save user dashboard
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Saves user's dashboard data.
 {% endapi-method-description %}
 
 {% api-method-spec %}

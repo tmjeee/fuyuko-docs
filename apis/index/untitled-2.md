@@ -10,7 +10,7 @@ Get groups with no roles given
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Search for group that do not have the given role-name by group name.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -21,7 +21,7 @@ Role name
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="groupName" type="string" required=false %}
-Group name
+Group name \(wild card acceptable\)
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 

@@ -10,7 +10,7 @@ Get all attributes in view
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Get all attribute in a view.
 {% endapi-method-description %}
 
 {% api-method-spec %}

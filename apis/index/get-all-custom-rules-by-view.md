@@ -10,7 +10,7 @@ Get all custom rules
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Get all custom rules in view.
 {% endapi-method-description %}
 
 {% api-method-spec %}

@@ -10,7 +10,7 @@ Create invitation
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Create and sent out an invitation to join the system.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -20,6 +20,16 @@ This endpoint allows you to get free cakes.
 Authentication token
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="email" type="string" required=true %}
+Email to sent invitation to.
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="groupIds.\*" type="number" required=true %}
+Group Ids this user will be in upon activation
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -39,5 +49,14 @@ Cake successfully retrieved.
 {% endapi-method-spec %}
 {% endapi-method %}
 
+{% hint style="info" %}
+`groupIds` property is expected to be a JSON array. Example of the body would look as follows:
 
+```text
+{
+  email: "....",
+  groupIds: [ 1,2,3 ]
+}
+```
+{% endhint %}
 

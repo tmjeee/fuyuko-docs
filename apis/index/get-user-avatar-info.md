@@ -10,7 +10,7 @@ User avatar's info
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Get user's avatar information.
 {% endapi-method-description %}
 
 {% api-method-spec %}

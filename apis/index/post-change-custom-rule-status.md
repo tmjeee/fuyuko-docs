@@ -10,7 +10,7 @@ Change custom rule status
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Change custom rule status.
 {% endapi-method-description %}
 
 {% api-method-spec %}

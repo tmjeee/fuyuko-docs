@@ -10,7 +10,7 @@ Update attributes in view
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Update attributes in view.
 {% endapi-method-description %}
 
 {% api-method-spec %}

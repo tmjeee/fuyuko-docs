@@ -10,7 +10,7 @@ Get partner pricing structures
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Get pricing structure a user is allowed to access.
 {% endapi-method-description %}
 
 {% api-method-spec %}

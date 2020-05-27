@@ -10,7 +10,7 @@ Get all items in a view
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Get all items in a view.
 {% endapi-method-description %}
 
 {% api-method-spec %}

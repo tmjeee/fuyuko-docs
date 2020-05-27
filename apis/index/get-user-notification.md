@@ -10,7 +10,7 @@ User notifications
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Get a user's notifications.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -47,7 +47,7 @@ Cake successfully retrieved.
         "message": "Simple notification one"
     }
   ]
-}
+}Ge
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}

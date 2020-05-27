@@ -10,7 +10,7 @@ Activate invitation received
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Activate an invitation sent out by code.
 {% endapi-method-description %}
 
 {% api-method-spec %}

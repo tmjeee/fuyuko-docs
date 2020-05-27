@@ -10,7 +10,7 @@ Search self registration by username
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Search self registered entries by username
 {% endapi-method-description %}
 
 {% api-method-spec %}

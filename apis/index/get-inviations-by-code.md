@@ -10,7 +10,7 @@ description: Get invitations by code
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Get invitations created with the given code.
 {% endapi-method-description %}
 
 {% api-method-spec %}

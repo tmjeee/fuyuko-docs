@@ -10,7 +10,7 @@ Update item status
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Update Item's status.
 {% endapi-method-description %}
 
 {% api-method-spec %}

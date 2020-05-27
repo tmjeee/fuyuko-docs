@@ -10,7 +10,7 @@ Save user settings
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Update user settings, where settings are body entry in key \(string\) value \(string\) pair.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -26,6 +26,12 @@ User ID
 Authentication token.
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="<settings key>" type="string" required=false %}
+Settings key and values
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}

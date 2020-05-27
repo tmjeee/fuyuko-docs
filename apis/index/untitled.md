@@ -10,7 +10,7 @@ Heartbeat
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint returns with a timestamp and status of 'SUCCESS' if the application is alive and responsive.
+Get system's heartbeat, this endpoint returns with a timestamp and status of 'SUCCESS' if the application is alive and responsive.
 {% endapi-method-description %}
 
 {% api-method-spec %}

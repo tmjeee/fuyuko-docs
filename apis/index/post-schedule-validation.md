@@ -10,7 +10,7 @@ Schedule validation
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Schedule a validation job run.
 {% endapi-method-description %}
 
 {% api-method-spec %}

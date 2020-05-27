@@ -14,7 +14,7 @@ Save user's avatar
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Save a user's avatar.
 {% endapi-method-description %}
 
 {% api-method-spec %}

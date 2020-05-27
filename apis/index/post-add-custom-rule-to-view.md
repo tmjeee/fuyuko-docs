@@ -10,7 +10,7 @@ Add custom rule to view
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Add a custom rule to View.
 {% endapi-method-description %}
 
 {% api-method-spec %}

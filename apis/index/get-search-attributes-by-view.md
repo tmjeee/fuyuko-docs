@@ -10,7 +10,7 @@ Search for attributes in view
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Search for attributes in a view.
 {% endapi-method-description %}
 
 {% api-method-spec %}

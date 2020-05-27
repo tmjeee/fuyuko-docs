@@ -10,7 +10,7 @@ Schedule Item data import
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Schedule an Item data import job to run.
 {% endapi-method-description %}
 
 {% api-method-spec %}

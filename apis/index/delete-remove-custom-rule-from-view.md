@@ -10,7 +10,7 @@ Remove custom rule from view
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Remove custom rules from a view.
 {% endapi-method-description %}
 
 {% api-method-spec %}

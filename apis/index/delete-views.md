@@ -10,7 +10,7 @@ Delete views
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Delete views by Ids.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -20,6 +20,12 @@ This endpoint allows you to get free cakes.
 Authentication token.
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="\*.id" type="number" required=true %}
+JSON object with a id property \(View's ID\)
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -38,6 +44,18 @@ Cake successfully retrieved.
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
+
+{% hint style="info" %}
+Request body is a JSON array of objects containing an id property indicating the view's ID.
+
+```text
+[ // body
+   { id: 1 },
+   { id: 2 }
+   ...
+]
+```
+{% endhint %}
 
 
 

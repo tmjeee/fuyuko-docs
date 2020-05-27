@@ -10,7 +10,7 @@ Search for group by name
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Search groups by name.
 {% endapi-method-description %}
 
 {% api-method-spec %}

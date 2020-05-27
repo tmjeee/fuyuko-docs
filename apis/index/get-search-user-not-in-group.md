@@ -10,7 +10,7 @@ Search forusers not in group
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Search for users not in group by username.
 {% endapi-method-description %}
 
 {% api-method-spec %}

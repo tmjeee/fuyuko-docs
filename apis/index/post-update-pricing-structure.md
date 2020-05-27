@@ -10,7 +10,7 @@ Update pricing struture
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Update a pricing structure.
 {% endapi-method-description %}
 
 {% api-method-spec %}

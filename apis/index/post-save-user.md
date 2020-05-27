@@ -10,7 +10,7 @@ Save user
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Save a user.
 {% endapi-method-description %}
 
 {% api-method-spec %}

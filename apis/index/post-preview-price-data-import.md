@@ -10,7 +10,7 @@ Price Data Import Preview
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Preview data for a price data import.
 {% endapi-method-description %}
 
 {% api-method-spec %}

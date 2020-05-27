@@ -10,7 +10,7 @@ All Pricing Structures and its items
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Get all pricing structures and it's items and prices.
 {% endapi-method-description %}
 
 {% api-method-spec %}

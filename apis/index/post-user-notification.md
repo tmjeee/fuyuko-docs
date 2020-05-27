@@ -10,7 +10,7 @@ Create user notification
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Publish a user notification.
 {% endapi-method-description %}
 
 {% api-method-spec %}

@@ -10,7 +10,7 @@ Delete self registration
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Delete a self registration by it's id.
 {% endapi-method-description %}
 
 {% api-method-spec %}

@@ -10,7 +10,7 @@ Get all jobs
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Get all jobs.
 {% endapi-method-description %}
 
 {% api-method-spec %}

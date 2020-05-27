@@ -10,7 +10,7 @@ Schedule pricing data export
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Schedule a pricing data export job.
 {% endapi-method-description %}
 
 {% api-method-spec %}

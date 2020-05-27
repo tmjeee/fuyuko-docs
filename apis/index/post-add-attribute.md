@@ -10,7 +10,7 @@ Add attribute
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Add an item attribute.
 {% endapi-method-description %}
 
 {% api-method-spec %}

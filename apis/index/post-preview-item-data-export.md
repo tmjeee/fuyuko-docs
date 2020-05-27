@@ -10,7 +10,7 @@ Item Data Export Preview
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Preview Item data export.
 {% endapi-method-description %}
 
 {% api-method-spec %}

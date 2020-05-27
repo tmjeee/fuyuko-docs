@@ -10,7 +10,7 @@ Search user by status and / or username
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Search user by status and username.
 {% endapi-method-description %}
 
 {% api-method-spec %}

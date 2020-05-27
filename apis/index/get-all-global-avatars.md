@@ -10,7 +10,7 @@ Get all global avatars information
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Get all global avatars.
 {% endapi-method-description %}
 
 {% api-method-spec %}

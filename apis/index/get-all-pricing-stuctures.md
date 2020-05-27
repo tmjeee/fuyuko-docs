@@ -10,7 +10,7 @@ Get all pricing structures
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Get all pricing structures.
 {% endapi-method-description %}
 
 {% api-method-spec %}

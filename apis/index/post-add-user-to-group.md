@@ -10,7 +10,7 @@ Add user to a group
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Add user to group.
 {% endapi-method-description %}
 
 {% api-method-spec %}

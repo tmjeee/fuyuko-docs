@@ -10,7 +10,7 @@ Add role to group
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Add role to a group.
 {% endapi-method-description %}
 
 {% api-method-spec %}

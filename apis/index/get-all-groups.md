@@ -10,7 +10,7 @@ Get all groups
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Get all groups.
 {% endapi-method-description %}
 
 {% api-method-spec %}

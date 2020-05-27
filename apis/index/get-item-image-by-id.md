@@ -10,7 +10,7 @@ Get item image by id
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Get Item's image by the item's image id.
 {% endapi-method-description %}
 
 {% api-method-spec %}

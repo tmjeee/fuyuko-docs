@@ -10,7 +10,7 @@ Preview Item Data import
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Preview data for an Item Data Import.
 {% endapi-method-description %}
 
 {% api-method-spec %}

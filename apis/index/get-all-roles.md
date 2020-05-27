@@ -10,7 +10,7 @@ Get all roles
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Get all roles.
 {% endapi-method-description %}
 
 {% api-method-spec %}
