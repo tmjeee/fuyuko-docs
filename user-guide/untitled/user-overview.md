@@ -14,10 +14,10 @@ The general idea is to assign users into groups which contains roles, allowing t
 
 | Group | Description |
 | :--- | :--- |
-| VIEW Group |  |
-| EDIT Group |  |
-| ADMIN Group |  |
-| PARTNER Group |  |
+| VIEW Group | Groups where members can view only operations in the system. |
+| EDIT Group | Groups where members can perform actions in the system |
+| ADMIN Group | Groups where members can perform higher order administration in the system. |
+| PARTNER Group | Groups where members can access partner section and view prices for views configured. |
 
 See [here](user-roles-management.md) for more information on how to manage users, groups and roles.
 
