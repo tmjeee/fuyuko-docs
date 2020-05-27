@@ -6,7 +6,7 @@ Get Pricing Structures By View
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Get all pricing structures in a view.
 {% endapi-method-description %}
 
 {% api-method-spec %}

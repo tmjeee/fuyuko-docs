@@ -10,7 +10,7 @@ Get pricing structure by id
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Get pricing structure details by id.
 {% endapi-method-description %}
 
 {% api-method-spec %}

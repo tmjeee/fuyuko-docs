@@ -10,7 +10,7 @@ Submit a custom import job
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Submit a custom import job to be scheduled for execution.
 {% endapi-method-description %}
 
 {% api-method-spec %}

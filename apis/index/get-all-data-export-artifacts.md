@@ -10,7 +10,7 @@ Get all data export artifacts
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Get all export artifacts.
 {% endapi-method-description %}
 
 {% api-method-spec %}

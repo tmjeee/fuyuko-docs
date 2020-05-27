@@ -10,7 +10,7 @@ Validate Custom Export's Inputs
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Validate input\(s\) of a custom export.
 {% endapi-method-description %}
 
 {% api-method-spec %}

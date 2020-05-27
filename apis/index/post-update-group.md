@@ -6,7 +6,7 @@ Add or Update Group
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Add or update a group details.
 {% endapi-method-description %}
 
 {% api-method-spec %}

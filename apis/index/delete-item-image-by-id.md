@@ -10,7 +10,7 @@ Delete item image by id
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Delete an Item's image.
 {% endapi-method-description %}
 
 {% api-method-spec %}

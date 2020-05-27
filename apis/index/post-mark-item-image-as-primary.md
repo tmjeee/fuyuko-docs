@@ -10,7 +10,7 @@ Mark Item Image as Primary Image
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Mark an Item image as primary.
 {% endapi-method-description %}
 
 {% api-method-spec %}

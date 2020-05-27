@@ -10,7 +10,7 @@ Add item image
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Add an image to an item.
 {% endapi-method-description %}
 
 {% api-method-spec %}

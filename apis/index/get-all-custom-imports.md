@@ -10,7 +10,7 @@ Get all custom imports
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Get all custom imports.
 {% endapi-method-description %}
 
 {% api-method-spec %}

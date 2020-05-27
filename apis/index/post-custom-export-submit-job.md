@@ -10,7 +10,7 @@ Submit custom export job
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Submit a custom export job for scheduled exection.
 {% endapi-method-description %}
 
 {% api-method-spec %}

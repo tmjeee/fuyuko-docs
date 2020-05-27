@@ -10,7 +10,7 @@ Get data export content by id
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Get data export content by id.
 {% endapi-method-description %}
 
 {% api-method-spec %}

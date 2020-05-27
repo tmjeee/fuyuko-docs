@@ -10,7 +10,7 @@ Custom Import Preview
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Preview a custom import.
 {% endapi-method-description %}
 
 {% api-method-spec %}
