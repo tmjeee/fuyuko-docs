@@ -40,6 +40,7 @@
   * [Dev - Requrements](developer-guide/untitled/installation.md)
   * [Dev - Installation](developer-guide/untitled/requirements.md)
   * [Dev - Building](developer-guide/untitled/dev-building.md)
+  * [Dev - Packaging](developer-guide/untitled/dev-packaging.md)
   * [Dev - Front End](developer-guide/untitled/dev-front-end/README.md)
     * [Dev - FE - Configuration](developer-guide/untitled/dev-front-end/dev-fe-configuration.md)
     * [Dev - FE - Layout](developer-guide/untitled/dev-front-end/dev-fe-layout.md)
