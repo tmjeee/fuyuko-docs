@@ -16,3 +16,9 @@ $> git clone https://github.com/tmjeee/fuyuko.git
 
 Install and setup the application making sure you can run it locally. See [here](developer-guide/untitled/requirements.md) for more information about installation.
 
+## Step 3: Make the Awesome change\(s\) :-\)
+
+Make the changes you need, preferably using an IDE like [WebStorm](https://www.jetbrains.com/webstorm/). 
+
+### 
+
