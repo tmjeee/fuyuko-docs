@@ -20,5 +20,5 @@ Install and setup the application making sure you can run it locally. See [here]
 
 Make the changes you need, preferably using an IDE like [WebStorm](https://www.jetbrains.com/webstorm/). 
 
-### 
+## Step 4: 
 
