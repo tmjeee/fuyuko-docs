@@ -41,6 +41,18 @@ Install and setup the application making sure you can run it locally. See [Front
 
 This would require knowing the branch you want to work on etc. Typically you would want to do the following initially, assuming you are interested in making contributions to v1.0.0-beta branch :-
 
+### Option 1: Simpler option
+
+```text
+$> git checkout --track upstream/v1.0.0-beta -b my-awesome-change    #(1)
+```
+
+| Indicator | Description |
+| :--- | :--- |
+| \(1\) | This will create a branch in local called "my-awesome-change" which will contains the changes from upstream's v1.0.0-beta branch |
+
+### Option  2:
+
 ```text
 $> git checkout --track origin/v1.0.0-beta            # (1)
 $> git pull origin v1.0.0-beta                        # (2)
