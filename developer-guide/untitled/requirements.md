@@ -16,15 +16,7 @@ Obtain the source code through either one of the following ways:
 
 This would be the preferred way if you would like to contribute to the code base.
 
-In [https://github.com/tmjeee/fuyuko](https://github.com/tmjeee/fuyuko) GitHub, at the top right corner click fork.
-
-![](../../.gitbook/assets/image%20%2816%29.png)
-
-This should create a fork.
-
-![](../../.gitbook/assets/image%20%2815%29.png)
-
-You can now clone from the forked repository, similar to what is described in the following section.
+See [Step 1 on how to fork and setup a forked repository](../../how-to-contribute.md).
 
 ### Downloading distribution Zip File
 
@@ -32,7 +24,7 @@ In [https://github.com/tmjeee/fuyuko](https://github.com/tmjeee/fuyuko) GitHub, 
 
 
 
-![](../../.gitbook/assets/image%20%2817%29.png)
+![](../../.gitbook/assets/image%20%2818%29.png)
 
 Unzip downloaded fuyuko zip file \(eg. fuyuko-1.0.0.zip\) downloaded
 
@@ -44,7 +36,7 @@ $> unzip fuyuko-1.0.0.zip
 
 In [https://github.com/tmjeee/fuyuko](https://github.com/tmjeee/fuyuko) GitHub, at the top right corner click clone or download.
 
-![](../../.gitbook/assets/image%20%2817%29.png)
+![](../../.gitbook/assets/image%20%2818%29.png)
 
 Clone the repository through the following command
 
