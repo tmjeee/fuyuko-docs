@@ -5,7 +5,7 @@ description: Application Installation instructions
 # Dev - Installation
 
 {% hint style="info" %}
-You will need a database ready as well. See here for a database setup.
+You will need a database ready as well. See [here](dev-database/) for a database setup.
 {% endhint %}
 
 ## Get the source code
