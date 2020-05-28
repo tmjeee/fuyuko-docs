@@ -22,3 +22,25 @@ SET GLOBAL time_zone = 'Australia/Sydney';  # or whatever your timezone is
 
 Standard timezone values can be found [here](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones).
 
+## Installing MariaDb
+
+Assuming you are using ubuntu, MariaDB can be installed through the following command
+
+```text
+$> sudo apt install -y mariadb-server
+```
+
+## Creating a database 
+
+Assuming you have a `root` in your database with a password set, you would need to do the following to get into MariaDb. Omit `-p` if you don't have a password for `root`.
+
+```text
+$> mariadb -u root -p 
+```
+
+Create a database called `fuyuko`, this is the default database, if it is not changed in BE's `config.json`
+
+```text
+$> create database fuyuko;
+```
+

@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [License](license.md)
+* [How to Contribute](how-to-contribute.md)
 * [Sponsors](sponsors.md)
 
 ## User Guide

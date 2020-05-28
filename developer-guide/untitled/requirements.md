@@ -4,7 +4,15 @@ description: Application Installation instructions
 
 # Dev - Installation
 
-## Prerequisite
+{% hint style="info" %}
+You will need a database ready as well. See here for a database setup.
+{% endhint %}
+
+## Get the source code
+
+Obtain the source code through either one of the following ways:
+
+### Downloading distribution Zip File
 
 Unzip downloaded fuyuko zip file \(eg. fuyuko-1.0.0.zip\) downloaded
 
@@ -12,7 +20,17 @@ Unzip downloaded fuyuko zip file \(eg. fuyuko-1.0.0.zip\) downloaded
 $> unzip fuyuko-1.0.0.zip 
 ```
 
-After unzip, the following folder structure will be observed
+### Clone repository from GitHub
+
+Clone the repository through the following command
+
+```text
+$> git clone https://github.com/tmjeee/fuyuko.git
+```
+
+## Source code structure
+
+Source code will have the following structure :
 
 ```text
 + fe/
