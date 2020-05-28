@@ -1,4 +1,4 @@
-# Dev - Building
+# Dev - Building and Running
 
 ## Checking out the source from Github
 
