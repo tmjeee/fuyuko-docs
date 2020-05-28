@@ -37,7 +37,7 @@ This will setup the following source
 
 ## Step 2: Get it setup
 
-Install and setup the application making sure you can run it locally. See [Front End and Back End installation section](developer-guide/untitled/requirements.md) for more information about installation.
+Install and setup the application making sure you can run it locally. See [Front End and Back End installation section](developer-guide/untitled/dev-installation.md) for more information about installation.
 
 This would require knowing the branch you want to work on etc. Typically you would want to do the following initially, assuming you are interested in making contributions to v1.0.0-beta branch :-
 

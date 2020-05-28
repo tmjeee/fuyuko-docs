@@ -19,7 +19,7 @@ This is where an existing user with `ADMIN`role would sent out an email invitati
 See [here](invitation-and-activation.md) for more information regarding Invitation and it's activation process.
 
 {% hint style="info" %}
-This would require an smtp server information being configured and set up accordingly. See [here](../../../developer-guide/untitled/requirements.md) for more information regarding installation.
+This would require an smtp server information being configured and set up accordingly. See [here](../../../developer-guide/untitled/dev-installation.md) for more information regarding installation.
 {% endhint %}
 
 

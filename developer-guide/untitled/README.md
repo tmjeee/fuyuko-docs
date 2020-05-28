@@ -4,11 +4,11 @@
 
 Overview of the system architecture design.
 
-## [Requirements](installation.md)
+## [Requirements](dev-requirements.md)
 
 What needed to kick start building / developing the system
 
-## [Installation](requirements.md)
+## [Installation](dev-installation.md)
 
 How to get the software installed.
 
