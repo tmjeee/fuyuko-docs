@@ -24,7 +24,15 @@ Information:
 
 This is the documentation of **Fuyuko Master Data Management Software \(version 1.0.0\)** documentation. 
 
-Fuyuko is an Open Source Master Data Management \(MDM\) / Product Information Management \(PIM\) software, designed with the following features in mind :
+Fuyuko is an Open Source Master Data Management \(MDM\) / Product Information Management \(PIM\) software.
+
+## Goals
+
+* Provides an open-source alternative on a highly comercial oriented PIM / MDM software market
+* Foster open corporation and standadization from bodies eg. GS1Net, 1WorldSync, GHX etc. for product information supply and consumption.
+* A PIM / MDM product with plugable extensions allowing supply and consumtion of data from various centerlized global data synchronization network \(GDSN\)
+
+## Features
 
 * simple
 * build off popular, proven tech \(typescript, nodejs, angular9+\)
