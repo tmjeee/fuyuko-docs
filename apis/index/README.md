@@ -171,6 +171,15 @@ description: 'Documentation of APIs, segregated into categories'
 | [POST-preview-bulk-edit](post-preview-bulk-edit.md) |  |
 | [POST-schedule-bulk-edit](post-schedule-bulk-edit.md) |  |
 
+## Custom Bulk Edit
+
+| End Point | Description |
+| :--- | :--- |
+| GET-all-custom-bulk-edit |  |
+| POST-custom-bulk-edit-preview |  |
+| POST-custom-bulk-edit-submit-job |  |
+| POST-custom-bulk-edit-validate-input |  |
+
 ## Job
 
 | End Point | Description |
@@ -253,4 +262,10 @@ description: 'Documentation of APIs, segregated into categories'
 | [GET-view-validation-results](get-view-validation-results.md) |  |
 | [POST-schedule-validation](post-schedule-validation.md) |  |
 | [DELETE-validation-result-by-id](delete-validation-result-by-id.md) |  |
+
+## Administration
+
+| End Point | Description |
+| :--- | :--- |
+| [GET-audit-log](get-audit-log.md) |  |
 

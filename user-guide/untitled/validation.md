@@ -76,7 +76,9 @@ The validation result details page, dividied into the following three sections:-
       </td>
     </tr>
   </tbody>
-</table>#### Main
+</table>
+
+#### Main
 
 ![](../../.gitbook/assets/validation-details.png)
 

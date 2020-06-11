@@ -31,6 +31,8 @@
   * [Jobs](user-guide/untitled/jobs.md)
   * [Partner](user-guide/untitled/partner.md)
   * [Category](user-guide/untitled/category.md)
+  * [Administration](user-guide/untitled/administration/README.md)
+    * [Audit Logs](user-guide/untitled/administration/audit-logs.md)
   * [Help](user-guide/untitled/help.md)
 
 ## Developer Guide
@@ -77,6 +79,10 @@
 ## APIs
 
 * [APIs Index](apis/index/README.md)
+  * [GET-all-custom-bulk-edit](apis/index/get-all-custom-bulk-edit.md)
+  * [POST-custom-bulk-edit-preview](apis/index/post-custom-bulk-edit-preview.md)
+  * [POST-custom-bulk-edit-submit-job](apis/index/post-custom-bulk-edit-submit-job.md)
+  * [POST-custom-bulk-edit-validate-input](apis/index/post-custom-bulk-edit-validate-input.md)
   * [GET-help](apis/index/get-help.md)
   * [POST-check-forgot-password-code](apis/index/post-check-forgot-password-code.md)
   * [POST-reset-forgotten-password](apis/index/post-reset-forgotten-password.md)
@@ -211,6 +217,7 @@
   * [POST-approve-self-registration](apis/index/post-approve-self-registration.md)
   * [POST-activate-invitation](apis/index/post-activate-invitation.md)
   * [GET-heartbeat](apis/index/untitled.md)
+  * [GET-audit-log](apis/index/get-audit-log.md)
   * [Common response](apis/index/common-response.md)
 
 ## Articles

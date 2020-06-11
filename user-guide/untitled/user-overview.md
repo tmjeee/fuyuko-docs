@@ -129,7 +129,9 @@ Dictates what attribute to be valIdated and what are the valid value of that att
       <td style="text-align:left">Values depending on the operator</td>
     </tr>
   </tbody>
-</table>{% hint style="info" %}
+</table>
+
+{% hint style="info" %}
 Built-in validator basically allows one to say 
 
 **When** `<attribute1> <operator1>` `<operand1>` is true, **validate** that `<attribute2>`  `<operator2>` `<operand2>` is true.
@@ -262,7 +264,9 @@ Indicate when the change should take effect.
       <td style="text-align:left">Value the operator operates on to check for validity</td>
     </tr>
   </tbody>
-</table>{% hint style="info" %}
+</table>
+
+{% hint style="info" %}
 Bulk edit is essentially telling the application " when `<attribute>` `<operator>` `<operand>` is true, change `<attribute value>` to `<new attribute value>`"
 
 Eg. change all "currency code attribute" to "AUD" when "country code attribute" is "AUS"
@@ -303,5 +307,11 @@ See [here](dashboard.md) for more information about configuring the layout and a
 
 Trading partners are basically those user with ROLE\_PARTNER in the group they are in. This allow them access to the trading partner page where they can see prices of items based on Pricing Structure. Each trading partner can have one or many Pricing Structures assinged to them allowing them to see sets of items with potentially different prices. See [here](partner.md) for more information.
 
+## Category
 
+Items can be grouped into logical categories. Categories are hierarchical and can have as many items as you like. More details on the configuration and management of categories and associating Items into them are described in this section
+
+## Administration
+
+Administration features of the system. This is where you can get the Audit log and filtering of audit log to find various information regading access or behaviour on how the system is being used.
 
