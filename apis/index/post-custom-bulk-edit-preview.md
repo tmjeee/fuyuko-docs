@@ -26,6 +26,24 @@ Custom bulk edit ID.
 Authentication token.
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="values" type="array" required=true %}
+
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="values.\*.type" type="string" required=false %}
+
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="values.\*.name" type="string" required=false %}
+
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="values.\*.value" type="string" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -77,5 +95,7 @@ Cake successfully retrieved.
 {% endapi-method-spec %}
 {% endapi-method %}
 
-
+{% hint style="info" %}
+`values` is expected to be a `JSON Array` of an object containing `type`, `name` and `value`
+{% endhint %}
 
