@@ -175,10 +175,10 @@ description: 'Documentation of APIs, segregated into categories'
 
 | End Point | Description |
 | :--- | :--- |
-| GET-all-custom-bulk-edit |  |
-| POST-custom-bulk-edit-preview |  |
-| POST-custom-bulk-edit-submit-job |  |
-| POST-custom-bulk-edit-validate-input |  |
+| [GET-all-custom-bulk-edit](get-all-custom-bulk-edit.md) |  |
+| [POST-custom-bulk-edit-preview](post-custom-bulk-edit-preview.md) |  |
+| [POST-custom-bulk-edit-submit-job](post-custom-bulk-edit-submit-job.md) |  |
+| [POST-custom-bulk-edit-validate-input](post-custom-bulk-edit-validate-input.md) |  |
 
 ## Job
 
