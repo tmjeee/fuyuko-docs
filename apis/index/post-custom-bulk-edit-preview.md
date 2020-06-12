@@ -55,7 +55,7 @@ Cake successfully retrieved.
 ```
 {
     "status": "SUCCESS",
-    "message": "Import script preview ready",
+    "message": "Custom Bulk Edit script preview ready",
     "payload": {
         "proceed": true,
         "messages": [

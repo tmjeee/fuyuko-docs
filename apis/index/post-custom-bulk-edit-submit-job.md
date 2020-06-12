@@ -59,7 +59,7 @@ Cake successfully retrieved.
 ```
 {
     "status": "SUCCESS",
-    "message": "Export script job submission done",
+    "message": "Custom Bulk Edit script job submission done",
     "payload": {
         "valid": true,
         "messages": [
