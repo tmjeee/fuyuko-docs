@@ -20,7 +20,7 @@ The first row in dicates the header of the csv and it **must** exists
 | :--- | :--- |
 | name | Name of the attribute |
 | description | Description of the attribute |
-| type | Type of attribute, valid values are `string`, `text`, `number`, `date`,  `currency`, `volume` `dimension`, `area`, `width`, `length`, `height`, `select` or `doubleselect` |
+| type | Type of attribute, valid values are `string`, `text`, `number`, `date`,  `currency`, `volume` `dimension`, `area`, `width`, `length`, `height`, `height`,`select` or `doubleselect` |
 | format | Format of this attribute valid for `number`, `date`, `volume`, `dimension`, `area`, `width`, `length` and `height`. See the code snippet for more info. For numeric atribute types, the format `0.0` means it will be formated in 1 decimal point. For date for mat `DD-MM-YYYY` means \(day- month-year\) format. |
 | showCurrencyCountry | Valid for `currency`, attribute type only. To indicate if the country code should be shown |
 | pair1 | Valid for `select` and `doubleselect` attribute type only. In the format of pipe \(`|`\) separated`<key1>=<value1>` format, indicating the drop down for first select or doubleselect attribute should have `<value1>` displayed in the drop down corresponding to `<key1>` when it is submitted. |
@@ -46,7 +46,16 @@ att13,att 13 description,doubleselect,,,key1=value1|key2=value2|key3=value3,key1
 
 ### Item Import Data Format
 
+Item data import can be done in either :
+
+* a csv file alone
+* a zipped file with csv file and images \(of the items\)
+
+#### CSV File Alone
+
 Following is the data format for item import:
+
+#### 
 
 The first row in dicates the header of the csv and it **must** exists
 
@@ -67,6 +76,79 @@ item 1_1_1,item 1_1_1_1,item 1_1_1_1 description,some string,some text,10.0,10-0
 ,item 2,item 2 description,some string,some text,10.0,10-09-2018,23.50,11.11|l,12.01|13.01|14.01|m,11|m2,33|m,44|m,55|m,key2,key3|xkey31
 ,item 3,item 3 description,some string,some text,10.0,10-09-2018,23.50,11.11|l,12.01|13.01|14.01|m,11|m2,33|m,44|m,55|m,key2,key3|xkey31
 
+```
+
+#### Zip file
+
+If a zip file is to be uploaded, it must be zipped with the following format
+
+```text
++ /root-of-the-zip-file
+   - csv-files
+   - image files
+```
+
+An example would be as follows
+
+```text
+$> unzip -l sample-import-items-zip-01.zip 
+Archive:  sample-import-items-zip-01.zip
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+        0  2020-06-19 09:43   sample-import-items-zip-01/
+     1130  2020-06-19 00:01   sample-import-items-zip-01/sample-import-items-1.csv
+        0  2020-06-19 09:48   sample-import-items-zip-01/images/
+     6735  2020-06-19 09:48   sample-import-items-zip-01/images/img-03.jpeg
+     9052  2020-06-19 09:47   sample-import-items-zip-01/images/img-01.jpeg
+    12321  2020-06-19 00:01   sample-import-items-zip-01/images/img-02.jpeg
+      782  2020-06-21 21:21   sample-import-items-zip-01/sample-import-items-2.csv
+        0  2020-06-19 09:50   sample-import-items-zip-01/images2/
+     4645  2020-06-19 09:49   sample-import-items-zip-01/images2/image-02.jpeg
+     7306  2020-06-19 09:48   sample-import-items-zip-01/images2/image-01.jpeg
+    10792  2020-06-19 09:50   sample-import-items-zip-01/images2/image-03.jpeg
+---------                     -------
+    52763                     11 files
+```
+
+or
+
+```text
+$> unzip -l sample-import-items-zip-01.zip 
+Archive:  sample-import-items-zip-01.zip
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+        0  2020-06-19 09:48   images/
+     6735  2020-06-19 09:48   images/img-03.jpeg
+     9052  2020-06-19 09:47   images/img-01.jpeg
+    12321  2020-06-19 00:01   images/img-02.jpeg
+        0  2020-06-19 09:50   images2/
+     4645  2020-06-19 09:49   images2/image-02.jpeg
+     7306  2020-06-19 09:48   images2/image-01.jpeg
+    10792  2020-06-19 09:50   images2/image-03.jpeg
+     1130  2020-06-19 00:01   sample-import-items-1.csv
+      782  2020-06-21 21:21   sample-import-items-2.csv
+---------                     -------
+    52763                     10 files
+```
+
+In the case of a zip file format, an extra column in the csv file can be used to indicate the location of the image resources.
+
+```text
+parentName,name,description,attName=att01,attName=att02,attName=att03,attName=att04,attName=att05,attName=att06,attName=att07,attName=att08,attName=att09,attName=att10,attName=att11,attName=att12,attName=att13,attName=att14,image
+,item 4,item 4 description,some string,some text,10.0,10-09-2018,23.50,11.11|l,12.01|13.01|14.01|m,11|m2,33|m,44|m,55|m,key2,key3|xkey31,10|kg,images/img-01.jpeg
+,item 5,item 5 description,some string,some text,10.0,10-09-2018,23.50,11.11|l,12.01|13.01|14.01|m,11|m2,33|m,44|m,55|m,key2,key3|xkey31,10|kg,images/img-02.jpeg|images/img-03.jpeg
+,item 6,item 6 description,some string,some text,10.0,10-09-2018,23.50,11.11|l,12.01|13.01|14.01|m,11|m2,33|m,44|m,55|m,key2,key3|xkey31,10|kg,images2/image-01.jpeg|images2/image-02.jpeg|images2/image-03.jpeg
+```
+
+In the example above, an extra `image` header was added to the csv header \(the first line\) and in each subsequent line where that header value is located, a `|` separated value can be used to indicate the image locations. The image location has to be from the root of the zipped content. eg `dir1/image-01.jpg|dir2/image02.jpeg` would indicate the following zipped structure
+
+```text
++ <root of zipped content>
+   - csv file
+   + dir1/
+      - image-01.jpg
+   + dir2/
+      - image02.jpeg
 ```
 
 ### Price Import Data Format
