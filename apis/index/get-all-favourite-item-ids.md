@@ -1,6 +1,6 @@
 # GET-all-favourite-item-ids
 
-{% api-method method="get" host="https://api.cakes.com" path="/view/:viewId/user/:userId/favourite-item-ids" %}
+{% api-method method="get" host="https://<host>:<port>/api/v1" path="/view/:viewId/user/:userId/favourite-item-ids" %}
 {% api-method-summary %}
 Get all favourite item ids
 {% endapi-method-summary %}

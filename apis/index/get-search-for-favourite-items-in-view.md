@@ -1,6 +1,6 @@
 # GET-search-for-favourite-items-in-view
 
-{% api-method method="get" host="https://api.cakes.com" path="/view/:viewId/user/:userId/searchType/:searchType/search/:search" %}
+{% api-method method="get" host="https://<host>:<port>/api/v1" path="/view/:viewId/user/:userId/searchType/:searchType/search/:search" %}
 {% api-method-summary %}
 Search for favourite items in view
 {% endapi-method-summary %}

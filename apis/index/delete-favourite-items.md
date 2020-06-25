@@ -1,6 +1,6 @@
 # DELETE-favourite-items
 
-{% api-method method="delete" host="https://api.cakes.com" path="/view/:viewId/user/:userId/remove-favourite-items" %}
+{% api-method method="delete" host="https://<host>:<port>/api/v1" path="/view/:viewId/user/:userId/remove-favourite-items" %}
 {% api-method-summary %}
 Favourite items
 {% endapi-method-summary %}

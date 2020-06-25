@@ -1,6 +1,6 @@
 # POST-add-favourite-items
 
-{% api-method method="post" host="https://api.cakes.com" path="/view/:viewId/user/:userId/add-favourite-items" %}
+{% api-method method="post" host="https://<host>:<port>/api/v1" path="/view/:viewId/user/:userId/add-favourite-items" %}
 {% api-method-summary %}
 Add favourite items
 {% endapi-method-summary %}
