@@ -19,6 +19,7 @@
     * [Invitation & Activation](user-guide/untitled/registering-request-access/invitation-and-activation.md)
   * [Rules](user-guide/untitled/rules.md)
   * [Attributes](user-guide/untitled/attributes.md)
+  * [Favourites](user-guide/untitled/favourites.md)
   * [Item](user-guide/untitled/item.md)
   * [View](user-guide/untitled/view.md)
   * [Validation](user-guide/untitled/validation.md)
