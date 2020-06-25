@@ -79,6 +79,11 @@
 ## APIs
 
 * [APIs Index](apis/index/README.md)
+  * [GET-search-for-favourite-items-in-view](apis/index/get-search-for-favourite-items-in-view.md)
+  * [DELETE-favourite-items](apis/index/delete-favourite-items.md)
+  * [GET-all-favourite-items](apis/index/get-all-favourite-items.md)
+  * [GET-all-favourite-item-ids](apis/index/get-all-favourite-item-ids.md)
+  * [POST-add-favourite-items](apis/index/post-add-favourite-items.md)
   * [GET-all-custom-bulk-edit](apis/index/get-all-custom-bulk-edit.md)
   * [POST-custom-bulk-edit-preview](apis/index/post-custom-bulk-edit-preview.md)
   * [POST-custom-bulk-edit-submit-job](apis/index/post-custom-bulk-edit-submit-job.md)
