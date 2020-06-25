@@ -1,6 +1,6 @@
 # DELETE-favourite-items
 
-{% api-method method="delete" host="https://api.cakes.com" path="/v1/cakes/:id" %}
+{% api-method method="delete" host="https://api.cakes.com" path="/view/:viewId/user/:userId/remove-favourite-items" %}
 {% api-method-summary %}
 Favourite items
 {% endapi-method-summary %}
@@ -12,26 +12,26 @@ This endpoint allows you to get free cakes.
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="id" type="string" %}
-ID of the cake to get, for free of course.
+{% api-method-parameter name="viewId" type="number" required=true %}
+View Id
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="userId" type="number" required=true %}
+User Id.
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
 {% api-method-headers %}
-{% api-method-parameter name="Authentication" type="string" required=true %}
-Authentication token to track down who is emptying our stocks.
+{% api-method-parameter name="x-auth-jwt" type="string" required=true %}
+Authentication token.
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 
-{% api-method-query-parameters %}
-{% api-method-parameter name="recipe" type="string" %}
-The API will do its best to find a cake matching the provided recipe.
+{% api-method-body-parameters %}
+{% api-method-parameter name="itemIds" type="array" required=true %}
+Array of Item Ids to be deleted
 {% endapi-method-parameter %}
-
-{% api-method-parameter name="gluten" type="boolean" %}
-Whether the cake should be gluten-free or not.
-{% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
