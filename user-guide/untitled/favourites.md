@@ -1,4 +1,4 @@
-# Favourites
+# Favourite Items
 
 Items can be favourited and filtered by favourited items. Items can be favourited through :-
 
