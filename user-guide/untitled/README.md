@@ -32,6 +32,10 @@ How to configure and manage rules in a view.
 
 Configure and manages view specific attributes of the system.
 
+## [Favourite Items](favourites.md)
+
+Favouriting items from various pages \(tabular, thumbnail, list & categories page\)
+
 ## [Item](item.md)
 
 Configure and manage items in a view.
