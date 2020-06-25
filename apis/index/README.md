@@ -130,6 +130,11 @@ description: 'Documentation of APIs, segregated into categories'
 | [POST-add-item-image](post-add-item-image.md) |  |
 | [DELETE-item-image-by-id](delete-item-image-by-id.md) |  |
 | [POST-mark-item-image-as-primary](post-mark-item-image-as-primary.md) |  |
+| [GET-search-for-favourite-items-in-view](get-search-for-favourite-items-in-view.md) |  |
+| [DELETE-favourite-items](delete-favourite-items.md) |  |
+| [GET-all-favourite-items](get-all-favourite-items.md) |  |
+| [GET-all-favourite-item-ids](get-all-favourite-item-ids.md) |  |
+| [POST-add-favourite-items](post-add-favourite-items.md) |  |
 
 ## Rules
 
