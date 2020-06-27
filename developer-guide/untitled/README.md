@@ -8,10 +8,6 @@ Overview of the system architecture design.
 
 What needed to kick start building / developing the system
 
-## [Installation](dev-installation.md)
-
-How to get the software installed.
-
 ## [Building](dev-building.md)
 
 How to build the software from source code.
