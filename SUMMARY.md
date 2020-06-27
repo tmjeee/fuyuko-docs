@@ -3,6 +3,11 @@
 * [Introduction](README.md)
 * [License](license.md)
 * [How to Contribute](how-to-contribute.md)
+* [Installation](installation/README.md)
+  * [Source Code](installation/source-code.md)
+  * [Docker](installation/docker.md)
+  * [Docker Compose](installation/docker-compose.md)
+  * [Kubernetes](installation/kubernetes.md)
 * [Sponsors](sponsors.md)
 
 ## User Guide
