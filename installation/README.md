@@ -1,6 +1,6 @@
 # Installation
 
-## [Source code](source-code.md)
+## [Running from Source code](source-code.md)
 
 This is about installation Fuyuko from source code, by running the back-end, front-end and database in your local machine.
 
