@@ -72,6 +72,7 @@
     * [Dev - BE - Custom Export](developer-guide/untitled/dev-back-end/dev-be-custom-export.md)
     * [Dev - BE - Custom Import](developer-guide/untitled/dev-back-end/dev-be-custom-import.md)
     * [Dev - BE - Services](developer-guide/untitled/dev-back-end/dev-be-services.md)
+    * [Dev - BE -Events](developer-guide/untitled/dev-back-end/dev-be-events.md)
     * [Dev - BE - Error handling](developer-guide/untitled/dev-back-end/dev-be-error-handling.md)
     * [Dev - BE - Docker](developer-guide/untitled/dev-back-end/dev-be-docker.md)
   * [Dev - Database](developer-guide/untitled/dev-database/README.md)
