@@ -37,7 +37,7 @@ Fuyuko is an Open Source Master Data Management \(MDM\) / Product Information Ma
 * simple
 * build off popular, proven tech \(typescript, nodejs, angular9+\)
 * plays well with Kubernetes
-* dockerizable
+* dockerizable & docker-composable
 * open source
 * no breaking the bank while managing your product data effectively
 
