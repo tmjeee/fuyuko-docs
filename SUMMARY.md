@@ -16,6 +16,7 @@
   * [Overview](user-guide/untitled/user-overview.md)
   * [Loging in and out](user-guide/untitled/log-in.md)
   * [Dashboard](user-guide/untitled/dashboard.md)
+  * [Dashboard Widgets](user-guide/untitled/dashboard-widgets.md)
   * [Profile](user-guide/untitled/profile.md)
   * [User Management](user-guide/untitled/user-roles-management.md)
   * [Forgot Password](user-guide/untitled/forgot-password.md)
