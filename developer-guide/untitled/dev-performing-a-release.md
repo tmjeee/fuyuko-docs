@@ -40,7 +40,13 @@ Run Jenkin's `Github Release` job.
 
 Fill in the `branch`, `version`, `description`, `is draft` and `is prerelease` field and roll the build. Typically `branch` and `version` will be the same for a release. Beta releases will have `is draft` false and `is prerelease` true while a proper release will have both `is draft` and `is prerelease` as false.
 
+## Step 5: Merge release branch into master
 
+A manual merge of release branch into master
+
+## Step 6: Create the next release branch from master
+
+Manually create a new release branch from master.
 
 
 
