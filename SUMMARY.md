@@ -80,6 +80,7 @@
     * [Dev - DB - Tables](developer-guide/untitled/dev-database/dev-database.md)
     * [Dev -DB -SQLs](developer-guide/untitled/dev-database/dev-db-sqls.md)
     * [Dev - DB - Docker](developer-guide/untitled/dev-database/dev-db-docker.md)
+  * [Dev - Performing a Release](developer-guide/untitled/dev-performing-a-release.md)
 
 ## APIs
 
