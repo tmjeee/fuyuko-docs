@@ -46,9 +46,9 @@
 
 ## View Attribute Validation Summary Widget
 
-
+![](../../.gitbook/assets/selection_281.png)
 
 ## View Attribute Validation Range Summary Widget
 
-
+![](../../.gitbook/assets/selection_282.png)
 
