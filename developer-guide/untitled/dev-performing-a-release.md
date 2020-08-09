@@ -56,6 +56,14 @@ A manual merge of release branch into master
 
 Manually create a new release branch from master.
 
+## Step 9: Create new release branch
+
+Create new release branch from master.
+
+## Step 10: Set GitHub default branch to new release branch
+
+Set github default branch to newly created release branch.
+
 
 
 
