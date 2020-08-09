@@ -40,11 +40,19 @@ Run Jenkin's `Github Release` job.
 
 Fill in the `branch`, `version`, `description`, `is draft` and `is prerelease` field and roll the build. Typically `branch` and `version` will be the same for a release. Beta releases will have `is draft` false and `is prerelease` true while a proper release will have both `is draft` and `is prerelease` as false.
 
-## Step 5: Merge release branch into master
+## Step 5: Update OW2 Project Page
+
+Update OW2 project page [here](https://projects.ow2.org/view/fuyuko/).
+
+## Step 6: Update Slack \#fuyuko channel with release
+
+Update Slack \#fuyuko channel [here](https://app.slack.com/client/T012LHB2A0M/C013BPQDPNU/details/actions) with release
+
+## Step 7: Merge release branch into master
 
 A manual merge of release branch into master
 
-## Step 6: Create the next release branch from master
+## Step 8: Create the next release branch from master
 
 Manually create a new release branch from master.
 
