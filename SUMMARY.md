@@ -51,6 +51,7 @@
   * [Dev - Packaging](developer-guide/untitled/dev-packaging.md)
   * [Dev - Front End](developer-guide/untitled/dev-front-end/README.md)
     * [Dev - FE - Configuration](developer-guide/untitled/dev-front-end/dev-fe-configuration.md)
+    * [Dev - FE - NPM](developer-guide/untitled/dev-front-end/dev-fe-npm.md)
     * [Dev - FE - Layout](developer-guide/untitled/dev-front-end/dev-fe-layout.md)
     * [Dev - FE - Page](developer-guide/untitled/dev-front-end/dev-fe-page.md)
     * [Dev - FE - Component](developer-guide/untitled/dev-front-end/dev-fe-component.md)
