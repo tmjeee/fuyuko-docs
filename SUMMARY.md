@@ -62,7 +62,7 @@
     * [Dev - FE - Docker](developer-guide/untitled/dev-front-end/dev-fe-docker.md)
   * [Dev - Back End](developer-guide/untitled/dev-back-end/README.md)
     * [Dev - BE - Configuration](developer-guide/untitled/dev-back-end/dev-be-configuration.md)
-    * [Dev - BE - Node](developer-guide/untitled/dev-back-end/dev-be-node.md)
+    * [Dev - BE - Node / NPM](developer-guide/untitled/dev-back-end/dev-be-node.md)
     * [Dev - BE - database](developer-guide/untitled/dev-back-end/dev-be-database.md)
     * [Dev - BE - logger](developer-guide/untitled/dev-back-end/dev-be-loging.md)
     * [Dev - BE - utils](developer-guide/untitled/dev-back-end/dev-be-utils.md)
