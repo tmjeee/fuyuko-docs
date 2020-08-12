@@ -6,11 +6,11 @@ Following are the targets in `package.json`
 
 | Target name | Description |
 | :--- | :--- |
-| tsc |  |
-| copy |  |
-| exec |  |
-| build |  |
-| test |  |
+| tsc | Compile typescripts |
+| copy | Copy models code into BE |
+| exec | Copy models, compile typescripts and run BE REST APIs server |
+| build | Copy models and compile typescripts |
+| test | Run jasmine tests |
 
 ## Application main entry point
 
