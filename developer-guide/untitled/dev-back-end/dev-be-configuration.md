@@ -89,7 +89,7 @@ would override `db-user` and `db-password` config properties to `myUser` and `my
 | CORE | Contains scripts / code needed to ensure proper running / bootup of the system. **THIS PROFILE IS MANDATORY.** |
 | TEST-DATA | Contains scripts / code needed to setup test data. This data is required to run tests. This data is good for testing the system. **THIS PROFILE IS OPTIONAL**. |
 | CARS-DATA | Contains scripts / code needed to setup a `Cars` profile. It contains massive data, about 2064 items. You will need to wait for quite a while if you include this profile. This is good for testing the performance of the system. **THIS PROFILE IS OPTIONAL.** |
-| LEEFAHMEE-DATA | Contains scripts / code needed to setup a  `Lee Fah Mee` profile. It contains items for [Lee Fah Mee](http://www.leefahmee.com.my/products/). This represents a somewhat slightly more realistic real world data.  |
+| LEEFAHMEE-DATA | Contains scripts / code needed to setup a  `Lee Fah Mee` profile. It contains items for [Lee Fah Mee](http://www.leefahmee.com.my/products/). This represents a somewhat slightly more realistic real world data. **THIS PROFILE IS OPTIONAL.** |
 
 ## Themes
 
