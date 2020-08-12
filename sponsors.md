@@ -8,3 +8,5 @@ Thank you to all those that help us out with our little project.
 
 [Gitbook](https://fuyuko-org.gitbook.io/fuyuko/) for giving use documentation space
 
+[DigitalOcean](https://digitalocean.com/) for hosting
+
