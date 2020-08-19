@@ -47,7 +47,30 @@ Cake successfully retrieved.
 {% endapi-method-response-example-description %}
 
 ```
-{    "name": "Cake's name",    "recipe": "Cake's recipe name",    "cake": "Binary cake"}
+{
+    "status": "SUCCESS",
+    "message": "Validation log result retrieved",
+    "payload": {
+        "batchFirstValidationLogId": 124411,
+        "batchLastValidationLogId": 124510,
+        "batchTotal": 30972,
+        "progress": "COMPLETED",
+        "max": 124510,
+        "min": 93539,
+        "batchSize": 100,
+        "batchHasMoreAfter": false,
+        "batchHasMoreBefore": true,
+        "logs": [
+            {
+                "id": 124411,
+                "level": "INFO",
+                "message": "[validationId=5]\n             [itemId=2076]\n             [attributeId=31] \n             - Validated current ValidateClause result is [true] overall ValidateClause result is [true] for ValidateClause 17 \n                           (attributeId 31 attributeName Year \n                           validateClause condition  \n                           op not empty \n                           against itemValueTypes )\n                           for itemId 2076 against ruleId 17 in viewId 5",
+                "creationDate": "2020-08-18T12:54:16.000Z"
+            },
+            ...
+        ]
+    }
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
