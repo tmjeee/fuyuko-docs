@@ -265,6 +265,7 @@ description: 'Documentation of APIs, segregated into categories'
 | :--- | :--- |
 | [GET-all-view-validations](get-all-view-validations.md) |  |
 | [GET-view-validation-results](get-view-validation-results.md) |  |
+| GET-view-validation-log-results | Z |
 | [POST-schedule-validation](post-schedule-validation.md) |  |
 | [DELETE-validation-result-by-id](delete-validation-result-by-id.md) |  |
 
