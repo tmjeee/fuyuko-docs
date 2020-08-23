@@ -107,6 +107,7 @@
   * [DELETE-category](apis/index/delete-category.md)
   * [POST-add-category](apis/index/untitled-9.md)
   * [POST-update-category](apis/index/untitled-8.md)
+  * [POST-update-category-hierarchy](apis/index/post-update-category-hierarchy.md)
   * [POST-add-item-to-category](apis/index/untitled-7.md)
   * [DELETE-remove-item-from-category](apis/index/untitled-1.md)
   * [POST-unlink-pricing-structure-group](apis/index/post-unlink-pricing-structure-group.md)
