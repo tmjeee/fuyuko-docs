@@ -6,10 +6,10 @@ description: >-
 
 # Introduction
 
-{% hint style="warning" %}
+{% hint style="info" %}
 Warning:
 
-This documentation is currently a work in progress. Updates and changes will be made in time. Utill this warning message is gone, it should be treated as a beta version where drastic changes can be made.
+Document for **v1.0.0.**
 {% endhint %}
 
 {% hint style="info" %}
