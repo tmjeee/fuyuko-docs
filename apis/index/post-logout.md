@@ -1,0 +1,37 @@
+---
+description: Logout from the application
+---
+
+# POST-logout
+
+{% api-method method="post" host="https://<host>:<port>/api/v1" path="/logout" %}
+{% api-method-summary %}
+Logout
+{% endapi-method-summary %}
+
+{% api-method-description %}
+Logout.
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+Successfully retrieved.
+{% endapi-method-response-example-description %}
+
+```
+{
+    "status": "SUCCESS",
+    "message": "Logged out, have a nice day"
+}
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+
+
