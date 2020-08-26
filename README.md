@@ -1,2 +1,57 @@
-# Initial page
+---
+description: >-
+  Documentation of Fuyuko Master Data Management (MDM) / Product Information
+  Management (PIM) application.
+---
+
+# Introduction
+
+{% hint style="info" %}
+Warning:
+
+Document for **v1.0.0.**
+{% endhint %}
+
+{% hint style="info" %}
+Information: 
+
+* Github repository \(source code\) for the application can be found [here](https://github.com/tmjeee/fuyuko). 
+* Bug / Issues/ Features filing\(s\) and tracking\(s\) can be done [here](https://github.com/tmjeee/fuyuko/issues).
+* Build pipelines are available [here](https://app.buddy.works/tmjeee/fuyuko/pipelines).
+* Cypress integration tests runs are [here](https://dashboard.cypress.io/projects/ozp71m/runs).
+* Docker images are [here](https://hub.docker.com/repositories/tmjee)
+{% endhint %}
+
+This is the documentation of **Fuyuko Master Data Management Software \(version 1.0.0\)** documentation. 
+
+Fuyuko is an Open Source Master Data Management \(MDM\) / Product Information Management \(PIM\) software.
+
+## Goals
+
+* Provides an open-source alternative on a highly comercial oriented PIM / MDM software market
+* Foster open corporation and standadization from bodies eg. GS1Net, 1WorldSync, GHX etc. for product information supply and consumption.
+* A PIM / MDM product with plugable extensions allowing supply and consumtion of data from various centerlized global data synchronization network \(GDSN\)
+
+## Features
+
+* simple
+* build off popular, proven tech \(typescript, nodejs, angular9+\)
+* plays well with Kubernetes
+* dockerizable & docker-composable
+* open source
+* no breaking the bank while managing your product data effectively
+
+Thanks for visiting. Hope you enjoy it just as much as we do building it  :-\)
+
+## [User Documentation](user-guide/untitled/)
+
+Intended for those who wish to use the application as an application user on a daily basis to perform master data / product information management tasks.
+
+## [Developer Documentation](developer-guide/untitled/)
+
+Intended for those who wish to enhance, bug fix, extend or modify the application in any sort or forms. Require some technical knowledge.
+
+## [API Documentation](apis/index/)
+
+REST APIs endpoints format with some samples.
 
