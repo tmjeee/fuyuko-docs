@@ -4,7 +4,7 @@ description: Update attribute status
 
 # POST-change-attribute-status
 
-{% api-method method="post" host="https://<host>:<port>/api/v1" path="/attribute/:attributeId/state/:state" %}
+{% api-method method="post" host="https://<host>:<port>/api/v1" path="/view/:viewId/attribute/:attributeId/state/:state" %}
 {% api-method-summary %}
 Change attribute status
 {% endapi-method-summary %}
