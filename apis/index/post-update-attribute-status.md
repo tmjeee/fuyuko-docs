@@ -16,8 +16,12 @@ Update an attribute status.
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="attributeId" type="number" required=true %}
+{% api-method-parameter name="viewId" type="number" required=true %}
+View Id
+{% endapi-method-parameter %}
 
+{% api-method-parameter name="attributeId" type="number" required=true %}
+Attribute Id
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="state" type="string" required=true %}
