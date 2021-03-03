@@ -15,6 +15,12 @@ Update attributes in view.
 
 {% api-method-spec %}
 {% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="viewId" type="number" required=true %}
+View Id
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+
 {% api-method-headers %}
 {% api-method-parameter name="x-auth-jwt" type="string" required=true %}
 Authentication token.
