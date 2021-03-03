@@ -4,7 +4,7 @@ description: Update attribute in view
 
 # POST-update-attributes
 
-{% api-method method="post" host="https://<host>:<port>/api/v1" path="/attributes/update" %}
+{% api-method method="post" host="https://<host>:<port>/api/v1" path="/view/:viewId/attributes/update" %}
 {% api-method-summary %}
 Update attributes in view
 {% endapi-method-summary %}
