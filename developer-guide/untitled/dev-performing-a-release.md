@@ -1,5 +1,9 @@
 # Dev - Performing a Release
 
+{% hint style="warning" %}
+Outdated information. We have moved to using github actions for doing releases. This page will be updated soon.
+{% endhint %}
+
 ## Step 1: Perform a FE Docker Release
 
 Run Jenkin's `docker-fuyuko-fe` job
